@@ -32,6 +32,12 @@ module.exports = function(grunt) {
                         cwd: 'www/images/',
                         src: ['**/*.{png,jpg,svg,gif,ico}'],
                         dest:'public/images/'
+                    },
+                    {
+                        expand: true,
+                        cwd: 'www/bat/',
+                        src: ['**/*.php'],
+                        dest:'public/bat/'
                     }
                 ]
             }
