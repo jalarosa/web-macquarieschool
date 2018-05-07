@@ -1,0 +1,32 @@
+{
+  "name": "web-macquarieschool",
+  "version": "1.0.0",
+  "description": "macquarie school english",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "grunt "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalarosa/web-macquarieschool.git"
+  },
+  "author": "jalarosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalarosa/web-macquarieschool/issues"
+  },
+  "homepage": "https://github.com/jalarosa/web-macquarieschool#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-i18n-template": "^0.1.8"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify": "^3.3.0",
+    "string": "^3.3.3"
+  }
+}
