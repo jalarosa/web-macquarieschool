@@ -45,7 +45,7 @@ module.exports = function(grunt) {
         i18n_template: {
             dev: {
                 options: {
-                    defaultLocale: 'ar',
+                    defaultLocale: 'es',
                     skipKeyRunner: true,
                     skipMessagesRunner: true,
                     messagesPath: 'resources/messages',
@@ -57,8 +57,8 @@ module.exports = function(grunt) {
             },
             build: {
                 options: {
-                    defaultLocale: 'ar',
-                    locales: ['ar', 'en'],
+                    defaultLocale: 'es',
+                    locales: ['es', 'en'],
                     messagesPath: 'resources/messages',
                     basePath: 'www',
                     forceRefresh: true
