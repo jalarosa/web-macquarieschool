@@ -3,6 +3,14 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        encoding: {
+            options: {
+                encoding: 'ISO-8859-1'
+            },
+            files: {
+                src: ['www/**/*','resources/messages/**/*']
+            }
+        },
         uglify: {
             build: {
                 files: [{
@@ -43,28 +51,16 @@ module.exports = function(grunt) {
             }
         },
         i18n_template: {
-            dev: {
+              build: {
                 options: {
-                    defaultLocale: 'es',
-                    skipKeyRunner: true,
-                    skipMessagesRunner: true,
-                    messagesPath: 'resources/messages',
-                    basePath: 'www'
-                },
-                files: {
-                    'public': ['www/*.html']
-                }
-            },
-            build: {
-                options: {
-                    defaultLocale: 'es',
-                    locales: ['es', 'en'],
+                    defaultLocale: 'ar',
+                    locales: ['es','en'],
                     messagesPath: 'resources/messages',
                     basePath: 'www',
                     forceRefresh: true
                 },
                 files: {
-                    'public': ['www/*.html']
+                    'public/lang': ['www/*.html']
                 }
             }
         }
@@ -76,8 +72,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-i18n-template');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-encoding');
     // Default task(s).
-    grunt.registerTask('default', ['i18n_template','copy','uglify','cssmin']);
+    grunt.registerTask('default', ['encoding','i18n_template','copy','uglify','cssmin']);
 
 
 };
