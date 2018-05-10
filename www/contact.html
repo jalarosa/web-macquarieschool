@@ -34,34 +34,18 @@
     <div class="container">
       <div class="row">
       <div class="grid_12">
-        <h1 class="">
-            <a href="index.html">Macquarie School<br><span class="">
-            HERE LEARNING NEVER ENDS</span></a>
-        </h1>
+            <h1 class="">
+                <a href="home.html">[[school_name]]<br><span class="">
+                [[logo_description]]</span></a>
+            </h1>
           <nav>
             <ul class="sf-menu">
-            <li><a href="index.html">Home</a>
-                <ul>
-                  <li><a href="#">About </a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a>
-                    <ul>
-                      <li><a href="#">About </a></li>
-                      <li><a href="#">News</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                </li>
-              <li><a href="index-1.html">About</a></li>
-              <li><a href="index-2.html">Services</a></li>
-              <li><a href="index-3.html">gallery</a></li>
-              <li><a href="index-4.html">Blog</a></li>
-              <li  class="current"><a href="index-5.html">Contact</a></li>
+            <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="travels.html">Travels</a></li>
+              <li  class="current"><a href="contact.html">Contact</a></li>
             </ul>
             <div class="clearfix"></div>
           </nav>
@@ -78,7 +62,7 @@
     <div class="container bord_1 perspective">
       <div class="row mar_t_6 ">
         <div class="grid_12 bord_1 pad_b_8">
-        <h3 class='s1'>Contact Information</h3>
+        <h3 class='s1'>[[contact_info]]</h3>
           <div class="pic_bord s2">
            <div class="content_map">
               <div class="google-map-api"> 
@@ -90,51 +74,51 @@
       </div>
       <div class="row mar_t_6 pad_b_95 perspective">
        <div class="grid_3 s4">
-         <h3 >Address</h3>
+         <h3 >[[address]]</h3>
          
           <address class="">
-          <em>Las Madreselvas 640,<br>Pilar, 1635</em>
+          <em>[[complete_address]],<br>[[city_address]]</em>
             
             
-            <span class="width1">Telphone/Fax: </span>+54 230 4474 224<br>
-            E-mail: <a href="#"><!--email_off-->info@macquarieschool.com.ar<!--/email_off--></a>
+            <span class="width1">[[telephone_Fax]] </span>[[telephone_number]]<br>
+            E-mail: <a href="#"><!--email_off-->[[email]]<!--/email_off--></a>
           </address>
        </div>
     <div class="grid_9">
-     <h3 class='s5'>contact form</h3>
+     <h3 class='s5'>[[contact_form]]</h3>
           <form id="contact-form">
             <div class="contact-form-loader"></div>
             <fieldset>
 
                   <label class="name s55">
-                    <input type="text" name="name" placeholder="Name*:" data-constraints="@Required @JustLetters"/>
-                    <span class="empty-message">*This field is required.</span>
+                    <input type="text" name="name" placeholder="[[Name]]*:" data-constraints="@Required @JustLetters"/>
+                    <span class="empty-message">[[this_field_is_required]]</span>
                   </label>
 
                   <label class="email s56">
-                    <input type="text" name="email" placeholder="Email*:" value=""
+                    <input type="text" name="email" placeholder="[[Email]]*:" value=""
                            data-constraints="@Required @Email"/>
-                    <span class="empty-message">*This field is required.</span>
-                    <span class="error-message">*This is not a valid email.</span>
+                    <span class="empty-message">[[this_field_is_required]]</span>
+                    <span class="error-message">[[this_is_not_a_valid_email]]</span>
                   </label>
 
                   <label class="phone s57">
-                    <input type="text" name="phone" placeholder="Phone" value=""
+                    <input type="text" name="phone" placeholder="[[Phone:]]" value=""
                            data-constraints="@JustNumbers"/>
-                    <span class="empty-message">*This field is required.</span>
-                    <span class="error-message">*This is not a valid phone.</span>
+                    <span class="empty-message">[[this_field_is_required]]</span>
+                    <span class="error-message">[[this_is_not_a_valid_phone]]</span>
                   </label>
 
                   <label class="message s58">
-                    <textarea name="message" placeholder="Message:"
+                    <textarea name="message" placeholder="[[Message]]:"
                               data-constraints='@Length(min=20,max=999999)'></textarea>
-                    <span class="empty-message">*This field is required.</span>
-                    <span class="error-message">*The message is too short.</span>
+                    <span class="empty-message">[[this_field_is_required]]</span>
+                    <span class="error-message">[[the_message_is_too_short]]</span>
                   </label>
 
               <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
               <div class="contact-form-buttons s59">
-                <a href="#" data-type="submit" class="btn_4">Send</a>
+                <a href="#" data-type="submit" class="btn_4">[[send]]</a>
               </div>
             </fieldset>
           </form>
@@ -156,7 +140,7 @@
           <div class="privacy-block">
           <a href="./" class="logo">elementary school</a><br>
            elementary school &copy; <span id="copyright-year"></span> <a
-                  href="index-6.html">Privacy policy</a>
+                  href="policy.html">Privacy policy</a>
           </div>
         </div>
         <div class="grid_3 preffix_3">
