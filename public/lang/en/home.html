@@ -16,6 +16,13 @@
     <script src="../../js/camera.js"></script>
     <script src="../../js/touchTouch.jquery.js"></script>
     <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+
+    <script src="../../js/jquery/jquery-1.8.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/msdropdown/dd.css" />
+    <script src="../../js/msdropdown/jquery.dd.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/msdropdown/flags.css" />
+
+
     <script>
         $(document).ready(function () {
             $('#camera_wrap').camera({
@@ -62,6 +69,17 @@
         <div class="container">
             <div class="row">
                 <div class="grid_12">
+                    <select name="countries" id="countries" style="width:300px;">
+                        <option value='ad' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag ad" data-title="Andorra">Andorra</option>
+                        <option value='ae' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag ae" data-title="United Arab Emirates">United Arab Emirates</option>
+                        <option value='af' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag af" data-title="Afghanistan">Afghanistan</option>
+                        <option value='ag' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag ag" data-title="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value='ai' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag ai" data-title="Anguilla">Anguilla</option>
+                        <option value='al' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag al" data-title="Albania">Albania</option>
+                        <option value='am' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag am" data-title="Armenia">Armenia</option>
+                        <option value='an' data-image="../../images/msdropdown/icons/blank.gif" data-imagecss="flag an" data-title="Netherlands Antilles">Netherlands Antilles</option>
+                    </select>
+
                     <h1 class="">
                         <a href="home.html">
                             <img  class="img-logo" src="../../images/logo.png"><br><span class="">
@@ -78,27 +96,6 @@
                         </ul>
                         <div class="clearfix"></div>
                     </nav>
-
-                    <div id="basic" data-input-name="country" class="flagstrap open">
-                        <select id="flagstrap-GZV73SmT" name="country" style="display: none;">
-                            <option value="AR">Argentina</option>
-                            <option value="EN">United Kingdom</option>
-                        </select>
-                        <button data-toggle="dropdown" id="flagstrap-drop-down-GZV73SmT"
-                                class="btn btn-default btn-md dropdown-toggle" aria-expanded="true"><span
-                                class="flagstrap-selected-GZV73SmT"><i class="flagstrap-icon flagstrap-af"
-                                                                       style="margin-right: 10px;"></i>Español</span><span
-                                class="caret" style="margin-left: 10px;"></span>
-                        </button>
-                        <ul id="flagstrap-drop-down-GZV73SmT-list"
-                            aria-labelled-by="flagstrap-drop-down-GZV73SmT" class="dropdown-menu"
-                            style="height: auto; max-height: 250px; overflow-x: hidden;">
-                            <li><a data-val="AR"><i class="flagstrap-icon flagstrap-ar" style="margin-right: 10px;"></i>Español</a></li>
-                            <li><a data-val="EN"><i class="flagstrap-icon flagstrap-gb" style="margin-right: 10px;"></i>English</a></li>
-
-                        </ul>
-                    </div>
-                     ̰
                 </div>
             </div>
         </div>
@@ -567,6 +564,9 @@
 
     }
 
+    $(document).ready(function() {
+        $("#countries").msDropdown();
+    })
 
 </script>
 </body>
