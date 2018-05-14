@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "grunt "
+    "build": "grunt ",
+    "start": "node server.js "
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "grunt-i18n-template": "^0.1.8"
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "express-request-language": "^1.1.15",
     "grunt-contrib-uglify": "^3.3.0",
     "string": "^3.3.3"
   }
