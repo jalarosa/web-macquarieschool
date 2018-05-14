@@ -10,18 +10,22 @@
     <link rel="stylesheet" href="/css/contact-form.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/custom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
     <script src="/js/jquery.js"></script>
     <script src="/js/jquery-migrate-1.2.1.js"></script>
     <script src="/js/jquery.equalheights.js"></script>
     <script src="/js/camera.js"></script>
     <script src="/js/touchTouch.jquery.js"></script>
     <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
-
-    <!--<script src="/js/jquery/jquery-1.8.2.min.js"></script>-->
-    <!--<link rel="stylesheet" type="text/css" href="/css/msdropdown/dd.css" />-->
-    <!--<script src="/js/msdropdown/jquery.dd.min.js"></script>-->
-    <!--<link rel="stylesheet" type="text/css" href="/css/msdropdown/flags.css" />-->
-
 
     <script>
         $(document).ready(function () {
@@ -64,21 +68,25 @@
 <!--========================================================
                           HEADER
 =========================================================-->
+<div class="dropdown button-lang">
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Cambiar de idioma
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <ul>
+            <li><a  class="dropdown-item" href="/es/home.html"> Español <img src="/images/argentina.svg" width="17px" /></a></li>
+            <li><a  class="dropdown-item" href="/en/home.html"> English <img src="/images/england.jpg" width="17px" /></a></li>
+        </ul>
+    </div>
+</div>
 <header id="header">
+
     <div id="stuck_container">
         <div class="container">
             <div class="row">
                 <div class="grid_12">
-                    <select name="countries" id="countries" style="width:300px;">
-                        <option value='ad' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag ad" data-title="Andorra">Andorra</option>
-                        <option value='ae' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag ae" data-title="United Arab Emirates">United Arab Emirates</option>
-                        <option value='af' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag af" data-title="Afghanistan">Afghanistan</option>
-                        <option value='ag' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag ag" data-title="Antigua and Barbuda">Antigua and Barbuda</option>
-                        <option value='ai' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag ai" data-title="Anguilla">Anguilla</option>
-                        <option value='al' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag al" data-title="Albania">Albania</option>
-                        <option value='am' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag am" data-title="Armenia">Armenia</option>
-                        <option value='an' data-image="/images/msdropdown/icons/blank.gif" data-imagecss="flag an" data-title="Netherlands Antilles">Netherlands Antilles</option>
-                    </select>
+
 
                     <h1 class="">
                         <a href="home.html">
@@ -564,9 +572,6 @@
 
     }
 
-    $(document).ready(function() {
-        $("#countries").msDropdown();
-    })
 
 </script>
 </body>

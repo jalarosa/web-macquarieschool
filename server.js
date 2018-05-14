@@ -27,11 +27,6 @@ app.get('/en/css/:remaining', function(req, res) {
     res.sendFile(__dirname + "/public/css/" + req.params.remaining );
 });
 
-app.get('/en/css/msdropdown/:remaining', function(req, res) {
-    console.log("remaining" + req.params.remaining );
-    res.sendFile(__dirname + "/public/css/msdropdown/" + req.params.remaining );
-});
-
 app.get('/en/js/:remaining', function(req, res) {
     console.log("remaining" + req.params.remaining );
     res.sendFile(__dirname + "/public/js/" + req.params.remaining );
@@ -47,20 +42,9 @@ app.get('/en/js/jquery/:remaining', function(req, res) {
     res.sendFile(__dirname + "/public/js/jquery/" + req.params.remaining );
 });
 
-app.get('/en/js/msdropdown/:remaining', function(req, res) {
-    console.log("remaining" + req.params.remaining );
-    res.sendFile(__dirname + "/public/js/msdropdown/" + req.params.remaining );
-});
-
-
 app.get('/en/images/:remaining', function(req, res) {
     console.log("remaining" + req.params.remaining );
     res.sendFile(__dirname + "/public/images/" + req.params.remaining );
-});
-
-app.get('/en/images/msdropdown/:remaining', function(req, res) {
-    console.log("remaining" + req.params.remaining );
-    res.sendFile(__dirname + "/public/images/msdropdown/" + req.params.remaining );
 });
 
 

@@ -110,7 +110,7 @@
 #prevArrow,#nextArrow{
 	border:none;
 	text-decoration:none;
-	background:url('../images/arrowws.png') no-repeat;
+	background:url('/images/arrowws.png') no-repeat;
 	opacity:0.5;
 	cursor:pointer;
 	position:absolute;
