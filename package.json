@@ -19,17 +19,25 @@
   },
   "homepage": "https://github.com/jalarosa/web-macquarieschool#readme",
   "devDependencies": {
-    "grunt": "^1.0.2",
+    "duplexer": "^0.1.1",
+    "figures": "^2.0.0",
+    "grunt": "^1.0.3",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-encoding": "^0.3.0",
-    "grunt-i18n-template": "^0.1.8"
+    "grunt-i18n-template": "^0.1.8",
+    "is-glob": "^4.0.0",
+    "resolve": "^1.8.1",
+    "uri-path": "^1.0.0"
   },
   "dependencies": {
     "express": "^4.16.3",
     "express-request-language": "^1.1.15",
+    "findup-sync": "^2.0.0",
+    "forwarded": "^0.1.2",
+    "glob": "^7.1.2",
     "grunt-contrib-uglify": "^3.3.0",
     "string": "^3.3.3"
   }
