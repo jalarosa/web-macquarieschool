@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="12ac7da9-6b0a-4ec3-824f-35995412c0f9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/empty_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/empty_messages.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/keys.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/keys.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/messages/messages_en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/messages_es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_es.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/about.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +22,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="226">
+              <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,26 +58,22 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="policy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/policy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-            </state>
-          </provider>
+      <file leaf-file-name="ucp.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/images/ucp.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="messages_en.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/messages/messages_en.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+            <state relative-caret-position="211">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -100,8 +100,8 @@
       <file leaf-file-name="messages_es.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="217">
+              <caret line="65" selection-start-line="63" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -202,12 +202,18 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
@@ -225,17 +231,10 @@
               <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -360,12 +359,13 @@
       <workItem from="1532995145314" duration="8247000" />
       <workItem from="1534160057506" duration="1080000" />
       <workItem from="1535368600886" duration="1149000" />
-      <workItem from="1535413258395" duration="114000" />
+      <workItem from="1535413258395" duration="318000" />
+      <workItem from="1536578482319" duration="2195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10590000" />
+    <option name="totallyTimeSpent" value="12989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -387,12 +387,12 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32983193" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983193" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Weave Preview" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -438,6 +438,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/messages/messages_en.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
@@ -714,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/messages/empty_messages.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -736,24 +743,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/Register">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/ucp.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="68" column="10" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="217">
+          <caret line="65" selection-start-line="63" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/messages/messages_en.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+        <state relative-caret-position="211">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
