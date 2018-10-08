@@ -6,3 +6,19 @@
     display: flex;
     justify-content: flex-start;
 }
+
+.center-under-construction {
+    padding-left: 12em !important;
+}
+
+#content > div.container.mar_t_-56 > div > div:nth-child(2) > div > div {
+    height: 579px;
+}
+
+#content > div.container.mar_t_-56 > div {
+    width: 1213px;
+}
+
+#content > div.container.mar_t_-56 > div > div:nth-child(3) > div > div {
+    height: 579px;
+}

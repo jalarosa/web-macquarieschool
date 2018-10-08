@@ -13,9 +13,19 @@
   <script src="/js/jquery-migrate-1.2.1.js"></script>
   <script src="/js/TMForm.js"></script>
   <script src="/js/modal.js"></script>
-    <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script> 
+  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
 
-  <!--[if lt IE 9]>
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!--[if lt IE 9]>
   <script src="/js/html5shiv.js"></script>
   <div id="ie6-alert" style="width: 100%; text-align:center;">
     <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
@@ -30,6 +40,18 @@
 <!--========================================================
                           HEADER
 =========================================================-->
+<div class="dropdown button-lang">
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Cambiar de idioma
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <ul>
+            <li><a  class="dropdown-item" href="/es/home.html"> Español <img src="/images/argentina.svg" width="17px" /></a></li>
+            <li><a  class="dropdown-item" href="/en/home.html"> English <img src="/images/england.jpg" width="17px" /></a></li>
+        </ul>
+    </div>
+</div>
 <header id="header">
     <div id="stuck_container">
         <div class="container">
@@ -42,8 +64,8 @@
                     <nav>
                         <ul class="sf-menu">
                             <li><a href="home.html">[[Home]]</a></li>
-                            <li><a href="about.html">[[About]]</a></li>
                             <li><a href="courses.html">[[Courses]]</a></li>
+                            <li><a href="about.html">[[About]]</a></li>
                             <li><a href="gallery.html">[[Gallery]]</a></li>
                             <li><a href="travels.html">[[Travels]]</a></li>
                             <li class="current"><a href="contact.html">[[Contact]]</a></li>
@@ -61,18 +83,6 @@
 =========================================================-->
 <section id="content" class="page5">
     <div class="container bord_1 perspective">
-      <div class="row mar_t_6 ">
-        <div class="grid_12 bord_1 pad_b_8">
-        <h3 class='s1'>[[contact_info]]</h3>
-          <div class="pic_bord s2">
-           <div class="content_map">
-              <div class="google-map-api"> 
-                <div id="map-canvas" class="gmap"></div> 
-              </div> 
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="row mar_t_6 pad_b_95 perspective">
        <div class="grid_3 s4">
          <h3 >[[address]]</h3>
@@ -125,6 +135,18 @@
           </form>
           </div>
     </div>
+        <div class="row mar_t_6 ">
+            <div class="grid_12 bord_1 pad_b_8">
+                <h3 class='s1'>[[contact_info]]</h3>
+                <div class="pic_bord s2">
+                    <div class="content_map">
+                        <div class="google-map-api">
+                            <div id="map-canvas" class="gmap"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </section>
@@ -173,13 +195,9 @@
 <script type="text/javascript"> 
           google_api_map_init(); 
           function google_api_map_init(){ 
-            var map; 
-            var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14)); 
-            var markCoord1 = new google.maps.LatLng(parseFloat(40.643180), parseFloat(-73.9874068,14)); 
-             var markCoord2 = new google.maps.LatLng(parseFloat(40.6422180), parseFloat(-73.9784068,14)); 
-             var markCoord3 = new google.maps.LatLng(parseFloat(40.6482180), parseFloat(-73.9724068,14)); 
-             var markCoord4 = new google.maps.LatLng(parseFloat(40.6442180), parseFloat(-73.9664068,14)); 
-             var markCoord5 = new google.maps.LatLng(parseFloat(40.6379180), parseFloat(-73.9552068,14)); 
+            var map;
+            var coordData = new google.maps.LatLng(parseFloat(-34.446726), parseFloat(-58.872098, 14));
+            var markCoord1 = new google.maps.LatLng(parseFloat(-34.446545), parseFloat(-58.872175, 14));
             var marker; 
  
             var styleArray = [
