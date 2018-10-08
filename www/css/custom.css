@@ -22,3 +22,24 @@
 #content > div.container.mar_t_-56 > div > div:nth-child(3) > div > div {
     height: 579px;
 }
+
+.mini-junior-school {
+    background: #df3542;
+    height: 435px !important;
+}
+
+.adults {
+    background: #7edfa3;
+    height: 435px !important;
+}
+
+.esp {
+    background: #5670df;
+    height: 435px !important;
+}
+
+.coaching {
+    background: #df8550;
+    height: 435px !important;
+    margin-top: 70px;
+}
