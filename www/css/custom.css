@@ -23,8 +23,13 @@
     height: 579px;
 }
 
+.kinder {
+    background: #72deae4d;
+    height: 661px !important;
+}
+
 .mini-junior-school {
-    background: #df3542;
+    background: #de72cf4d;
     height: 661px !important;
 }
 
@@ -34,13 +39,19 @@
 }
 
 .esp {
-    background: #5670df;
+    background: #a977e44d;
     height: 661px !important;
     margin-top: 70px !important;
 }
 
 .coaching {
-    background: #df8550;
+    background: #86c1e6;
+    height: 661px !important;
+    margin-top: 70px;
+}
+
+.international-exams {
+    background: #858ede;
     height: 661px !important;
     margin-top: 70px;
 }
@@ -103,4 +114,14 @@ div[class="grid_3 map"]  {
 
 .banner_1-header {
     height: 100px;
+}
+
+div[class="modal-body"] {
+    padding-left: 80px;
+}
+
+.img-map {
+    width: 150px;
+    height: 120px;
+    background: url('../images/mapa2.jpg') no-repeat center !important;
 }

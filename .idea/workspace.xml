@@ -7,14 +7,10 @@
       <change beforePath="$PROJECT_DIR$/resources/messages/keys.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/keys.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/messages/messages_en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_en.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/messages/messages_es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_es.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/courses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/travels.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/travels.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,13 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="courses.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="courses.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/courses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="227" column="32" selection-start-line="227" selection-start-column="32" selection-end-line="227" selection-end-column="32" />
+            <state relative-caret-position="-321">
+              <caret line="241" column="12" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,20 +47,29 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="233" column="108" selection-start-line="233" selection-start-column="108" selection-end-line="233" selection-end-column="108" />
+            <state relative-caret-position="299">
+              <caret line="286" column="22" selection-start-line="278" selection-start-column="16" selection-end-line="286" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mapa2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/images/mapa2.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="177" column="9" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+            <state relative-caret-position="71">
+              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +77,8 @@
       <file leaf-file-name="messages_en.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/messages/messages_en.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+            <state relative-caret-position="451">
+              <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -80,8 +86,8 @@
       <file leaf-file-name="messages_es.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="87" selection-start-line="87" selection-end-line="87" selection-end-column="23" />
+            <state relative-caret-position="436">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -95,31 +101,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19575">
-              <caret line="1305" column="2" selection-start-line="1305" selection-start-column="2" selection-end-line="1305" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="206">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-            </state>
-          </provider>
+      <file leaf-file-name="examenes.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/images/examenes.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -145,12 +138,16 @@
       <find>Obtener direcciones</find>
       <find>markCoord1</find>
       <find>pic1</find>
-      <find>read</find>
       <find>MINI_JUNIORS_SCHOOL_TITLE</find>
       <find>gallery.html</find>
       <find>Gallery</find>
       <find>modal</find>
+      <find>jquery.min.js</find>
+      <find>bootstrap.min.css</find>
+      <find>read</find>
       <find>ESP</find>
+      <find>read more</find>
+      <find>mini-junio</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/www/css</dir>
@@ -176,17 +173,17 @@
       <list>
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/about.html" />
-        <option value="$PROJECT_DIR$/www/contact.html" />
         <option value="$PROJECT_DIR$/www/gallery.html" />
         <option value="$PROJECT_DIR$/www/policy.html" />
         <option value="$PROJECT_DIR$/www/travels.html" />
         <option value="$PROJECT_DIR$/resources/messages/empty_messages.log" />
         <option value="$PROJECT_DIR$/www/css/variables.css" />
-        <option value="$PROJECT_DIR$/www/home.html" />
-        <option value="$PROJECT_DIR$/resources/messages/messages_es.csv" />
-        <option value="$PROJECT_DIR$/resources/messages/messages_en.csv" />
         <option value="$PROJECT_DIR$/www/css/custom.css" />
+        <option value="$PROJECT_DIR$/resources/messages/messages_en.csv" />
+        <option value="$PROJECT_DIR$/resources/messages/messages_es.csv" />
         <option value="$PROJECT_DIR$/www/courses.html" />
+        <option value="$PROJECT_DIR$/www/home.html" />
+        <option value="$PROJECT_DIR$/www/contact.html" />
       </list>
     </option>
   </component>
@@ -418,7 +415,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31459000" />
+    <option name="totallyTimeSpent" value="34768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -491,20 +488,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -757,13 +740,6 @@
     <entry file="file://$PROJECT_DIR$/www/images/argentina.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -778,50 +754,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="177" column="9" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/www/images/mapa2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/home.html">
+    <entry file="file://$PROJECT_DIR$/www/css/variables.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="233" column="108" selection-start-line="233" selection-start-column="108" selection-end-line="233" selection-end-column="108" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="87" selection-start-line="87" selection-end-line="87" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/messages/messages_en.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="206">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/images/examenes.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/messages/messages_en.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="91" selection-start-line="91" selection-end-line="91" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/courses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="227" column="32" selection-start-line="227" selection-start-column="32" selection-end-line="227" selection-end-column="32" />
+        <state relative-caret-position="-321">
+          <caret line="241" column="12" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="286" column="22" selection-start-line="278" selection-start-column="16" selection-end-line="286" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

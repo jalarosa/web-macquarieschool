@@ -129,7 +129,7 @@
     <div class="row perspective">
       <div class="grid_4">
         <div class="banner_1">
-          <div class="pad_1 mini-junior-school">
+          <div class="pad_1 kinder">
             <div class="banner_1-header">
               <h2>[[KINDER_TITLE]]</h2>
             </div>
@@ -219,7 +219,7 @@
       </div>
       <div class="grid_4">
         <div class="banner_1">
-          <div class="pad_1 coaching">
+          <div class="pad_1 international-exams">
             <div class="banner_1-header">
               <h2>[[EXAMS_TITLE]]</h2>
             </div>
@@ -231,7 +231,12 @@
                 [[EXAMS_DESCRIPTION]]
               </p>
             </p>
-            <a class="btn-default btn_1" href="#">[[read more]]</a>
+            <button type="button"
+                    class="btn btn-info btn-lg"
+                    data-toggle="modal"
+                    data-target="#myModal"
+            >[[EXAMS_BUTTON_READMORE]]
+            </button>
           </div>
         </div>
       </div>
@@ -239,6 +244,21 @@
   </div>
 </section>
 
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">[[EXAMS_MODAL_TITLE]]</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/examenes.png" style="align-content: center">
+      </div>
+    </div>
+  </div>
+</div>
 <!--========================================================
                           FOOTER
 =========================================================-->
