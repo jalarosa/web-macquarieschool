@@ -125,3 +125,20 @@ div[class="modal-body"] {
     height: 120px;
     background: url('../images/mapa2.jpg') no-repeat center !important;
 }
+
+.footer-font {
+    font: 500 62px/54px Ubuntu,sans-serif !important;
+    text-transform: uppercase !important;
+    color: #2f3133 !important;
+}
+
+.footer-font-2 {
+    font: 600 12px/18px Ubuntu,sans-serif!important;
+    text-transform: uppercase!important;
+    color: #2f3133!important;
+}
+
+.font-incorporate {
+    font: 500 17px/23px Ubuntu,sans-serif!important;
+    color: #2f3133!important;
+}
