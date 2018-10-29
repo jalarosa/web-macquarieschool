@@ -263,25 +263,33 @@
                           FOOTER
 =========================================================-->
 <footer id="footer">
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="grid_3 preffix_3">
-                    <h3>[[contact_us]]</h3>
-                    <address class="">
-                        <span class="width1">[[telephone_Fax]]</span>[[telephone_number]]5<br>
-                        [[Email]]: <a href="#"><!--email_off-->[[email]]<!--/email_off--></a>
-                    </address>
-                </div>
-                <div class="grid_3">
-                    <h3>[[Locations]]</h3>
-                    <p class="">
-                        [[complete_address]]<br>[[city_address]]<br><br>[[get_directions]]
-                    </p>
-                </div>
-            </div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="grid_3 footer-font">
+          <h2>[[contact_us]]</h2>
+          <address class="footer-font-2">
+            <span class="width1">[[telephone_Fax]]</span>[[telephone_number]]5<br>
+            [[Email]]: <a href="#"><!--email_off-->[[email]]<!--/email_off--></a>
+          </address>
         </div>
+        <div class="grid_3 footer-font">
+          <h2>[[Locations]]</h2>
+          <p class="footer-font-2">
+            [[complete_address]]<br>[[city_address]]
+          </p>
+        </div>
+        <div class="grid_3 map">
+          <button type="button"
+                  class="btn btn-info btn-lg img-map"
+                  data-toggle="modal"
+                  data-target="#myModal"
+          >
+          </button>
+        </div>
+      </div>
     </div>
+  </div>
 </footer>
 
 
