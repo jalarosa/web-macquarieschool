@@ -25,21 +25,82 @@
 
 .mini-junior-school {
     background: #df3542;
-    height: 435px !important;
+    height: 661px !important;
 }
 
 .adults {
     background: #7edfa3;
-    height: 435px !important;
+    height: 661px !important;
 }
 
 .esp {
     background: #5670df;
-    height: 435px !important;
+    height: 661px !important;
+    margin-top: 70px !important;
 }
 
 .coaching {
     background: #df8550;
-    height: 435px !important;
+    height: 661px !important;
     margin-top: 70px;
+}
+
+p {
+    font: 300 17px/18px Ubuntu,sans-serif;
+    color: #606364;
+}
+
+div[class="grid_4 mission"] > div {
+    height: 655px;
+}
+
+div[class="grid_4 methodology"] > div {
+    height: 655px;
+}
+
+div[class="grid_4 visit_us"] > div {
+    height: 655px;
+}
+
+div[class="grid_3 map"]  {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    padding-top: 27px;
+    padding-right: 120px;
+    width: 220px;
+    margin-left: 0px;
+}
+
+.kinder-img > img{
+    height: 180px;
+    width: 240px;
+}
+
+.mini-junior-school-img > img {
+    height: 180px;
+    width: 240px;
+}
+
+.adults-img > img {
+    height: 180px;
+    width: 240px;
+}
+
+.esp-img > img {
+    height: 180px;
+    width: 240px;
+}
+
+.coaching-img > img {
+    height: 180px;
+    width: 240px;
+}
+
+.international-exams-img > img {
+    height: 180px;
+    width: 240px;
+}
+
+.banner_1-header {
+    height: 100px;
 }
