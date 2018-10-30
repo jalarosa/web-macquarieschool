@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ac7da9-6b0a-4ec3-824f-35995412c0f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/www/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/empty_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/empty_messages.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/keys.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/keys.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/messages_en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/messages_es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_es.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/travels.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/travels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/variables.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="courses.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="courses.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/courses.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="259" column="6" lean-forward="true" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
+            <state relative-caret-position="321">
+              <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/www/services.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="145" column="21" lean-forward="true" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
+              <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -94,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travels.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="travels.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/travels.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -118,8 +119,8 @@
       <file leaf-file-name="variables.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/variables.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -127,8 +128,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1695">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="-114">
+              <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -137,10 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[[logo_description]]&lt;/span&gt;</find>
-      <find>image-lo</find>
-      <find>img-logo</find>
-      <find>PROGRAMS_FOR_EDUCATORS_title</find>
       <find>DYNAMIC_CLASSROOMS_title</find>
       <find>center-under-construction</find>
       <find>.pad_1</find>
@@ -167,7 +164,14 @@
       <find>banner_1-header</find>
       <find>mini-junio</find>
       <find>preffix_3</find>
+      <find>.card-text:last-child</find>
+      <find>img-fluid</find>
+      <find>img-fluid</find>
+      <find>.card-text-size</find>
     </findStrings>
+    <replaceStrings>
+      <replace>img-fluid</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/www/css</dir>
       <dir>$PROJECT_DIR$/resources/messages</dir>
@@ -193,17 +197,17 @@
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/gallery.html" />
         <option value="$PROJECT_DIR$/resources/messages/empty_messages.log" />
-        <option value="$PROJECT_DIR$/www/css/variables.css" />
         <option value="$PROJECT_DIR$/resources/messages/messages_en.csv" />
         <option value="$PROJECT_DIR$/resources/messages/messages_es.csv" />
-        <option value="$PROJECT_DIR$/www/css/custom.css" />
         <option value="$PROJECT_DIR$/www/home.html" />
         <option value="$PROJECT_DIR$/www/about.html" />
         <option value="$PROJECT_DIR$/www/contact.html" />
-        <option value="$PROJECT_DIR$/www/courses.html" />
         <option value="$PROJECT_DIR$/www/policy.html" />
         <option value="$PROJECT_DIR$/www/services.html" />
         <option value="$PROJECT_DIR$/www/travels.html" />
+        <option value="$PROJECT_DIR$/www/css/custom.css" />
+        <option value="$PROJECT_DIR$/www/css/variables.css" />
+        <option value="$PROJECT_DIR$/www/courses.html" />
       </list>
     </option>
   </component>
@@ -271,25 +275,13 @@
             <path>
               <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,12 +423,12 @@
       <workItem from="1540682787119" duration="1973000" />
       <workItem from="1540686348434" duration="321000" />
       <workItem from="1540743316886" duration="5181000" />
-      <workItem from="1540851934934" duration="716000" />
+      <workItem from="1540851934934" duration="5367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38191000" />
+    <option name="totallyTimeSpent" value="42842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="0" />
@@ -760,27 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -812,17 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="259" column="6" lean-forward="true" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/policy.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -833,21 +793,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/services.html">
+    <entry file="file://$PROJECT_DIR$/www/travels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="145" column="21" lean-forward="true" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
+        <state relative-caret-position="241">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/travels.html">
+    <entry file="file://$PROJECT_DIR$/www/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="89" column="18" lean-forward="true" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+        <state relative-caret-position="374">
+          <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/courses.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

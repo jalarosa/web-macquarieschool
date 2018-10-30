@@ -1,81 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>services</title>
+  <title>Courses</title>
   <meta charset="utf-8">
   <meta name = "format-detection" content = "telephone=no" />
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/css/grid.css">
-  <link rel="stylesheet" href="/css/touchTouch.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/custom.css">
-  <script src="/js/jquery.js"></script>
-  <script src="/js/jquery-migrate-1.2.1.js"></script>
-  <script src="/js/jquery.equalheights.js"></script>
-   <script src="/js/jquery.tabs.js"></script>
-  <script src="/js/isotope-docs.min.js"></script>
-  <script src="/js/touchTouch.jquery.js"></script>
-  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/touchTouch.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+  <script src="js/jquery.equalheights.js"></script>
+   <script src="js/jquery.tabs.js"></script>
+  <script src="js/isotope-docs.min.js"></script>
+  <script src="js/touchTouch.jquery.js"></script>
+  <link rel="stylesheet" href="css/variables.css">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-  <script>
-    $(document).ready(function () {
-    $('.isotope .gall_item').touchTouch();
-    $("#tabs").tabs();
-      $(function () {
-        // init Isotope
-        var $container = $('.isotope').isotope({
-          itemSelector: '.element-item',
-          layoutMode: 'fitRows'
-        });
-        // filter functions
-        var filterFns = {
-          // show if number is greater than 50
-          numberGreaterThan50: function () {
-            var number = $(this).find('.number').text();
-            return parseInt(number, 10) > 50;
-          },
-          // show if name ends with -ium
-          ium: function () {
-            var name = $(this).find('.name').text();
-            return name.match(/ium$/);
-          }
-        };
-        // bind filter button click
-        $('#filters').on('click', 'button', function () {
-          var filterValue = $(this).attr('data-filter');
-          // use filterFn if matches value
-          filterValue = filterFns[ filterValue ] || filterValue;
-          $container.isotope({ filter: filterValue });
-        });
-        // change is-checked class on buttons
-        $('.button-group').each(function (i, buttonGroup) {
-          var $buttonGroup = $(buttonGroup);
-          $buttonGroup.on('click', 'button', function () {
-            $buttonGroup.find('.is-checked').removeClass('is-checked');
-            $(this).addClass('is-checked');
-          });
-        });
-      });
-    });
-  </script>
-
-  <!--[if lt IE 9]>
-  <script src="/js/html5shiv.js"></script>
-  <div id="ie6-alert" style="width: 100%; text-align:center;">
-    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
-    <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
-      <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
-    </map>
-  </div>
-  <![endif]-->
 </head>
 
 <body>
@@ -121,128 +65,177 @@
 </header>
 
 
-<!--========================================================
-                          CONTENT
-=========================================================-->
-<section id="content" class="page2">
-  <div class="container mar_t_-56">
-    <div class="row perspective">
-      <div class="grid_4">
-        <div class="banner_1">
-          <div class="pad_1 kinder">
-            <div class="banner_1-header">
-              <h2>[[KINDER_TITLE]]</h2>
-            </div>
-            <p class="">
-              <div class="kinder-img">
-                <img src="images/p3_big7.jpg">
-              </div>
-              <p class="">
-                [[KINDER_DESCRIPTION]]
-              </p>
+<!------ Include the above in your HEAD tag ---------->
 
-            </p>
+<!-- Team -->
+<section id="team" class="pb-5">
+  <div class="container">
+    <div class="row">
+      <!-- Kinder -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center kinder-img">
+                  <p><img class="img-fluid" src="images/p3_big7.jpg" alt=""></p>
+                  <h4 class="card-title">[[KINDER_TITLE]]</h4>
+                  <p class="card-text card-text-size">[[KINDER_SUBTITLE]]</p>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">[[KINDER_TITLE]]</h4>
+                  <p class="card-text">[[KINDER_DESCRIPTION]]</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="grid_4">
-        <div class="banner_1">
-          <div class="pad_1 mini-junior-school">
-            <div class="banner_1-header">
-              <h2 class="mini-junior-school-h2">[[MINI_JUNIORS_SCHOOL_TITLE]]</h2>
-            </div>
-            <p class="">
-              <div class="mini-junior-school-img">
-                <img src="images/p3_pic2.jpg">
+      <!-- Kinder -->
+      <!-- MINI & JUNIOR SCHOOL -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/p3_pic2.jpg" alt=""></p>
+                  <h4 class="card-title">[[MINI_JUNIORS_SCHOOL_TITLE]]</h4>
+                  <p class="card-text card-text-size">[[MINI_JUNIORS_SCHOOL_SUBTITLE]]</p>
+                </div>
               </div>
-              <p class="">
-                [[MINI_JUNIORS_SCHOOL_DESCRIPTION]]
-              </p>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">[[MINI_JUNIORS_SCHOOL_TITLE]]</h4>
+                  <p class="card-text">[[MINI_JUNIORS_SCHOOL_DESCRIPTION]]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MINI & JUNIOR SCHOOL -->
 
-            </p>
+      <!-- ADULTS -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/adults_pic1.jpg" alt=""></p>
+                  <h4 class="card-title">[[ADULTS_TITLE]]</h4>
+                  <p class="card-text card-text-size">[[ADULTS_SUBTITLE]]</p>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">[[ADULTS_TITLE]]</h4>
+                  <p class="card-text">[[ADULTS_DESCRIPTION]]</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- ADULTS -->
+      <!-- ESP -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/esp_pic.jpg" alt=""></p>
+                  <h4 class="card-title">[[ESP_TITLE]]</h4>
+                  <p class="card-text card-text-size">[[ESP_SUBTITLE]]</p>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">[[ESP_TITLE]]</h4>
+                  <p class="card-text">[[ESP_DESCRIPTION]]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ESP -->
+      <!-- COACHING -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/p3_pic11.jpg" alt=""></p>
+                  <h4 class="card-title">[[COACHING_TITLE]]</h4>
+                  <p class="card-text card-text-size">[[COACHING_SUBTITLE]]</p>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">[[COACHING_TITLE]]</h4>
+                  <p class="card-text">[[COACHING_DESCRIPTION]]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COACHING -->
+      <!-- EXAMS -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center international-exams-img">
+                  <p><img class="img-fluid" src="images/international_exams.jpg" alt=""></p>
+                  <h4 class="card-title">[[EXAMS_TITLE]]</h4>
+                  <div class="card-text card-text-size">
+                    <p class="card-text">[[EXAMS_SUBTITLE]]</p>
+                  </div>
 
-      <div class="grid_4">
-        <div class="banner_1">
-          <div class="pad_1 adults">
-            <div class="banner_1-header">
-              <h2>[[ADULTS_TITLE]]</h2>
-            </div>
-            <p class="">
-              <div class="adults-img">
-                <img src="images/adults_pic1.jpg">
+                </div>
               </div>
-              <p class="">
-                [[ADULTS_DESCRIPTION]]
-              </p>
-            </p>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">[[EXAMS_TITLE]]</h4>
+                  <p class="card-text">[[EXAMS_DESCRIPTION]]</p>
+                  <button type="button"
+                          class="btn btn-info btn-lg"
+                          data-toggle="modal"
+                          data-target="#examsModal"
+                  >[[EXAMS_BUTTON_READMORE]]
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="grid_4">
-        <div class="banner_1">
-          <div class="pad_1 esp">
-            <div class="banner_1-header">
-              <h2 title='[[ESP_SUBTITLE]]'>[[ESP_TITLE]]</h2>
-            </div>
-            <p class="">
-              <div class="esp-img">
-                <img src="images/esp_pic.jpg">
-              </div>
-              <p class="">
-              [[ESP_DESCRIPTION]]
-              </p>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="banner_1">
-          <div class="pad_1 coaching">
-            <div class="banner_1-header">
-              <h2>[[COACHING_TITLE]]</h2>
-            </div>
-            <p class="">
-              <div class="coaching-img">
-                <img src="images/p3_pic11.jpg">
-              </div>
-              <p class="">
-                [[COACHING_DESCRIPTION]]
-              </p>
-
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="banner_1">
-          <div class="pad_1 international-exams">
-            <div class="banner_1-header">
-              <h2>[[EXAMS_TITLE]]</h2>
-            </div>
-            <p class="">
-              <div class="international-exams-img">
-                <img src="images/international_exams.jpg">
-              </div>
-              <p class="">
-                [[EXAMS_DESCRIPTION]]
-              </p>
-            </p>
-            <button type="button"
-                    class="btn btn-info btn-lg"
-                    data-toggle="modal"
-                    data-target="#examsModal"
-            >[[EXAMS_BUTTON_READMORE]]
-            </button>
-          </div>
-        </div>
-      </div>
+      <!-- EXAMS -->
     </div>
   </div>
 </section>
+<!-- courses -->
+
 
 <!-- Modal Map -->
 <div class="modal fade" id="mapModal" role="dialog">

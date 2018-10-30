@@ -82,34 +82,39 @@ div[class="grid_3 map"]  {
     margin-left: 0px;
 }
 
-.kinder-img > img{
-    height: 180px;
-    width: 240px;
+div[class="card-body text-center kinder-img"] > p > > img{
+    height: 261px;
+    width: 316px;
 }
 
-.mini-junior-school-img > img {
-    height: 180px;
-    width: 240px;
+div[class="card-body text-center mini-junior-school-img"] > p > img {
+    height: 261px;
+    width: 316px;
 }
 
-.adults-img > img {
-    height: 180px;
-    width: 240px;
+div[class="card-body text-center adults-img"] > p > img {
+    height: 261px;
+    width: 316px;
 }
 
-.esp-img > img {
-    height: 180px;
-    width: 240px;
+div[class="card-body text-center esp-img"] > p > img {
+    height: 261px;
+    width: 316px;
 }
 
-.coaching-img > img {
-    height: 180px;
-    width: 240px;
+div[class="card-body text-center coaching-img"] > p > img {
+    height: 261px;
+    width: 316px;
 }
 
-.international-exams-img > img {
-    height: 180px;
-    width: 240px;
+div[class="card-body text-center international-exams-img"] > p > img {
+    height: 261px;
+    width: 316px;
+}
+
+.img-fluid {
+    width: 200px !important;
+    height: 200px !important;
 }
 
 .banner_1-header {
