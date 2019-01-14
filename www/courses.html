@@ -84,15 +84,16 @@
                 <div class="card-body text-center kinder-img">
                   <p><img class="img-fluid" src="images/p3_big7.jpg" alt=""></p>
                   <h4 class="card-title">[[KINDER_TITLE]]</h4>
-                  <p class="card-text card-text-size">[[KINDER_SUBTITLE]]</p>
                 </div>
               </div>
             </div>
             <div class="backside">
               <div class="card">
                 <div class="card-body text-center mt-4">
-                  <h4 class="card-title">[[KINDER_TITLE]]</h4>
-                  <p class="card-text">[[KINDER_DESCRIPTION]]</p>
+                  <div class="card-title">
+                    <h4>[[KINDER_TITLE]]</h4>
+                    <p>[[KINDER_DESCRIPTION]]</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -109,7 +110,6 @@
                 <div class="card-body text-center mini-junior-school-img">
                   <p><img class="img-fluid" src="images/p3_pic2.jpg" alt=""></p>
                   <h4 class="card-title">[[MINI_JUNIORS_SCHOOL_TITLE]]</h4>
-                  <p class="card-text card-text-size">[[MINI_JUNIORS_SCHOOL_SUBTITLE]]</p>
                 </div>
               </div>
             </div>
@@ -135,7 +135,6 @@
                 <div class="card-body text-center mini-junior-school-img">
                   <p><img class="img-fluid" src="images/adults_pic1.jpg" alt=""></p>
                   <h4 class="card-title">[[ADULTS_TITLE]]</h4>
-                  <p class="card-text card-text-size">[[ADULTS_SUBTITLE]]</p>
                 </div>
               </div>
             </div>
@@ -159,8 +158,10 @@
               <div class="card">
                 <div class="card-body text-center mini-junior-school-img">
                   <p><img class="img-fluid" src="images/esp_pic.jpg" alt=""></p>
-                  <h4 class="card-title">[[ESP_TITLE]]</h4>
-                  <p class="card-text card-text-size">[[ESP_SUBTITLE]]</p>
+                  <div class="card-title">
+                    <h4>[[ESP_TITLE]]</h4>
+                    <p>[[ESP_SUBTITLE]]</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -185,7 +186,6 @@
                 <div class="card-body text-center mini-junior-school-img">
                   <p><img class="img-fluid" src="images/p3_pic11.jpg" alt=""></p>
                   <h4 class="card-title">[[COACHING_TITLE]]</h4>
-                  <p class="card-text card-text-size">[[COACHING_SUBTITLE]]</p>
                 </div>
               </div>
             </div>
@@ -209,19 +209,19 @@
               <div class="card">
                 <div class="card-body text-center international-exams-img">
                   <p><img class="img-fluid" src="images/international_exams.jpg" alt=""></p>
-                  <h4 class="card-title">[[EXAMS_TITLE]]</h4>
-                  <div class="card-text card-text-size">
-                    <p class="card-text">[[EXAMS_SUBTITLE]]</p>
+                  <div class="card-title">
+                    <h4 class="card-title">[[EXAMS_TITLE]]</h4>
                   </div>
-
                 </div>
               </div>
             </div>
             <div class="backside">
               <div class="card">
                 <div class="card-body text-center mt-4">
-                  <h4 class="card-title">[[EXAMS_TITLE]]</h4>
-                  <p class="card-text">[[EXAMS_DESCRIPTION]]</p>
+                  <div class="card-title">
+                    <h4>[[EXAMS_TITLE]]</h4>
+                    <p>[[EXAMS_DESCRIPTION]]</p>
+                  </div>
                   <button type="button"
                           class="btn btn-info btn-lg"
                           data-toggle="modal"
@@ -247,7 +247,7 @@
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title">Ubicacion</h4>
+        <h4 class="modal-title map">[[MAP_TITLE]]</h4>
       </div>
       <div class="modal-body">
         <img src="images/mapa2.jpg" style="align-content: center">
@@ -258,14 +258,25 @@
 
 <!-- Modal -->
 <div class="modal fade" id="examsModal" role="dialog">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title">[[EXAMS_MODAL_TITLE]]</h4>
+        <h4 class="modal-title exams">[[EXAMS_MODAL_TITLE]]</h4>
       </div>
       <div class="modal-body">
-        <img src="images/examenes.png" style="align-content: center">
+        <img src="images/logo-cambridge.jpg" style="align-content: center">
+        <p>[[EXAMS_MODAL_DESC1]]</p>
+        <p>[[EXAMS_MODAL_DESC2]]</p>
+        <p>[[EXAMS_MODAL_DESC3]]</p>
+        <img src="images/cambridge-graph.png" style="align-content: center">
+        <img src="images/lcci.jpg" style="align-content: start">
+        <p>[[EXAMS_MODAL_DESC4]]</p>
+        <p>[[EXAMS_MODAL_DESC5]]</p>
+        <p>[[EXAMS_MODAL_DESC6]]</p>
+        <h5><span class="badge badge-secondary">English for business</span></h5>
+        <h5><span class="badge badge-secondary">Spoken English for Industry and Commerce</span></h5>
+        <h5><span class="badge badge-secondary">English for Tourism</span></h5>
       </div>
     </div>
   </div>

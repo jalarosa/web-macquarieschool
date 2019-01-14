@@ -112,6 +112,28 @@ div[class="card-body text-center international-exams-img"] > p > img {
     width: 316px;
 }
 
+div[class="card-body text-center mini-junior-school-img"] {
+    padding-bottom: 7px;
+}
+
+img[src="images/logo-cambridge.jpg"] {
+    align-content: flex-start;
+    width: 250px;
+}
+
+img[src="images/lcci.jpg"] {
+    align-content: start;
+    width: 125px;
+}
+
+h4.modal-title.exams {
+    padding-left: 65px;
+}
+
+h4.modal-title.map {
+    padding-left: 65px !important;
+}
+
 .img-fluid {
     width: 200px !important;
     height: 200px !important;
