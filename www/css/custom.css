@@ -1,8 +1,8 @@
-.img-logo{
+.img-logo {
     width: 500px;
 }
 
-.button-lang{
+.button-lang {
     display: flex;
     justify-content: flex-start;
 }
@@ -57,7 +57,7 @@
 }
 
 p {
-    font: 300 17px/18px Ubuntu,sans-serif;
+    font: 300 17px/18px Ubuntu, sans-serif;
     color: #606364;
 }
 
@@ -73,7 +73,7 @@ div[class="grid_4 visit_us"] > div {
     height: 655px;
 }
 
-div[class="grid_3 map"]  {
+div[class="grid_3 map"] {
     opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
     padding-top: 27px;
@@ -82,7 +82,7 @@ div[class="grid_3 map"]  {
     margin-left: 0px;
 }
 
-div[class="card-body text-center kinder-img"] > p > > img{
+div[class="card-body text-center kinder-img"] > p > > img {
     height: 261px;
     width: 316px;
 }
@@ -154,18 +154,18 @@ div[class="modal-body"] {
 }
 
 .footer-font {
-    font: 500 62px/54px Ubuntu,sans-serif !important;
+    font: 500 62px/54px Ubuntu, sans-serif !important;
     text-transform: uppercase !important;
     color: #2f3133 !important;
 }
 
 .footer-font-2 {
-    font: 600 12px/18px Ubuntu,sans-serif!important;
-    text-transform: uppercase!important;
-    color: #2f3133!important;
+    font: 600 12px/18px Ubuntu, sans-serif !important;
+    text-transform: uppercase !important;
+    color: #2f3133 !important;
 }
 
 .font-incorporate {
-    font: 500 17px/23px Ubuntu,sans-serif!important;
-    color: #2f3133!important;
+    font: 500 17px/23px Ubuntu, sans-serif !important;
+    color: #2f3133 !important;
 }
