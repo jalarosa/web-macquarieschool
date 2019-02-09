@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8">
+  <meta name = "format-detection" content = "telephone=no" />
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/grid.css">
+  <link rel="stylesheet" href="/css/contact-form.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/social-media.css">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/jquery-migrate-1.2.1.js"></script>
+  <script src="/js/TMForm.js"></script>
+  <script src="/js/modal.js"></script>
+  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+
+    <link rel="stylesheet" href="/css/custom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!--[if lt IE 9]>
+  <script src="/js/html5shiv.js"></script>
+  <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
+    <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
+      <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
+    </map>
+  </div>
+  <![endif]-->
+</head>
+
+<body>
+<!--========================================================
+                          HEADER
+=========================================================-->
+<div class="dropdown button-lang">
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Cambiar de idioma
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <ul>
+            <li><a  class="dropdown-item" href="/es/home.html"> Español <img src="/images/argentina.svg" width="17px" /></a></li>
+            <li><a  class="dropdown-item" href="/en/home.html"> English <img src="/images/england.jpg" width="17px" /></a></li>
+        </ul>
+    </div>
+</div>
+<header id="header">
+    <div id="stuck_container">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <h1 class="">
+                        <a href="home.html">
+                            <img  class="img-logo" src="/images/logo.png"><br></a>
+                    </h1>
+                    <nav>
+                        <ul class="sf-menu">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="travels.html">Travels</a></li>
+                            <li class="current"><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--========================================================
+                          CONTENT
+=========================================================-->
+<section id="content" class="page5">
+    <div class="container bord_1 perspective">
+      <div class="row mar_t_6 pad_b_95 perspective">
+       <div class="grid_3 s4">
+         <h3 >Address</h3>
+         
+          <address class="">
+          <em>Las Madreselvas 640,<br>Pilar, 1635</em>
+            
+            
+            <span class="width1">Tel/Fax: </span>+54 230 4474 224<br>
+            E-mail: <a href="#"><!--email_off-->info@macquarieschool.com.ar<!--/email_off--></a>
+          </address>
+       </div>
+    <div class="grid_9">
+     <h3 class='s5'>contact form</h3>
+          <form id="contact-form">
+            <div class="contact-form-loader"></div>
+            <fieldset>
+
+                  <label class="name s55">
+                    <input type="text" name="name" placeholder="Name*:" data-constraints="@Required @JustLetters"/>
+                    <span class="empty-message">*This field is required.</span>
+                  </label>
+
+                  <label class="email s56">
+                    <input type="text" name="email" placeholder="Email*:" value=""
+                           data-constraints="@Required @Email"/>
+                    <span class="empty-message">*This field is required.</span>
+                    <span class="error-message">*This is not a valid email.</span>
+                  </label>
+
+                  <label class="phone s57">
+                    <input type="text" name="phone" placeholder="Phone" value=""
+                           data-constraints="@JustNumbers"/>
+                    <span class="empty-message">*This field is required.</span>
+                    <span class="error-message">*This is not a valid phone.</span>
+                  </label>
+
+                  <label class="message s58">
+                    <textarea name="message" placeholder="Message:"
+                              data-constraints='@Length(min=20,max=999999)'></textarea>
+                    <span class="empty-message">*This field is required.</span>
+                    <span class="error-message">*The message is too short.</span>
+                  </label>
+
+              <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
+              <div class="contact-form-buttons s59">
+                <a href="#" data-type="submit" class="btn_4">Send</a>
+              </div>
+            </fieldset>
+          </form>
+          </div>
+    </div>
+
+    </div>
+
+</section>
+
+<!-- Modal Map -->
+<div class="modal fade" id="mapModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title map">Location</h4>
+            </div>
+            <div class="modal-body">
+                <img src="images/mapa2.jpg" style="align-content: center">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--========================================================
+                          FOOTER
+=========================================================-->
+<footer id="footer">
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="grid_3 footer-font">
+                    <h2>Contact Us</h2>
+                    <address class="footer-font-2">
+                        <span class="width1">Tel/Fax:</span>+54 230 4474 2245<br>
+                        Email: <a href="#"><!--email_off-->info@macquarieschool.com.ar<!--/email_off--></a>
+                    </address>
+                </div>
+                <div class="grid_3 footer-font">
+                    <h2>Locations</h2>
+                    <p class="footer-font-2">
+                        Las Madreselvas 640<br>Pilar, 1635
+                    </p>
+                </div>
+                <div class="grid_3 map">
+                    <button type="button"
+                            class="btn btn-info btn-lg img-map"
+                            data-toggle="modal"
+                            data-target="#mapModal"
+                    >
+                    </button>
+                </div>
+                <div class="social-media-footer">
+                    <div>
+                        <a href="https://twitter.com/MacquarieSchool" class="fa fa-twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/macquarieschool/" class="fa fa-instagram" target="_blank"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/company/macquarie-school-of-english/" class="fa fa-linkedin" target="_blank"></a>
+                        <a href="http://exchangeirelanduk2013.blogspot.com" class="fa fa-reddit" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="/js/script.js"></script>
+<script type="text/javascript"> 
+          google_api_map_init(); 
+          function google_api_map_init(){ 
+            var map;
+            var coordData = new google.maps.LatLng(parseFloat(-34.446726), parseFloat(-58.872098, 14));
+            var markCoord1 = new google.maps.LatLng(parseFloat(-34.446545), parseFloat(-58.872175, 14));
+            var marker; 
+ 
+            var styleArray = [
+    {
+        "featureType": "water",
+        "stylers": [
+            {
+                "saturation": 43
+            },
+            {
+                "lightness": -11
+            },
+            {
+                "hue": "#0088ff"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "hue": "#ff0000"
+            },
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 99
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#808080"
+            },
+            {
+                "lightness": 54
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ece2d9"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ccdca1"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#767676"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#EBE5E0"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.sports_complex",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    }
+  ]
+             
+            var markerIcon = { 
+                url: "images/gmap_marker.png",
+                size: new google.maps.Size(42, 65), 
+                origin: new google.maps.Point(0,0), 
+                anchor: new google.maps.Point(-180, 50) 
+            }; 
+            
+            function initialize() { 
+              var mapOptions = { 
+                zoom: 14, 
+                center: coordData, 
+                scrollwheel: false, 
+                styles: styleArray 
+              } 
+               
+              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+              marker = new google.maps.Marker({ 
+                map:map, 
+                position: markCoord1, 
+                icon: markerIcon
+              }); 
+
+
+            google.maps.event.addDomListener(window, 'resize', function() {
+
+              map.setCenter(coordData);
+
+              var center = map.getCenter();
+            });
+          }
+
+            google.maps.event.addDomListener(window, "load", initialize); 
+
+          } 
+
+
+      </script>
+</body>
+</html>
