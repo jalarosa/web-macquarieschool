@@ -4,7 +4,7 @@ var port = 5050;
 
 app.get('/', function(req, res) {
 
-    res.sendFile(__dirname + "/public/lang/en/home.html");
+    res.sendFile(__dirname + "/public/lang/es/home.html");
 });
 
 app.get('/:page', function(req, res) {
