@@ -7,7 +7,7 @@
     "test": "test",
     "watch": "grunt watch",
     "build": "grunt ",
-    "start": "node server.js "
+    "start": "node app.js "
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
     "uri-path": "^1.0.0"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "express-request-language": "^1.1.15",
     "findup-sync": "^2.0.0",
     "forwarded": "^0.1.2",
