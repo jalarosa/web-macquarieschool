@@ -1,6 +1,6 @@
 
 var app = require('./app');
-var port = 80;
+var port = 5050;
 
 app.get('/', function(req, res) {
 
