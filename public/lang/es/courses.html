@@ -1,78 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Courses</title>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no"/>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/touchTouch.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
+  <title>Courses</title>
+  <meta charset="utf-8">
+  <meta name = "format-detection" content = "telephone=no" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/touchTouch.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/social-media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/social-media.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-            crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <script src="/js/jquery-3.0.0.js"></script>
-    <script src="js/jquery-migrate-3.0.1.js"></script>
-    <script src="js/jquery.equalheights.js"></script>
-    <script src="js/camera.js"></script>
-    <script src="js/jquery.tabs.js"></script>
-    <script src="js/isotope-docs.min.js"></script>
-    <script src="js/touchTouch.jquery.js"></script>
-    <link rel="stylesheet" href="css/variables.css">
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
-          id="bootstrap-css">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery.equalheights.js"></script>
+  <script src="js/camera.js"></script>
+  <script src="js/jquery.tabs.js"></script>
+  <script src="js/isotope-docs.min.js"></script>
+  <script src="js/touchTouch.jquery.js"></script>
+  <link rel="stylesheet" href="css/variables.css">
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script>
-      $(document).ready(function () {
-        $('#camera_wrap').camera({
-          loader: true,
-          pagination: true,
-          thumbnails: false,
-          height: '38.43434343434343%',
-          caption: true,
-          navigation: false,
-          fx: 'scrollTop',
-          autoAdvance: true
-        });
-        $('.gallery .gall_item').touchTouch();
+  <script>
+    $(document).ready(function () {
+      $('#camera_wrap').camera({
+        loader: true,
+        pagination: true,
+        thumbnails: false,
+        height: '38.43434343434343%',
+        caption: true,
+        navigation: false,
+        fx: 'scrollTop',
+        autoAdvance: true
       });
-    </script>
-    <!--[if lt IE 9]>
-    <script src="/js/html5shiv.js"></script>
-    <div id="ie6-alert" style="width: 100%; text-align:center;">
-        <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0"
-             usemap="#Map" longdesc="http://die6.frontcube.com"/>
-        <map name="Map" id="Map">
-            <area shape="rect" coords="496,201,604,329"
-                  href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank"
-                  alt="Download Interent Explorer"/>
-            <area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank"
-                  alt="Download Apple Safari"/>
-            <area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank"
-                  alt="Download Opera"/>
-            <area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank"
-                  alt="Download Firefox"/>
-            <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank"
-                  alt="Download Google Chrome"/>
-        </map>
-    </div>
-    <![endif]-->
+      $('.gallery .gall_item').touchTouch();
+    });
+  </script>
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.js"></script>
+  <div id="ie6-alert" style="width: 100%; text-align:center;">
+    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0"
+         usemap="#Map" longdesc="http://die6.frontcube.com"/>
+    <map name="Map" id="Map">
+      <area shape="rect" coords="496,201,604,329"
+            href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank"
+            alt="Download Interent Explorer"/>
+      <area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank"
+            alt="Download Apple Safari"/>
+      <area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank"
+            alt="Download Opera"/>
+      <area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank"
+            alt="Download Firefox"/>
+      <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank"
+            alt="Download Google Chrome"/>
+    </map>
+  </div>
+  <![endif]-->
 
 </head>
 
@@ -81,44 +76,41 @@
                           HEADER
 =========================================================-->
 <div class="dropdown button-lang">
-    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-        Cambiar de idioma
-    </button>
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Cambiar de idioma
+  </button>
 
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <ul>
-            <li><a class="dropdown-item" href="/es/home.html"> Español <img src="/images/argentina.svg"
-                                                                            width="17px"/></a></li>
-            <li><a class="dropdown-item" href="/en/home.html"> English <img src="/images/england.jpg" width="17px"/></a>
-            </li>
-        </ul>
-    </div>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <ul>
+      <li><a  class="dropdown-item" href="/es/home.html"> Español <img src="/images/argentina.svg" width="17px" /></a></li>
+      <li><a  class="dropdown-item" href="/en/home.html"> English <img src="/images/england.jpg" width="17px" /></a></li>
+    </ul>
+  </div>
 </div>
 <header id="header">
-    <div id="stuck_container">
-        <div class="container">
-            <div class="row">
-                <div class="grid_12">
-                    <h1 class="">
-                        <a href="home.html">
-                            <img class="img-logo" src="/images/logo.png"><br></a>
-                    </h1>
-                    <nav>
-                        <ul class="sf-menu">
-                            <li><a href="home.html">Inicio</a></li>
-                            <li class="current"><a href="courses.html">Cursos</a></li>
-                            <li><a href="about.html">Nosotros</a></li>
-                            <li><a href="services.html">Servicios</a></li>
-                            <li><a href="travels.html">Viajes</a></li>
-                            <li><a href="contact.html">Contacto</a></li>
-                        </ul>
-                        <div class="clearfix"></div>
-                    </nav>
-                </div>
-            </div>
+  <div id="stuck_container">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+          <h1 class="">
+            <a href="home.html">
+              <img  class="img-logo" src="/images/logo.png"><br></a>
+          </h1>
+          <nav>
+            <ul class="sf-menu">
+              <li><a href="home.html">Inicio</a></li>
+              <li class="current"><a href="courses.html">Cursos</a></li>
+              <li><a href="about.html">Nosotros</a></li>
+              <li><a href="services.html">Servicios</a></li>
+              <li><a href="travels.html">Viajes</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+            <div class="clearfix"></div>
+          </nav>
         </div>
+      </div>
     </div>
+  </div>
 </header>
 
 
@@ -126,257 +118,256 @@
 
 <!-- Team -->
 <section id="team" class="pb-5">
-    <div class="container">
-        <div class="row">
-            <!-- Kinder -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center kinder-img">
-                                    <p><img class="img-fluid" src="images/p3_big7.jpg" alt=""></p>
-                                    <h4 class="card-title">Kinder</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <div class="card-title">
-                                        <h4>Kinder</h4>
-                                        <p>Según las últimas investigaciones, cuanto antes se comienza con el aprendizaje de una segunda lengua mejor y más fácil le resulta a los chicos.No solo se facilita el aprendizaje del nuevo idioma en sí, sino que también colabora en el desarrollo psíquico del niño; cuanto mas pequeños tienden a poseer una mayor flexibilidad intelectual, que se demuestra en las técnicas de resolución de problemas y creatividad.  Cuanto mas pequeños mejor.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  <div class="container">
+    <div class="row">
+      <!-- Kinder -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center kinder-img">
+                  <p><img class="img-fluid" src="images/p3_big7.jpg" alt=""></p>
+                  <h4 class="card-title">Kinder</h4>
                 </div>
+              </div>
             </div>
-            <!-- Kinder -->
-            <!-- MINI & JUNIOR SCHOOL -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center mini-junior-school-img">
-                                    <p><img class="img-fluid" src="images/p3_pic2.jpg" alt=""></p>
-                                    <h4 class="card-title">Mini &amp; Junior School</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Mini &amp; Junior School</h4>
-                                    <p class="card-text">Diseñado especialmente para proporcionar un programa complemento a las clases curriculares de ingles que combina lengua con aspectos de la cultura inglesa. Dictado en forma intensiva tres veces semanales comenzando a partir de los 5 años e integrando actividades como teatro, video etc. Todos los cursos preparan a los alumnos para los examanes internacionales de Cambridge.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <div class="card-title">
+                    <h4>Kinder</h4>
+                    <p>Según las últimas investigaciones, cuanto antes se comienza con el aprendizaje de una segunda lengua mejor y más fácil le resulta a los chicos.No solo se facilita el aprendizaje del nuevo idioma en sí, sino que también colabora en el desarrollo psíquico del niño; cuanto mas pequeños tienden a poseer una mayor flexibilidad intelectual, que se demuestra en las técnicas de resolución de problemas y creatividad.  Cuanto mas pequeños mejor.</p>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- MINI & JUNIOR SCHOOL -->
-
-            <!-- ADULTS -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center mini-junior-school-img">
-                                    <p><img class="img-fluid" src="images/adults_pic1.jpg" alt=""></p>
-                                    <h4 class="card-title">Adultos</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Adultos</h4>
-                                    <p class="card-text">Cursos regulares e intensivos, grupales o individuales adecuados a los diferentes niveles y organizado en base a las necesidades de los alumnos Los cursos para adultos pueden preveer la preparación de examenes internacionales segun requerimiento. Los cursos grupales no pueden exceder un cupo de 8 vacantes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ADULTS -->
-            <!-- ESP -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center mini-junior-school-img">
-                                    <p><img class="img-fluid" src="images/esp_pic.jpg" alt=""></p>
-                                    <div class="card-title">
-                                        <h4>ESP</h4>
-                                        <p>Ingles para fines específicos</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">ESP</h4>
-                                    <p class="card-text">Cursos especialmente diseñados para cumplir con diferentes objetivos: laboral, academico, turistico, etc.Tanto en forma grupal como individual, en nuestras instalaciones o domicilio ofrecemos: Business English, English for Tourism, English for academic Purposes.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ESP -->
-            <!-- COACHING -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center mini-junior-school-img">
-                                    <p><img class="img-fluid" src="images/p3_pic11.jpg" alt=""></p>
-                                    <h4 class="card-title">Apoyo y nivelación</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <h4 class="card-title">Apoyo y nivelación</h4>
-                                    <p class="card-text">Acompañamiento y nivelación escolar, dandole a los alumnos herramientas para su mejora en clase, tanto para los espacios curriculares en todas las materias como para clases específicas en inglés.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- COACHING -->
-            <!-- EXAMS -->
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="image-flip">
-                    <div class="mainflip">
-                        <div class="frontside">
-                            <div class="card">
-                                <div class="card-body text-center international-exams-img">
-                                    <p><img class="img-fluid" src="images/international_exams.jpg" alt=""></p>
-                                    <div class="card-title">
-                                        <h4 class="card-title">Examenes internacionales</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="backside">
-                            <div class="card">
-                                <div class="card-body text-center mt-4">
-                                    <div class="card-title">
-                                        <h4>Examenes internacionales</h4>
-                                        <p>Preparación para los diversos examenes que brindan validez internacional, tanto en inglés general como para usos especificos (First Certificate in English, IELTS, TOEFL, etc)</p>
-                                    </div>
-                                    <button type="button"
-                                            class="btn btn-info btn-lg"
-                                            data-toggle="modal"
-                                            data-target="#examsModal"
-                                    >Leer más
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- EXAMS -->
+          </div>
         </div>
+      </div>
+      <!-- Kinder -->
+      <!-- MINI & JUNIOR SCHOOL -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/p3_pic2.jpg" alt=""></p>
+                  <h4 class="card-title">Mini &amp; Junior School</h4>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Mini &amp; Junior School</h4>
+                  <p class="card-text">Diseñado especialmente para proporcionar un programa complemento a las clases curriculares de ingles que combina lengua con aspectos de la cultura inglesa. Dictado en forma intensiva tres veces semanales comenzando a partir de los 5 años e integrando actividades como teatro, video etc. Todos los cursos preparan a los alumnos para los examanes internacionales de Cambridge.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MINI & JUNIOR SCHOOL -->
+
+      <!-- ADULTS -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/adults_pic1.jpg" alt=""></p>
+                  <h4 class="card-title">Adultos</h4>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Adultos</h4>
+                  <p class="card-text">Cursos regulares e intensivos, grupales o individuales adecuados a los diferentes niveles y organizado en base a las necesidades de los alumnos Los cursos para adultos pueden preveer la preparación de examenes internacionales segun requerimiento. Los cursos grupales no pueden exceder un cupo de 8 vacantes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ADULTS -->
+      <!-- ESP -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/esp_pic.jpg" alt=""></p>
+                  <div class="card-title">
+                    <h4>ESP</h4>
+                    <p>Ingles para fines específicos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">ESP</h4>
+                  <p class="card-text">Cursos especialmente diseñados para cumplir con diferentes objetivos: laboral, academico, turistico, etc.Tanto en forma grupal como individual, en nuestras instalaciones o domicilio ofrecemos: Business English, English for Tourism, English for academic Purposes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ESP -->
+      <!-- COACHING -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center mini-junior-school-img">
+                  <p><img class="img-fluid" src="images/p3_pic11.jpg" alt=""></p>
+                  <h4 class="card-title">Apoyo y nivelación</h4>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Apoyo y nivelación</h4>
+                  <p class="card-text">Acompañamiento y nivelación escolar, dandole a los alumnos herramientas para su mejora en clase, tanto para los espacios curriculares en todas las materias como para clases específicas en inglés.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COACHING -->
+      <!-- EXAMS -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip">
+          <div class="mainflip">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center international-exams-img">
+                  <p><img class="img-fluid" src="images/international_exams.jpg" alt=""></p>
+                  <div class="card-title">
+                    <h4 class="card-title">Examenes internacionales</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <div class="card-title">
+                    <h4>Examenes internacionales</h4>
+                    <p>Preparación para los diversos examenes que brindan validez internacional, tanto en inglés general como para usos especificos (First Certificate in English, IELTS, TOEFL, etc)</p>
+                  </div>
+                  <button type="button"
+                          class="btn btn-info btn-lg"
+                          data-toggle="modal"
+                          data-target="#examsModal"
+                  >Leer más
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- EXAMS -->
     </div>
+  </div>
 </section>
 <!-- courses -->
 
 
 <!-- Modal Map -->
 <div class="modal fade" id="mapModal" role="dialog">
-    <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title map">Ubicación</h4>
-            </div>
-            <div class="modal-body">
-                <img src="images/mapa2.jpg" style="align-content: center">
-            </div>
-        </div>
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title map">Ubicación</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/mapa2.jpg" style="align-content: center">
+      </div>
     </div>
+  </div>
 </div>
 
 <!-- Modal -->
 <div class="modal fade" id="examsModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title exams">Examenes internacionales</h4>
-            </div>
-            <div class="modal-body">
-                <img src="images/logo-cambridge.jpg" style="align-content: center">
-                <p>Cambridge ESOL (English for Speakers of Other Languages) forma parte de la prestigiosa Universidad de Cambridge en Inglaterra, y ofrece la más amplia variedad de exámenes de Inglés del mundo para atender las más diversas necesidades.</p>
-                <p>Cada año, más de 3 millones de candidatos se presentan a los exámenes de Cambridge ESOL en 130 países. Los exámenes abarcan distintos niveles de conocimiento de inglés y están diseñadas para adecuarse a las diferentes edades de los postulantes.</p>
-                <p>Nuestra misión es facilitar a los estudiantes con los contenidos y prácticas específicas para que en los diferentes niveles se encuentren preparados para presentarse en estos exámenes.</p>
-                <img src="images/cambridge-graph.png" style="align-content: center">
-                <img src="images/lcci.jpg" style="align-content: start">
-                <p>LCCI, London Chamber of Commerce and Industry, es líder en proveer títulos que avalan el nivel de manejo del idioma inglés en los distintos campos de negocios, industria, comercio, turismo y demás.</p>
-                <p>Con más de 100 años de experiencia y 5000 centros en 100 países. LCCI examina a un gran número de candidatos por año. Los títulos son reconocidos internacionalmente por empresarios, entidades profesionales y universidades.</p>
-                <p>Las certificaciones LCCI las otorga EDI, Education Development International plc, organización pionera en procesos de evaluación online.Estos exámenes son utilizados por centros de idiomas. Escuelas de Negocios, empleadores, profesores y estudiantes.</p>
-                <h5><span class="badge badge-secondary">English for business</span></h5>
-                <h5><span class="badge badge-secondary">Spoken English for Industry and Commerce</span></h5>
-                <h5><span class="badge badge-secondary">English for Tourism</span></h5>
-            </div>
-        </div>
+  <div class="modal-dialog modal-lg">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title exams">Examenes internacionales</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/logo-cambridge.jpg" style="align-content: center">
+        <p>Cambridge ESOL (English for Speakers of Other Languages) forma parte de la prestigiosa Universidad de Cambridge en Inglaterra, y ofrece la más amplia variedad de exámenes de Inglés del mundo para atender las más diversas necesidades.</p>
+        <p>Cada año, más de 3 millones de candidatos se presentan a los exámenes de Cambridge ESOL en 130 países. Los exámenes abarcan distintos niveles de conocimiento de inglés y están diseñadas para adecuarse a las diferentes edades de los postulantes.</p>
+        <p>Nuestra misión es facilitar a los estudiantes con los contenidos y prácticas específicas para que en los diferentes niveles se encuentren preparados para presentarse en estos exámenes.</p>
+        <img src="images/cambridge-graph.png" style="align-content: center">
+        <img src="images/lcci.jpg" style="align-content: start">
+        <p>LCCI, London Chamber of Commerce and Industry, es líder en proveer títulos que avalan el nivel de manejo del idioma inglés en los distintos campos de negocios, industria, comercio, turismo y demás.</p>
+        <p>Con más de 100 años de experiencia y 5000 centros en 100 países. LCCI examina a un gran número de candidatos por año. Los títulos son reconocidos internacionalmente por empresarios, entidades profesionales y universidades.</p>
+        <p>Las certificaciones LCCI las otorga EDI, Education Development International plc, organización pionera en procesos de evaluación online.Estos exámenes son utilizados por centros de idiomas. Escuelas de Negocios, empleadores, profesores y estudiantes.</p>
+        <h5><span class="badge badge-secondary">English for business</span></h5>
+        <h5><span class="badge badge-secondary">Spoken English for Industry and Commerce</span></h5>
+        <h5><span class="badge badge-secondary">English for Tourism</span></h5>
+      </div>
     </div>
+  </div>
 </div>
 <!--========================================================
                           FOOTER
 =========================================================-->
 <footer id="footer">
-    <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="grid_3 footer-font">
-                    <h2>Contáctenos</h2>
-                    <address class="footer-font-2">
-                        <span class="width1">Tel/Fax:</span>+54 230 4474 2245<br>
-                        Correo Electrónico: <a href="#"><!--email_off-->info@macquarieschool.com.ar<!--/email_off--></a>
-                    </address>
-                </div>
-                <div class="grid_3 footer-font">
-                    <h2>Ubicación</h2>
-                    <p class="footer-font-2">
-                        Las Madreselvas 640<br>Pilar, 1635
-                    </p>
-                </div>
-                <div class="grid_3 map">
-                    <button type="button"
-                            class="btn btn-info btn-lg img-map"
-                            data-toggle="modal"
-                            data-target="#mapModal"
-                    >
-                    </button>
-                </div>
-                <div class="social-media-footer">
-                    <div>
-                        <a href="https://twitter.com/MacquarieSchool" class="fa fa-twitter" target="_blank"></a>
-                        <a href="https://www.instagram.com/macquarieschool/" class="fa fa-instagram"
-                           target="_blank"></a>
-                    </div>
-                    <div>
-                        <a href="https://www.linkedin.com/company/macquarie-school-of-english/" class="fa fa-linkedin"
-                           target="_blank"></a>
-                        <a href="http://exchangeirelanduk2013.blogspot.com" class="fa fa-reddit" target="_blank"></a>
-                    </div>
-                </div>
-            </div>
+  <div class="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="grid_3 footer-font">
+          <h2>Contáctenos</h2>
+          <address class="footer-font-2">
+            <span class="width1">Tel/Fax:</span>+54 230 4474 2245<br>
+            Correo Electrónico: <a href="#"><!--email_off-->info@macquarieschool.com.ar<!--/email_off--></a>
+          </address>
         </div>
+        <div class="grid_3 footer-font">
+          <h2>Ubicación</h2>
+          <p class="footer-font-2">
+            Las Madreselvas 640<br>Pilar, 1635
+          </p>
+        </div>
+        <div class="grid_3 map">
+          <button type="button"
+                  class="btn btn-info btn-lg img-map"
+                  data-toggle="modal"
+                  data-target="#mapModal"
+          >
+          </button>
+        </div>
+          <div class="social-media-footer">
+              <div>
+                  <a href="https://twitter.com/MacquarieSchool" class="fa fa-twitter" target="_blank"></a>
+                  <a href="https://www.instagram.com/macquarieschool/" class="fa fa-instagram" target="_blank"></a>
+              </div>
+              <div>
+                  <a href="https://www.linkedin.com/company/macquarie-school-of-english/" class="fa fa-linkedin"
+                     target="_blank"></a>
+                  <a href="http://exchangeirelanduk2013.blogspot.com" class="fa fa-reddit" target="_blank"></a>
+              </div>
+          </div>
+      </div>
     </div>
+  </div>
 </footer>
 
 
