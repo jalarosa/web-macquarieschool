@@ -1,0 +1,1 @@
+function loadMessage(){var e=window.location.search.substr(1);e&&("status=success"===e?alert("Gracias por contactarnos."):alert("Hubo un error en el envio del mail. Por favor comuniquese telefonicamente."))}

@@ -2,7 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674be792-cb4b-444e-8664-0723389f7a5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/js/handlerError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bat/MailHandler-sub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bat/MailHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bat/libmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bat/recaptchalib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-formhelpers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/camera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/contact-form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mixins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/social-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/stuck-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/superfish-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/touchTouch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/adults_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/argentina.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/arrowws.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner_1_coner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner_2_coner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner_3_coner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/btn_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cambridge-graph.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/camera-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/contacto_mapa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dashed-border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dashed-border2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/england.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/esp_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/examenes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/form-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gall_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gall_pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gall_pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gmap_marker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/h2_border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/international_exams.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lcci.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo-cambridge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mapa2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p1_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p2_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_big9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p3_pic9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_big1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_big2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_big3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_big4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_big5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_big6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p4_pic9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p5_pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p5_pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/p5_pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ucp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/TMForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/device.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/greensock/TimelineLite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/greensock/TimelineMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/greensock/TweenLite.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/greensock/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/greensock/jquery.gsap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/isotope-docs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-migrate-1.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.equalheights.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.mobilemenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.simplr.smoothscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.superscrollorama.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.ui.totop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/superfish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/tmstickup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/touchTouch.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/courses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/travels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/courses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/travels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/empty_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/empty_messages.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/bat/MailHandler-sub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/bat/MailHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/bat/libmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/bat/recaptchalib.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/custom.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,88 +158,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="164" column="10" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/lang/es/services.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/travels.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="176">
+              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+            <state relative-caret-position="183">
+              <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="381" column="3" lean-forward="true" selection-start-line="381" selection-start-column="3" selection-end-line="381" selection-end-column="3" />
+            <state relative-caret-position="273">
+              <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -102,34 +189,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/home.html">
+        <entry file="file://$PROJECT_DIR$/www/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="54" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="15">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/modal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3192">
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#10505#10512#1" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/policy.html">
+        <entry file="file://$PROJECT_DIR$/www/js/handlerError.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="202" column="10" selection-start-line="202" selection-start-column="10" selection-end-line="202" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8451#8458#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="172" column="100" selection-start-line="172" selection-start-column="100" selection-end-line="172" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -147,7 +251,10 @@
       <find>grid_</find>
       <find>social-media-footer</find>
       <find>href=&quot;</find>
+      <find>contact-form</find>
+      <find>body</find>
       <find>/es/:remaining</find>
+      <find>&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;http://macquarieschool.com.ar/</replace>
@@ -164,12 +271,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/js/script.js" />
         <option value="$PROJECT_DIR$/resources/messages/messages_es.csv" />
-        <option value="$PROJECT_DIR$/www/css/custom.css" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/public/lang/es/policy.html" />
-        <option value="$PROJECT_DIR$/public/lang/es/contact.html" />
         <option value="$PROJECT_DIR$/public/lang/es/courses.html" />
         <option value="$PROJECT_DIR$/public/lang/es/travels.html" />
         <option value="$PROJECT_DIR$/public/lang/es/home.html" />
@@ -179,15 +283,28 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/www/home.html" />
         <option value="$PROJECT_DIR$/www/services.html" />
         <option value="$PROJECT_DIR$/www/policy.html" />
         <option value="$PROJECT_DIR$/www/travels.html" />
         <option value="$PROJECT_DIR$/www/about.html" />
+        <option value="$PROJECT_DIR$/public/js/emailSender.js" />
+        <option value="$PROJECT_DIR$/www/js/emailSender.js" />
+        <option value="$PROJECT_DIR$/www/css/custom.css" />
+        <option value="$PROJECT_DIR$/public/lang/es/contact.html" />
+        <option value="$PROJECT_DIR$/www/js/script.js" />
+        <option value="$PROJECT_DIR$/public/js/handlerError.js" />
+        <option value="$PROJECT_DIR$/www/js/handlerError.js" />
         <option value="$PROJECT_DIR$/www/contact.html" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
@@ -198,6 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,30 +326,61 @@
             <path>
               <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549772758246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549831286577" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.4.0/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.Scalafmt" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/lang/es" />
+      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/www/images" />
     </key>
   </component>
@@ -247,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -266,6 +415,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -274,6 +426,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="start --inspect" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <arguments value="--inspect" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalafmtSettings">
+    <option name="formatOnSave" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -291,18 +459,27 @@
       <workItem from="1547521153400" duration="1910000" />
       <workItem from="1549221275161" duration="1011000" />
       <workItem from="1549278988654" duration="1182000" />
+      <workItem from="1549816997745" duration="8185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20751000" />
+    <option name="totallyTimeSpent" value="35796000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="top" id="MMGraph" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -311,21 +488,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="npm" order="7" side_tool="true" />
       <window_info id="Grunt " order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Weave Internals" order="12" />
       <window_info anchor="bottom" id="Weave Preview" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,17 +517,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>86</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>122</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/lang/es/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/social-media.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/images/p3_big8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -409,13 +593,6 @@
     <entry file="file://$PROJECT_DIR$/www/js/touchTouch.jquery.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/images/logo-cambridge.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -430,13 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -483,13 +653,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js" />
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -527,10 +690,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/travels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="2325">
           <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -538,8 +700,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="164" column="20" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+        <state relative-caret-position="2520">
+          <caret line="168" column="10" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/browser.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9615">
+          <caret line="641" column="17" selection-start-line="641" selection-start-column="17" selection-end-line="641" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bat/libmail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bat/MailHandler-sub.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bat/recaptchalib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bat/MailHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/html5shiv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/emailSender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/emailSender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="482" selection-start-column="482" selection-end-column="482" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lang/es/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -547,14 +799,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/TMForm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="172" column="100" selection-start-line="172" selection-start-column="100" selection-end-line="172" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3192">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/handlerError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="207" selection-start-column="207" selection-end-column="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/handlerError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="381" column="3" lean-forward="true" selection-start-line="381" selection-start-column="3" selection-end-line="381" selection-end-column="3" />
+        <state relative-caret-position="273">
+          <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
         </state>
       </provider>
     </entry>
