@@ -2,152 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674be792-cb4b-444e-8664-0723389f7a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/www/js/handlerError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bat/MailHandler-sub.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bat/MailHandler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bat/libmail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bat/recaptchalib.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-formhelpers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/camera.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/contact-form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mixins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/social-media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/stuck-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/superfish-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/touchTouch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/adults_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/argentina.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/arrowws.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner_1_coner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner_2_coner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner_3_coner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/btn_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cambridge-graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/camera-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/contacto_mapa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dashed-border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dashed-border2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/england.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/esp_pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/examenes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/form-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gall_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gall_pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gall_pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gmap_marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/h2_border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/international_exams.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lcci.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo-cambridge.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/mapa2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p1_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p2_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_big9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p3_pic9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_big1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_big2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_big3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_big4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_big5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_big6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p4_pic9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p5_pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p5_pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/p5_pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ucp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/TMForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/camera.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/device.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/greensock/TimelineLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/greensock/TimelineMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/greensock/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/greensock/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/greensock/jquery.gsap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/isotope-docs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery-migrate-1.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.equalheights.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.mobilemenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.mousewheel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.simplr.smoothscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.superscrollorama.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery.ui.totop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/superfish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/tmstickup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/touchTouch.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/policy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/en/travels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/policy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/lang/es/travels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/messages/empty_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/empty_messages.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/bat/MailHandler-sub.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/bat/MailHandler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/bat/libmail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/bat/recaptchalib.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/www/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -158,11 +15,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="341">
+              <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="7" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/courses.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -176,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
+            <state relative-caret-position="120">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -278,12 +166,10 @@
         <option value="$PROJECT_DIR$/public/lang/es/travels.html" />
         <option value="$PROJECT_DIR$/public/lang/es/home.html" />
         <option value="$PROJECT_DIR$/public/lang/es/services.html" />
-        <option value="$PROJECT_DIR$/www/courses.html" />
         <option value="$PROJECT_DIR$/resources/messages/messages_en.csv" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/www/home.html" />
         <option value="$PROJECT_DIR$/www/services.html" />
         <option value="$PROJECT_DIR$/www/policy.html" />
         <option value="$PROJECT_DIR$/www/travels.html" />
@@ -295,8 +181,10 @@
         <option value="$PROJECT_DIR$/www/js/script.js" />
         <option value="$PROJECT_DIR$/public/js/handlerError.js" />
         <option value="$PROJECT_DIR$/www/js/handlerError.js" />
-        <option value="$PROJECT_DIR$/www/contact.html" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/www/home.html" />
+        <option value="$PROJECT_DIR$/www/courses.html" />
+        <option value="$PROJECT_DIR$/www/contact.html" />
       </list>
     </option>
   </component>
@@ -342,6 +230,12 @@
             <path>
               <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-macquarieschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-macquarieschool" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +261,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549831286577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549848443416" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.4.0/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -459,12 +353,12 @@
       <workItem from="1547521153400" duration="1910000" />
       <workItem from="1549221275161" duration="1011000" />
       <workItem from="1549278988654" duration="1182000" />
-      <workItem from="1549816997745" duration="8185000" />
+      <workItem from="1549816997745" duration="9128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35796000" />
+    <option name="totallyTimeSpent" value="36739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,9 +371,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="top" id="MMGraph" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,7 +386,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39916405" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
@@ -596,13 +491,6 @@
     <entry file="file://$PROJECT_DIR$/www/images/logo-cambridge.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/courses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/lang/es/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -614,13 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7995">
           <caret line="533" column="22" selection-start-line="533" selection-start-column="22" selection-end-line="533" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="88" selection-start-line="87" selection-end-line="88" />
         </state>
       </provider>
     </entry>
@@ -653,18 +534,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js" />
-    <entry file="file://$PROJECT_DIR$/www/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="54" selection-start-line="29" selection-start-column="4" selection-end-line="30" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#10505#10512#1" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -832,20 +701,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/contact.html">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
+        <state relative-caret-position="341">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="7" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/www/courses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/messages/messages_es.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
