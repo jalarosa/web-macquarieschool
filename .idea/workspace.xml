@@ -3,12 +3,38 @@
   <component name="ChangeListManager">
     <list default="true" id="674be792-cb4b-444e-8664-0723389f7a5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/public/lang/en/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/lang/es/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/messages/empty_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/empty_messages.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/courses.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/en/travels.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/en/travels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lang/es/travels.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/lang/es/travels.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/empty_messages.log" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/empty_messages.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/keys.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/keys.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/messages_en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/messages/messages_es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/messages/messages_es.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/custom.css" afterDir="false" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
       <change beforePath="$PROJECT_DIR$/www/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/policy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/services.html" afterDir="false" />
@@ -26,8 +52,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/home.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="640">
               <caret line="298" column="131" selection-start-line="298" selection-start-column="131" selection-end-line="298" selection-end-column="131" />
+=======
+            <state relative-caret-position="220">
+              <caret line="270" column="87" selection-start-line="270" selection-start-column="87" selection-end-line="270" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
@@ -35,17 +66,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/about.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="625">
               <caret line="165" column="131" selection-start-line="165" selection-start-column="131" selection-end-line="165" selection-end-column="131" />
+=======
+            <state relative-caret-position="220">
+              <caret line="137" column="87" selection-start-line="137" selection-start-column="87" selection-end-line="137" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/contact.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="625">
               <caret line="216" column="131" selection-start-line="216" selection-start-column="89" selection-end-line="216" selection-end-column="131" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="115" column="83" selection-start-line="115" selection-start-column="83" selection-end-line="115" selection-end-column="83" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
@@ -53,8 +97,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/courses.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="625">
               <caret line="371" column="125" selection-start-line="371" selection-start-column="125" selection-end-line="371" selection-end-column="125" />
+=======
+            <state relative-caret-position="235">
+              <caret line="343" column="77" selection-start-line="343" selection-start-column="77" selection-end-line="343" selection-end-column="77" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
@@ -62,8 +111,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/policy.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="611">
               <caret line="187" column="131" selection-start-line="187" selection-start-column="131" selection-end-line="187" selection-end-column="131" />
+=======
+            <state relative-caret-position="191">
+              <caret line="159" column="87" selection-start-line="159" selection-start-column="87" selection-end-line="159" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
@@ -71,17 +125,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/services.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="640">
               <caret line="163" column="131" selection-start-line="163" selection-start-column="131" selection-end-line="163" selection-end-column="131" />
+=======
+            <state relative-caret-position="220">
+              <caret line="135" column="87" selection-start-line="135" selection-start-column="87" selection-end-line="135" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/travels.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="147" column="131" selection-start-line="147" selection-start-column="131" selection-end-line="147" selection-end-column="131" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/travels.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="119" column="87" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
             </state>
           </provider>
         </entry>
@@ -178,15 +245,25 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/www/css/custom.css" />
         <option value="$PROJECT_DIR$/resources/messages/empty_messages.log" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/resources/messages/messages_en.csv" />
         <option value="$PROJECT_DIR$/resources/messages/messages_es.csv" />
         <option value="$PROJECT_DIR$/www/contact.html" />
+=======
+        <option value="$PROJECT_DIR$/www/travels.html" />
+        <option value="$PROJECT_DIR$/resources/messages/messages_en.csv" />
+        <option value="$PROJECT_DIR$/resources/messages/messages_es.csv" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         <option value="$PROJECT_DIR$/www/about.html" />
         <option value="$PROJECT_DIR$/www/courses.html" />
         <option value="$PROJECT_DIR$/www/home.html" />
         <option value="$PROJECT_DIR$/www/policy.html" />
         <option value="$PROJECT_DIR$/www/services.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/www/travels.html" />
+=======
+        <option value="$PROJECT_DIR$/www/contact.html" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
       </list>
     </option>
   </component>
@@ -342,12 +419,20 @@
       <workItem from="1549849129231" duration="11000" />
       <workItem from="1549852595162" duration="273000" />
       <workItem from="1549887276572" duration="200000" />
+<<<<<<< HEAD
       <workItem from="1560122266334" duration="1644000" />
+=======
+      <workItem from="1560122266334" duration="1117000" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="39824000" />
+=======
+    <option name="totallyTimeSpent" value="39297000" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,6 +721,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -647,41 +733,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="165" column="131" selection-start-line="165" selection-start-column="131" selection-end-line="165" selection-end-column="131" />
+=======
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="137" column="87" selection-start-line="137" selection-start-column="87" selection-end-line="137" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/courses.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="625">
           <caret line="371" column="125" selection-start-line="371" selection-start-column="125" selection-end-line="371" selection-end-column="125" />
+=======
+        <state relative-caret-position="235">
+          <caret line="343" column="77" selection-start-line="343" selection-start-column="77" selection-end-line="343" selection-end-column="77" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/home.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="640">
           <caret line="298" column="131" selection-start-line="298" selection-start-column="131" selection-end-line="298" selection-end-column="131" />
+=======
+        <state relative-caret-position="220">
+          <caret line="270" column="87" selection-start-line="270" selection-start-column="87" selection-end-line="270" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/policy.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="611">
           <caret line="187" column="131" selection-start-line="187" selection-start-column="131" selection-end-line="187" selection-end-column="131" />
+=======
+        <state relative-caret-position="191">
+          <caret line="159" column="87" selection-start-line="159" selection-start-column="87" selection-end-line="159" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/services.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="640">
           <caret line="163" column="131" selection-start-line="163" selection-start-column="131" selection-end-line="163" selection-end-column="131" />
+=======
+        <state relative-caret-position="220">
+          <caret line="135" column="87" selection-start-line="135" selection-start-column="87" selection-end-line="135" selection-end-column="87" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/travels.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="714">
           <caret line="147" column="131" selection-start-line="147" selection-start-column="131" selection-end-line="147" selection-end-column="131" />
+=======
+        <state relative-caret-position="294">
+          <caret line="119" column="87" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="115" column="83" selection-start-line="115" selection-start-column="83" selection-end-line="115" selection-end-column="83" />
+>>>>>>> b0a74608de44d2639fe2b7833ad4a9e2ff4f2fec
         </state>
       </provider>
     </entry>
