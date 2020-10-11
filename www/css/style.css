@@ -764,6 +764,7 @@ nav {
 #content {
   position: relative;
   z-index: 50;
+  width: 100%;
   overflow: hidden;
 }
 #content.common {
