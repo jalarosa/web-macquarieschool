@@ -8,6 +8,14 @@ function getLanguaje() {
   return languaje;
 }
 
+function getMenu(index, languaje) {
+  let data = getData(languaje);
+  var langParam = "?lang=" + languaje;
+  var menu = [{name: data.Home.value, href: 'home' + langParam}, {name: data.Courses.value, href: 'courses' + langParam}, {name: data.Contact.value, href: 'contact' + langParam}];
+  menu[index].className = 'current';
+  return menu;
+}
+
 function getData(lang) {
     if (lang === "es") {
         return lang_es;
@@ -23,3 +31,4 @@ function setLanguaje(value) {
 module.exports.getLanguaje = getLanguaje;
 module.exports.setLanguaje = setLanguaje;
 module.exports.getData = getData;
+module.exports.getMenu = getMenu;
