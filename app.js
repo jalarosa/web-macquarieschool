@@ -6,6 +6,7 @@ let mustacheExpress = require('mustache-express');
 
 let indexRoute = require('./index');
 let coursesRoute = require('./courses');
+let contactRoute = require('./contact');
 
 var app = express();
 
@@ -18,6 +19,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use ('/', indexRoute);
 app.use ('/', coursesRoute);
+app.use ('/', contactRoute);
 
 app.get('/css/:remaining', function (req, res) {
   console.log("remaining - " + req.params.remaining);
