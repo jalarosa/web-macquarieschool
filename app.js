@@ -4,9 +4,9 @@ var bodyParser = require('body-parser');
 const nodemailer = require("nodemailer");
 let mustacheExpress = require('mustache-express');
 
-let indexRoute = require('./index');
-let coursesRoute = require('./courses');
-let contactRoute = require('./contact');
+let indexRoute = require('./src/index');
+let coursesRoute = require('./src/courses');
+let contactRoute = require('./src/contact');
 
 var app = express();
 
@@ -36,47 +36,12 @@ app.get('/images/:remaining', function (req, res) {
   res.sendFile(__dirname + "/public/images/" + req.params.remaining);
 });
 
-app.get('/es/js/:remaining', function (req, res) {
-  console.log("remaining- " + req.params.remaining);
-  res.sendFile(__dirname + "/public/js/" + req.params.remaining);
-});
-
-app.get('/es/css/:remaining', function (req, res) {
-  console.log("remaining - " + req.params.remaining);
-  res.sendFile(__dirname + "/public/css/" + req.params.remaining);
-});
-
-app.get('/es/images/:remaining', function (req, res) {
-  console.log("remaining - " + req.params.remaining);
-  res.sendFile(__dirname + "/public/images/" + req.params.remaining);
-});
-
-app.get('/en/images/:remaining', function (req, res) {
-  console.log("remaining - " + req.params.remaining);
-  res.sendFile(__dirname + "/public/images/" + req.params.remaining);
-});
-
-app.get('/en/css/:remaining', function (req, res) {
-  console.log("remaining - " + req.params.remaining);
-  res.sendFile(__dirname + "/public/css/" + req.params.remaining);
-});
-
 app.get('/js/greensock/:remaining', function(req, res) {
   console.log("remaining - " + req.params.remaining );
   res.sendFile(__dirname + "/public/js/greensock/" + req.params.remaining );
 });
 
-app.get('/en/js/:remaining', function (req, res) {
-  console.log("remaining - " + req.params.remaining);
-  res.sendFile(__dirname + "/public/js/" + req.params.remaining);
-});
-
-app.get('/es/:remaining', function (req, res) {
-  console.log("remaining - " + req.params.remaining);
-  res.sendFile(__dirname + "/public/lang/es/" + req.params.remaining);
-});
-
-app.post('/en/contact.html', function(req, res) {
+app.post('/contact', function(req, res) {
 
   const emailContent = {
     name: req.body["name"],
@@ -87,28 +52,12 @@ app.post('/en/contact.html', function(req, res) {
   console.log(`${emailContent.name}` );
   if (!emailContent.name || !emailContent.email) {
     // res.send("Error: Email & Subject should not be Blank");
-    res.redirect("/es/contact.html?status=fail");
+    res.redirect("/contact?status=fail");
   }
   sendMail(emailContent,res);
 
 });
 
-app.post('/es/contact.html', function(req, res) {
-
-  const emailContent = {
-    name: req.body["name"],
-    email: req.body["email"],
-    phone: req.body["phone"],
-    message: req.body["message"]
-  };
-  console.log(`${emailContent.name}` );
-  if (!emailContent.name || !emailContent.email) {
-    // res.send("Error: Email & Subject should not be Blank");
-    res.redirect("/es/contact.html?status=fail");
-  }
-  sendMail(emailContent,res);
-
-});
 
 async function sendMail(emailContent,res){
 
@@ -145,7 +94,7 @@ async function sendMail(emailContent,res){
         msg: 'fail'
       })
     } else {
-      res.redirect("/es/contact.html?status=success");
+      res.redirect("/contact?status=success");
     }
   });
 
