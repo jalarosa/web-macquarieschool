@@ -953,6 +953,7 @@ nav {
 /*-----------  Other---------------*/
 .max-with_1 {
   max-width: 666px;
+  font-size: x-large;
 }
 .max-with_2 {
   max-width: 233px;
