@@ -13,49 +13,48 @@
     <div class="container bord_1 perspective">
         <div class="row mar_t_6 pad_b_95 perspective">
             <div class="grid_3 s4">
-                <h3>[[address]]</h3>
-
+                <h3>{{data.address.value}}</h3>
                 <address class="">
-                    <em>[[complete_address]],<br>[[city_address]]</em>
+                    <em>{{data.complete_address.value}},<br>{{data.city_address.value}}</em>
 
 
-                    <span class="width1">[[telephone_Fax]] </span>[[telephone_number]]<br>
-                    <span class="width1">[[whatsapp]]</span>[[whatsapp_number]]<br>
-                    E-mail: <a href="#"><!--email_off-->[[email]]<!--/email_off--></a>
+                    <span class="width1">{{data.telephone_Fax.value}} </span>{{data.telephone_number.value}}<br>
+                    <span class="width1">{{data.whatsapp.value}}</span>{{data.whatsapp_number.value}}<br>
+                    E-mail: <a href="#"><!--email_off-->{{data.email.value}}<!--/email_off--></a>
                 </address>
             </div>
             <div class="grid_9">
-                <h3 class='s5'>[[contact_form]]</h3>
+                <h3 class='s5'>{{data.contact_form.value}}</h3>
                 <form id="contact-form" method="post">
                     <div class="contact-form-loader"></div>
                     <fieldset>
                         <label class="name s55">
-                            <input type="text" name="name" placeholder="[[Name]]*:"
+                            <input type="text" name="name" placeholder="{{data.Name.value}}*:"
                                    required="required"/>
-                            <span class="empty-message">[[this_field_is_required]]</span>
+                            <span class="empty-message">{{data.this_field_is_required.value}}</span>
                         </label>
 
                         <label class="email s56">
-                            <input class="email s56" name="email" placeholder="[[Email]]*:" value=""
+                            <input class="email s56" name="email" placeholder="{{data.Email.value}}*:" value=""
                                    required="required"/>
-                            <span class="empty-message">[[this_field_is_required]]</span>
-                            <span class="error-message">[[this_is_not_a_valid_email]]</span>
+                            <span class="empty-message">{{data.this_field_is_required.value}}</span>
+                            <span class="error-message">{{data.this_is_not_a_valid_email.value}}</span>
                         </label>
 
                         <label class="phone s57">
-                            <input type="text" name="phone" placeholder="[[Phone:]]" value=""/>
-                            <span class="empty-message">[[this_field_is_required]]</span>
-                            <span class="error-message">[[this_is_not_a_valid_phone]]</span>
+                            <input type="text" name="phone" placeholder="{{data.Phone:.value}}" value=""/>
+                            <span class="empty-message">{{data.this_field_is_required.value}}</span>
+                            <span class="error-message">{{data.this_is_not_a_valid_phone.value}}</span>
                         </label>
 
                         <label class="message s58">
-                            <textarea name="message" placeholder="[[Message]]:" required="required"></textarea>
-                            <span class="empty-message">[[this_field_is_required]]</span>
-                            <span class="error-message">[[the_message_is_too_short]]</span>
+                            <textarea name="message" placeholder="{{data.Message.value}}:" required="required"></textarea>
+                            <span class="empty-message">{{data.this_field_is_required.value}}</span>
+                            <span class="error-message">{{data.the_message_is_too_short.value}}</span>
                         </label>
                         <!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
                         <div class="contact-form-buttons s59">
-                            <button type="submit" class="btn_4">[[send]]</button>
+                            <button type="submit" class="btn_4">{{data.send.value}}</button>
                         </div>
                         <div id="alert-msg"/>
                     </fieldset>

@@ -3,17 +3,17 @@
         <div class="container">
             <div class="row">
                 <div class="grid_3 footer-font">
-                    <h2>[[contact_us]]</h2>
+                    <h2>{{data.contact_us.value}}</h2>
                     <address class="footer-font-2">
-                        <span class="width1">[[telephone_Fax]]</span>[[telephone_number]]5<br>
-                        <span class="width1">[[whatsapp]]</span>[[whatsapp_number]]<br>
-                        [[Email]]: <a href="#"><!--email_off-->[[email]]<!--/email_off--></a>
+                        <span class="width1">{{data.telephone_Fax.value}}</span>{{data.telephone_number.value}}<br>
+                        <span class="width1">{{data.whatsapp.value}}</span>{{data.whatsapp_number.value}}<br>
+                        {{data.Email.value}}: <a href="#"><!--email_off-->{{data.email.value}}<!--/email_off--></a>
                     </address>
                 </div>
                 <div class="grid_3 footer-font">
-                    <h2>[[Locations]]</h2>
+                    <h2>{{data.Locations.value}}</h2>
                     <p class="footer-font-2">
-                        [[complete_address]]<br>[[city_address]]
+                        {{data.complete_address.value}}<br>{{data.city_address.value}}
                     </p>
                 </div>
                 <div class="grid_3 map">

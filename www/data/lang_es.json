@@ -1,0 +1,299 @@
+{
+    "school_name": {
+       "value": "Macquarie School"
+    },
+    "logo_description": {
+       "value": "AQUÍ EL APRENDIZAJE NUNCA FINALIZA"
+    },
+    "contact_info": {
+       "value": "información de contacto"
+    },
+    "address": {
+       "value": "Dirección"
+    },
+    "complete_address": {
+       "value": "Las Madreselvas 640"
+    },
+    "city_address": {
+       "value": "Pilar, 1635"
+    },
+    "telephone_Fax": {
+       "value": "Tel/Fax:"
+    },
+    "telephone_number": {
+       "value": "+54 230 4474 224"
+    },
+    "email": {
+       "value": "info@macquarieschool.com.ar"
+    },
+    "contact_form": {
+       "value": "Formulario de Contacto"
+    },
+    "this_field_is_required": {
+       "value": "*Este campo es requerido."
+    },
+    "this_is_not_a_valid_email": {
+       "value": "*Este no es un email válido."
+    },
+    "this_is_not_a_valid_phone": {
+       "value": "*Este no es un teléfono válido"
+    },
+    "the_message_is_too_short": {
+       "value": "*El mensaje es muy corto"
+    },
+    "send": {
+       "value": "Enviar"
+    },
+    "Name": {
+       "value": "Nombre"
+    },
+    "Email": {
+       "value": "Correo Electrónico"
+    },
+    "Phone:": {
+       "value": "Teléfono"
+    },
+    "Message": {
+       "value": "Mensaje"
+    },
+    "About": {
+       "value": "Nosotros"
+    },
+    "Courses": {
+       "value": "Cursos"
+    },
+    "Services": {
+       "value": "Servicios"
+    },
+    "Travels": {
+       "value": "Viajes"
+    },
+    "Contact": {
+       "value": "Contacto"
+    },
+    "Home": {
+       "value": "Inicio"
+    },
+    "privacy_policy": {
+       "value": "Políticas de privacidad"
+    },
+    "contact_us": {
+       "value": "Contáctenos"
+    },
+    "Locations": {
+       "value": "Ubicación"
+    },
+    "title_pic1": {
+       "value": "Una gran herramienta para el futuro."
+    },
+    "description_pic1": {
+       "value": "En el mundo de hoy el idioma ingles es esencial para ampliar los horizontes tanto a nivel laboral como academico y también es un pasaporte para viajar a cualquier lugar del mundo."
+    },
+    "title_pic2": {
+       "value": "Un gran lugar para aprender"
+    },
+    "description_pic2": {
+       "value": "Hay un sentido de propósito y los estudiantes están enfocados y felices de ser parte de nuestra comunidad de aprendizaje."
+    },
+    "title_pic3": {
+       "value": "Creatividad y originalidad"
+    },
+    "description_pic3": {
+       "value": "Hay una estructura, pero dentro de esa estructura tenemos creatividad y originalidad que diferencia a nuestra escuela de otras escuelas."
+    },
+    "title_how_incorporate": {
+       "value": "Como incorporarte"
+    },
+    "description_how_incorporate": {
+       "value": "Acercate o comunicate para solicitar una entrevista y poder realizar un test de nivelacion.De esta forma podemos decirte cual es el mejor grupo y/o tipo de aprendizaje para tus necesidades."
+    },
+    "welcome_title": {
+       "value": "Bienvenido"
+    },
+    "welcome_subtitle": {
+       "value": "Sobre la inscripcion"
+    },
+    "welcome_subtitle_2": {
+       "value": "Las clases regulares comienzan en marzo. De todas maneras podes sumarte durante el ano ya que\n                     se van formando nuevos grupos y nuevas posibilidades."
+    },
+    "readmore": {
+       "value": "Leer más"
+    },
+    "Principal_notes_title": {
+       "value": "Misión"
+    },
+    "Principal_notes_subtitle": {
+       "value": "Nuestro instituto fue creado con el propóposito de mejorar el aprendizaje y la enseñanza del idioma Inglés."
+    },
+    "principal_notes_description": {
+       "value": "Nuestra misión es enseñar inglés dentro de un marco ameno con un alto nivel comunicativo, práctivo y accesible, desarrollando un enfoque globalizador, fomentando el interés en la cultura de cada país.\n                               Para lograr dicha labor utilizamos metodologias innovadoras asi como nuevas herramientas educativas y tecnologias diseñando nuevos materiales educativos para los diferentes niveles y edades, asesorando y apoyando programas de formación continua y actividades de preparacion para certificaciones internacionales, diseñando y desarrollando, a corto y largo plazo, distintos proyectos, y organizando programas de inmersión lingüistica para los alumnos."
+    },
+    "PROGRAMS_FOR_EDUCATORS_title": {
+       "value": "Metodología"
+    },
+    "PROGRAMS_FOR_EDUCATORS_subtitle": {
+       "value": "Algunas de las estrategias que se utilizan en clase:"
+    },
+    "PROGRAMS_FOR_EDUCATORS_description": {
+       "value": "Enseñanza centrada en el alumno lo que supone promover la implicación de los aprendices. A la vez este aprendizaje debe promover la cooperacion de todas las partes (alumnos y profesor).\n Enseñanza flexible y facilitadora atendiendo a los distintos estilos de aprendizaje. Esto implica en primer lugar facilitar la comprensión del contenido y del contexto, lo que se puede conseguir mediante el uso de textos especificos para la edad y el desarrollo del aprendiz, y usando diversas estrategias tanto lingüisticas como paralingüisticas."
+    },
+    "DYNAMIC_CLASSROOMS_title": {
+       "value": "Visitanos"
+    },
+    "DYNAMIC_CLASSROOMS_subtitle": {
+       "value": "Estamos ubicados en un lugar ideal, ameno y de facil acceso. Para tus clases de ingles, tu aprendizaje. Estamos a metros del Km 50 Acceso Norte: Las Madreselva 640."
+    },
+    "DYNAMIC_CLASSROOMS_description": {
+       "value": "Como llegar: Por Acceso Norte: 510, por Ruta 8 : x. Por todas las consultas info@macquarieschool.com.ar o completa nuestra formulario de consulta y te respondemos a la brevedad. Telefono: 0230 4474 224"
+    },
+    "main_title_home": {
+       "value": "Nuestro Staff"
+    },
+    "button_home": {
+       "value": "Graciela Montesano"
+    },
+    "subtitle2_home": {
+       "value": "Directora"
+    },
+    "button2_home": {
+       "value": "Natalia Durand"
+    },
+    "subtitle3_home": {
+       "value": "Profesora"
+    },
+    "button3_home": {
+       "value": "Daniela Durand"
+    },
+    "subtitle4_home": {
+       "value": "Profesora"
+    },
+    "button5_home": {
+       "value": "Olga Fernandez"
+    },
+    "subtitle5_home": {
+       "value": "Secretaria"
+    },
+    "modal_title_home": {
+       "value": ""
+    },
+    "modal_description_home": {
+       "value": ""
+    },
+    "title_policy": {
+       "value": ""
+    },
+    "main_title_policy": {
+       "value": ""
+    },
+    "subtitle_policy": {
+       "value": ""
+    },
+    "description_policy": {
+       "value": ""
+    },
+    "subtitle2_policy": {
+       "value": ""
+    },
+    "description2_policy": {
+       "value": ""
+    },
+    "subtitle3_policy": {
+       "value": ""
+    },
+    "description3_policy": {
+       "value": ""
+    },
+    "subtitle4_policy": {
+       "value": ""
+    },
+    "description4_policy": {
+       "value": ""
+    },
+    "subtitle5_policy": {
+       "value": ""
+    },
+    "description5_policy": {
+       "value": ""
+    },
+    "modal_title": {
+       "value": ""
+    },
+    "modal_message_body": {
+       "value": ""
+    },
+    "MINI_JUNIORS_SCHOOL_TITLE": {
+       "value": "Mini & Junior School"
+    },
+    "MINI_JUNIORS_SCHOOL_DESCRIPTION": {
+       "value": "Diseñado especialmente para proporcionar un programa complemento a las clases curriculares de ingles que combina lengua con aspectos de la cultura inglesa. Dictado en forma intensiva tres veces semanales comenzando a partir de los 5 años e integrando actividades como teatro, video etc. Todos los cursos preparan a los alumnos para los examanes internacionales de Cambridge."
+    },
+    "ADULTS_TITLE": {
+       "value": "Adultos"
+    },
+    "ADULTS_DESCRIPTION": {
+       "value": "Cursos regulares e intensivos, grupales o individuales adecuados a los diferentes niveles y organizado en base a las necesidades de los alumnos Los cursos para adultos pueden preveer la preparación de examenes internacionales segun requerimiento. Los cursos grupales no pueden exceder un cupo de 8 vacantes."
+    },
+    "ESP_TITLE": {
+       "value": "ESP"
+    },
+    "ESP_SUBTITLE": {
+       "value": "Ingles para fines específicos"
+    },
+    "ESP_DESCRIPTION": {
+       "value": "Cursos especialmente diseñados para cumplir con diferentes objetivos: laboral, academico, turistico, etc.Tanto en forma grupal como individual, en nuestras instalaciones o domicilio ofrecemos: Business English, English for Tourism, English for academic Purposes."
+    },
+    "COACHING_TITLE": {
+       "value": "Apoyo y nivelación"
+    },
+    "COACHING_DESCRIPTION": {
+       "value": "Acompañamiento y nivelación escolar, dandole a los alumnos herramientas para su mejora en clase, tanto para los espacios curriculares en todas las materias como para clases específicas en inglés."
+    },
+    "KINDER_TITLE": {
+       "value": "Kinder"
+    },
+    "KINDER_DESCRIPTION": {
+       "value": "Según las últimas investigaciones, cuanto antes se comienza con el aprendizaje de una segunda lengua mejor y más fácil le resulta a los chicos.No solo se facilita el aprendizaje del nuevo idioma en sí, sino que también colabora en el desarrollo psíquico del niño; cuanto mas pequeños tienden a poseer una mayor flexibilidad intelectual, que se demuestra en las técnicas de resolución de problemas y creatividad.  Cuanto mas pequeños mejor."
+    },
+    "KINDER_SUBTITLE": {
+       "value": "Ingles para los mas pequeños"
+    },
+    "EXAMS_TITLE": {
+       "value": "Examenes internacionales"
+    },
+    "EXAMS_DESCRIPTION": {
+       "value": "Preparación para los diversos examenes que brindan validez internacional, tanto en inglés general como para usos especificos (First Certificate in English, IELTS, TOEFL, etc)"
+    },
+    "EXAMS_MODAL_TITLE": {
+       "value": "Examenes internacionales"
+    },
+    "EXAMS_BUTTON_READMORE": {
+       "value": "Leer más"
+    },
+    "EXAMS_MODAL_DESC1": {
+       "value": "Cambridge ESOL (English for Speakers of Other Languages) forma parte de la prestigiosa Universidad de Cambridge en Inglaterra, y ofrece la más amplia variedad de exámenes de Inglés del mundo para atender las más diversas necesidades."
+    },
+    "EXAMS_MODAL_DESC2": {
+       "value": "Cada año, más de 3 millones de candidatos se presentan a los exámenes de Cambridge ESOL en 130 países. Los exámenes abarcan distintos niveles de conocimiento de inglés y están diseñadas para adecuarse a las diferentes edades de los postulantes."
+    },
+    "EXAMS_MODAL_DESC3": {
+       "value": "Nuestra misión es facilitar a los estudiantes con los contenidos y prácticas específicas para que en los diferentes niveles se encuentren preparados para presentarse en estos exámenes."
+    },
+    "EXAMS_MODAL_DESC4": {
+       "value": "LCCI, London Chamber of Commerce and Industry, es líder en proveer títulos que avalan el nivel de manejo del idioma inglés en los distintos campos de negocios, industria, comercio, turismo y demás."
+    },
+    "EXAMS_MODAL_DESC5": {
+       "value": "Con más de 100 años de experiencia y 5000 centros en 100 países. LCCI examina a un gran número de candidatos por año. Los títulos son reconocidos internacionalmente por empresarios, entidades profesionales y universidades."
+    },
+    "EXAMS_MODAL_DESC6": {
+       "value": "Las certificaciones LCCI las otorga EDI, Education Development International plc, organización pionera en procesos de evaluación online.Estos exámenes son utilizados por centros de idiomas. Escuelas de Negocios, empleadores, profesores y estudiantes."
+    },
+    "MAP_TITLE": {
+       "value": "Ubicación"
+    },
+    "whatsapp": {
+       "value": "Whatsapp"
+    },
+    "whatsapp_number": {
+       "value": "011 6211 9988"
+    }
+ }
