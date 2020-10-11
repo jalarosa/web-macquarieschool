@@ -3,14 +3,6 @@ module.exports = function (grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    encoding: {
-      options: {
-        encoding: 'ISO-8859-1'
-      },
-      files: {
-        src: ['www/**/*', 'resources/messages/**/*']
-      }
-    },
     uglify: {
       build: {
         files: [{
@@ -50,20 +42,6 @@ module.exports = function (grunt) {
         ]
       }
     },
-    i18n_template: {
-      build: {
-        options: {
-          defaultLocale: 'ar',
-          locales: ['es', 'en'],
-          messagesPath: 'resources/messages',
-          basePath: 'www',
-          forceRefresh: true
-        },
-        files: {
-          'public/lang': ['www/*.html']
-        }
-      }
-    },
     watch: {
       css: {
         files: ['www/css/*.scss'],
@@ -79,12 +57,11 @@ module.exports = function (grunt) {
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-i18n-template');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-encoding');
   // Default task(s).
-  grunt.registerTask('default', ['encoding', 'i18n_template', 'copy', 'uglify', 'cssmin']);
+  grunt.registerTask('default', ['copy', 'uglify', 'cssmin']);
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-html');
 
