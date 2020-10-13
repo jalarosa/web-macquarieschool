@@ -9,7 +9,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: 'www/js',
           src: '**/*.js',
-          dest: 'public/js'
+          dest: 'src/assets/js'
         }]
       }
     },
@@ -19,7 +19,7 @@ module.exports = function (grunt) {
           expand: true,
           cwd: 'www/css',
           src: ['*.css', '*/*.css', '!*.min.css'],
-          dest: 'public/css',
+          dest: 'src/assets/css',
           ext: '.css'
         }]
       }
@@ -31,13 +31,13 @@ module.exports = function (grunt) {
             expand: true,
             cwd: 'www/images/',
             src: ['**/*.{png,jpg,svg,gif,ico,webp}'],
-            dest: 'public/images/'
+            dest: 'src/assets/images/'
           },
           {
             expand: true,
             cwd: 'www/bat/',
             src: ['**/*.php'],
-            dest: 'public/bat/'
+            dest: 'src/assets/bat/'
           }
         ]
       }

@@ -1,5 +1,6 @@
 let router = require('express').Router();
 let storage = require('./simpleStorage');
+const nodemailer = require("nodemailer");
 
 router.get('/contact', function(request,response) {
     let languaje = request.query.lang || storage.getLanguaje();
