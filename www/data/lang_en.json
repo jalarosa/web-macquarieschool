@@ -62,6 +62,9 @@
     "Courses": {
        "value": "Courses"
     },
+    "VirtualClasses": {
+        "value": "Virtual Classes"
+     },
     "Services": {
        "value": "Services"
     },
