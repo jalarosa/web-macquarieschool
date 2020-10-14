@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "test",
-    "watch": "grunt watch",
+    "watch": "npm-watch",
     "build": "grunt ",
     "start": "node app.js "
   },

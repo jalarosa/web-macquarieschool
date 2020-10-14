@@ -15,8 +15,8 @@ app.set('views', `${__dirname}/views`);
 app.set('view engine', 'mustache');
 app.engine('mustache', mustacheExpress());
 app.use (bodyParser.urlencoded( {extended : true} ) );
-
-app.use(bodyParser.urlencoded({extended: true}));
+var engine = mustacheExpress();
+var cache = engine.cache;
 
 app.use ('/', indexRoute);
 app.use ('/', coursesRoute);

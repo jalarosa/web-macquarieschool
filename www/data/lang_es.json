@@ -298,5 +298,21 @@
     },
     "whatsapp_number": {
        "value": "011 6211 9988"
-    }
+    },
+    "virtual_classes_description": {
+       "value": "Con la educación virtual eliminarás muchas de las limitaciones que te han impedido empezar o continuar tu educación en ambientes tradicionales. Utilizarás aplicaciones de tecnología educativa como videoconferencias, vídeos, presentaciones, lecturas, tableros de mensajes, chats y foros entre otras, y podras conectarte con tu tutor y/o compañeros de forma sincrónica (en vivo) y asincrónica (fuera del horario de dictado de clase)."
+    },
+    "virtual_classes_title": {
+       "value": "Clases Virtuales"
+    },
+    "virtual_classes_title_02": {
+       "value": "Beneficios del aula virtual"
+    },
+    "virtual_classes_description_02": {
+      "value": "No hay barreras geograficas. Ahorro de tiempo en traslados. Sesiones grabadas que pueden repetirse. Cursada flexible y retroalimentacion continua.Responsabilidad sobre el aprendizaje."
+   },
+   "virtual_classes_get_in_touch": {
+      "value": "Comunicate para mas informacion"
+   }
+       
  }

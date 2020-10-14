@@ -62,9 +62,6 @@
     "Courses": {
        "value": "Courses"
     },
-    "VirtualClasses": {
-        "value": "Virtual Classes"
-     },
     "Services": {
        "value": "Services"
     },
@@ -298,5 +295,20 @@
     },
     "whatsapp_number": {
        "value": "011 6211 9988"
-    }
+    },
+    "virtual_classes_description": {
+       "value": "With virtual classes many of the limitations which have been present when attending traditional courses, will disappear.  You will be making use of applications in educational technology like video conference, presentations, webinars, messaging boards, chats, forums etc. and you may contact your tutor or classmates synchronically (online) or asynchronously (outside class time)"
+    },
+    "virtual_classes_title": {
+       "value": "Virtual Classes"
+    },
+    "virtual_classes_title_02": {
+      "value": "Benefit of virtual learning"
+   },
+   "virtual_classes_description_02": {
+     "value": "No geographical boundaries. Less time commuting.  Recorded sessions that can be repeated. Flexible attendance and continuous feedback. Learning autonomy and responsibility."
+  },
+  "virtual_classes_get_in_touch": {
+   "value": " Get in touch for more information."
+}
  }

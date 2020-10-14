@@ -158,15 +158,9 @@ p span {
 .p7 {
   font: 400 18px/24px 'Ubuntu', sans-serif;
   color: #ffffff;
-  margin-left: 350px;
+  background-color: rgb(40 69 105 / 33%);
 }
-.p8 {
-  font: 500 72px/83px 'Ubuntu', sans-serif;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  margin-left: 280px;
-}
+
 .heading2 {
   text-align: left;
   margin-bottom: 39px;
