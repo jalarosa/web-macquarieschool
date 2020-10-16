@@ -310,5 +310,8 @@
   },
   "virtual_classes_get_in_touch": {
    "value": " Get in touch for more information."
-}
+  },
+  "VirtualClasses": {
+   "value": "Virtual Classes"
+  }
  }
