@@ -10,7 +10,7 @@
     "test": "test",
     "watch": "npm-watch",
     "build": "grunt ",
-    "start": "node app.js "
+    "local": "node app.js "
   },
   "repository": {
     "type": "git",

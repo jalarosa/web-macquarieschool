@@ -8,6 +8,7 @@ let coursesRoute = require('./src/courses');
 let contactRoute = require('./src/contact');
 let virtualClassesRoute = require('./src/virtualClasses');
 let assetsRoute = require('./src/assets');
+let eventsRoute = require('./src/events');
 
 var app = express();
 
@@ -23,6 +24,7 @@ app.use ('/', coursesRoute);
 app.use ('/', contactRoute);
 app.use ('/', virtualClassesRoute);
 app.use ('/', assetsRoute);
+app.use ('/', eventsRoute);
 
 app.listen(3000,function() {
   console.log("Server started");

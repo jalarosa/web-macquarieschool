@@ -296,6 +296,9 @@
     "whatsapp_number": {
        "value": "011 6211 9988"
     },
+    "whatsapp_href_number": {
+      "value": "5491162119988"
+    },
     "virtual_classes_description": {
        "value": "With virtual classes many of the limitations which have been present when attending traditional courses, will disappear.  You will be making use of applications in educational technology like video conference, presentations, webinars, messaging boards, chats, forums etc. and you may contact your tutor or classmates synchronically (online) or asynchronously (outside class time)"
     },

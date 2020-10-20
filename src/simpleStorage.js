@@ -14,7 +14,8 @@ function getMenu(index, languaje) {
   var menu = [{name: data.Home.value, href: 'home' + langParam}, 
               {name: data.Courses.value, href: 'courses' + langParam}, 
               {name: data.VirtualClasses.value, href: 'virtualClasses' + langParam}, 
-              {name: data.Contact.value, href: 'contact' + langParam}];
+              {name: data.Contact.value, href: 'contact' + langParam},
+              {name: "Events", href: 'events' + langParam}];
   menu[index].className = 'current';
   return menu;
 }

@@ -299,6 +299,9 @@
     "whatsapp_number": {
        "value": "011 6211 9988"
     },
+    "whatsapp_href_number": {
+      "value": "5491162119988"
+    },
     "virtual_classes_description": {
        "value": "Con la educación virtual eliminarás muchas de las limitaciones que te han impedido empezar o continuar tu educación en ambientes tradicionales. Utilizarás aplicaciones de tecnología educativa como videoconferencias, vídeos, presentaciones, lecturas, tableros de mensajes, chats y foros entre otras, y podras conectarte con tu tutor y/o compañeros de forma sincrónica (en vivo) y asincrónica (fuera del horario de dictado de clase)."
     },
