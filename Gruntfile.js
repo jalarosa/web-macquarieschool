@@ -7,9 +7,9 @@ module.exports = function (grunt) {
       build: {
         files: [{
           expand: true,
-          cwd: 'www/js',
+          cwd: 'public/js',
           src: '**/*.js',
-          dest: 'src/assets/js'
+          dest: 'dist/assets/js'
         }]
       }
     },
@@ -17,9 +17,9 @@ module.exports = function (grunt) {
       target: {
         files: [{
           expand: true,
-          cwd: 'www/css',
+          cwd: 'public/css',
           src: ['*.css', '*/*.css', '!*.min.css'],
-          dest: 'src/assets/css',
+          dest: 'dist/assets/css',
           ext: '.css'
         }]
       }
@@ -29,27 +29,32 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            cwd: 'www/images/',
+            cwd: 'public/images/',
             src: ['**/*.{png,jpg,svg,gif,ico,webp}'],
-            dest: 'src/assets/images/'
-          },
-          {
-            expand: true,
-            cwd: 'www/bat/',
-            src: ['**/*.php'],
-            dest: 'src/assets/bat/'
+            dest: 'dist/assets/images/'
           }
         ]
       }
     },
     watch: {
       css: {
-        files: ['www/css/*.scss'],
+        files: ['public/css/*.scss'],
         tasks: ['sass:dev']
       },
       js: {
-        files: ['www/js/*.js'],
+        files: ['public/js/*.js'],
         tasks: ['uglify:dev']
+      }
+    },
+    json_minification: {
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'public/data',
+          src: ['*.json', '!*.min.json'],
+          dest: 'dist/assets/data',
+          ext: '.min.json'
+        }]
       }
     }
   });
@@ -60,8 +65,9 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-encoding');
+  grunt.loadNpmTasks('grunt-json-minification');
   // Default task(s).
-  grunt.registerTask('default', ['copy', 'uglify', 'cssmin']);
+  grunt.registerTask('default', ['copy', 'uglify', 'cssmin', 'json_minification']);
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-html');
 
