@@ -4,7 +4,7 @@
             <li 
             {{#className}}
                 class="{{className}}"
-            {{/className}}><a href="{{href}}">{{name}}</a></li>
+            {{/className}} id="{{name}}"><a onclick="renderPage('{{action}}','{{name}}');">{{name}}</a></li>
         {{/menu}}
     </ul>
     <div class="clearfix"></div>

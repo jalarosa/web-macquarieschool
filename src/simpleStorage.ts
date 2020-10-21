@@ -19,11 +19,11 @@ export function setLanguaje(value: string): void {
 export function getMenu(index: number, lang: string): Menu[] {
   const data = getData(lang);
   const langParam = "?lang=" + lang;
-  const menu = [{name: data.Home.value, href: 'home' + langParam, className: undefined},
-              {name: data.Courses.value, href: 'courses' + langParam, className: undefined},
-              {name: data.VirtualClasses.value, href: 'virtualClasses' + langParam, className: undefined},
-              {name: data.Contact.value, href: 'contact' + langParam, className: undefined},
-              {name: "Events", href: 'events' + langParam, className: undefined}];
+  const menu = [{name: data.Home.value, action: 'home' + langParam, className: undefined},
+              {name: data.Courses.value, action: 'courses' + langParam, className: undefined},
+              {name: data.VirtualClasses.value, action: 'virtualClasses' + langParam, className: undefined},
+              {name: data.Contact.value, action: 'contact' + langParam, className: undefined},
+              {name: "Events", action: 'events' + langParam, className: undefined}];
   menu[index].className = 'current';
   return menu;
 }

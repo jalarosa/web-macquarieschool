@@ -18,7 +18,7 @@ export class Routes {
   public routes(app): void {
 
     app.route('/').get(this.index.root);
-    app.route('/home').get(this.index.home);
+    app.route('/home').get(this.index.getHome);
 
     app.route('/contact')
     .get(this.contact.getContact)
