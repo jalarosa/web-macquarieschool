@@ -7,8 +7,7 @@ export class ContactController {
     public getContact (request: Request, response: Response) {
         const languaje = request.query.lang as string || getLanguaje();
         const data = getData(languaje);
-        const menu = getMenu(3, languaje);
-        response.render('contact', {"page_title": "Contact", menu, data});
+        response.render('contact', {"page_title": "Contact", data});
     }
 
     public postContact (request: Request, response: Response) {

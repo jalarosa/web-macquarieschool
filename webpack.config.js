@@ -9,3 +9,10 @@ module: {
         { test: /\.js$/, loader: "source-map-loader" }
     ]
 }
+
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+module.exports = {
+    plugins: [
+      new UglifyJSPlugin()
+    ]
+  }
