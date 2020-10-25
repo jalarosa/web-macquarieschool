@@ -5,38 +5,16 @@
             <div class="row">
                 <h1>Eventos</h1>
                 <div class="card-columns">
-                    <div class="card bg-light">
-                        <div class="card" style="width:400px">
-                            <div class="card-body">
-                                <h2 class="card-title">23 NOVIEMBRE</h2>
-                                <p class="card-text">Día de la Soberanía Nacional (20/11).</p>
+                    {{#events}}
+                        <div class="card bg-light">
+                            <div class="card" style="width:400px">
+                                <div class="card-body">
+                                    <h2 class="card-title">{{event_date}}</h2>
+                                    <p class="card-text">{{description}}</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card bg-light">
-                        <div class="card" style="width:400px">
-                            <div class="card-body">
-                                <h2 class="card-title">07 DICIEMBRE</h2>
-                                <p class="card-text">Feriado con Fines Turísticos.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card bg-light">
-                        <div class="card" style="width:400px">
-                            <div class="card-body">
-                                <h2 class="card-title">08 DICIEMBRE</h2>
-                                <p class="card-text">Inmaculada Concepción de María.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card bg-light">
-                        <div class="card" style="width:400px">
-                            <div class="card-body">
-                                <h2 class="card-title">25 DICIEMBRE</h2>
-                                <p class="card-text">Navidad.</p>
-                            </div>
-                        </div>
-                    </div>
+                    {{/events}}
                 </div>
             </div>
         </div>
