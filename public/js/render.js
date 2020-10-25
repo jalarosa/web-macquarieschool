@@ -1,3 +1,4 @@
+
 function renderPage(templateName, idAction) {
     fetch(templateName)
       .then(function(response) { return response.text() } )
