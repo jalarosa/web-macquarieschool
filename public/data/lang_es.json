@@ -74,6 +74,9 @@
     "Contact": {
        "value": "Contacto"
     },
+    "Event": {
+      "value": "Eventos"
+   },
     "Home": {
        "value": "Inicio"
     },

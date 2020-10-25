@@ -5,8 +5,8 @@ function renderPage(templateName, idAction) {
           document.getElementById('target').innerHTML = template;  
           if (idAction) {
             var items = document.getElementsByClassName('current');
-            for (var index = 0; index < items.length; index++) {
-                var element = items[index];
+            for (let index = 0; index < items.length; index++) {
+                const element = items[index];
                 element.className = undefined;
             }
             document.getElementById(idAction).className = 'current';

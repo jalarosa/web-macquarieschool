@@ -100,6 +100,10 @@ export interface Contact {
     value: string;
 }
 
+export interface Event {
+    value: string;
+}
+
 export interface Home {
     value: string;
 }
@@ -453,6 +457,7 @@ export interface Message {
     Services: Services;
     Travels: Travels;
     Contact: Contact;
+    Event: Event;
     Home: Home;
     privacy_policy: PrivacyPolicy;
     contact_us: ContactUs;
