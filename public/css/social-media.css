@@ -123,3 +123,22 @@
     align-items: flex-start;
     padding-top: 30px;
 }
+
+/** whatsapp **/
+@media (max-width:768px){
+	.whatsapp-movil{
+		display:inline;
+	}
+	.whatsapp-web{
+		display:none;
+	}
+}
+
+@media (min-width:768px){
+	.whatsapp-movil{
+		display:none;
+	}
+	.whatsapp-web{
+		display:inline;
+	}
+}
