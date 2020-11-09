@@ -1,6 +1,8 @@
 import app from './app';
 import * as http from 'http';
 import * as fs from 'fs';
+import Event from "./db/Event";
+
 const PORT = 3000;
 
 http.createServer(app).listen(PORT, () => {
