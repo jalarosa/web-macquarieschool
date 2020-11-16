@@ -5,7 +5,8 @@ const myCache = new ExpirationStrategy(new MemoryStorage());
 export type EventData = {
     _id: string,
     title: string,
-    description: string
+    description: string,
+    date: string
 }
 
 class Event {

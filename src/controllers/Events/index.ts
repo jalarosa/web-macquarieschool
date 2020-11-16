@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { getLanguaje, getData, getMenu } from '../../simpleStorage';
-import * as RemoteAPI from '../../RemoteAPI';
 import Event from '../../db/Event'
 export class EventsController {
 

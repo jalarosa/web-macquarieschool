@@ -30,7 +30,8 @@ export class DbClient {
                 }
                 else {
                     console.info('Database successfully connection!');
-                    db.db().collection(collectionName).find().limit(limit).toArray((err2, result) => {
+                    const where = { "date": { "$gte" :new Date().toISOString().slice(0, 24) + "" } };
+                    db.db().collection(collectionName).find(where).sort('date', 1).limit(limit).toArray((err2, result) => {
                         if (err2) {
                             reject(err2);
                         }
