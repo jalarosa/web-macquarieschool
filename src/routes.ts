@@ -5,6 +5,7 @@ import { CoursesController } from "./controllers/Courses";
 import { AssetsController } from "./controllers/Assets";
 import { EventsController } from "./controllers/Events";
 import { VirtualClassesController } from "./controllers/VirtualClasses";
+import { AuthenticationController } from "./controllers/Authentication";
 
 export class Routes {
 
@@ -14,6 +15,7 @@ export class Routes {
   public assets: AssetsController = new AssetsController();
   public events: EventsController = new EventsController();
   public virtualClasses: VirtualClassesController = new VirtualClassesController();
+  public authentication: AuthenticationController = new AuthenticationController();
 
   public routes(app): void {
 
@@ -34,5 +36,7 @@ export class Routes {
     app.route('/js/:remaining').get(this.assets.getJS);
     app.route('/images/:remaining').get(this.assets.getImages);
     app.route('/js/greensock/:remaining').get(this.assets.getGreensock);
+    app.route('/admin/:remaining').get(this.assets.getGreensock);
+    app.route('/api/authenticate').post(this.authentication.authentication);
   }
 }

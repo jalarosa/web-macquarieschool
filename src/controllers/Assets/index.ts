@@ -22,4 +22,9 @@ export class AssetsController {
         response.sendFile(__dirname + "../../assets/js/greensock/" + request.params.remaining );
     }
 
+    public admin (request: Request, response: Response) {
+        console.log("remaining - " + request.params.remaining);
+        response.sendFile(__dirname + "../../assets/admin/" + request.params.remaining );
+    }
+
 }
