@@ -75,6 +75,7 @@
     "crypto": "^1.0.1",
     "express": "^4.17.1",
     "express-request-language": "^1.1.15",
+    "fastify-oauth-server": "^3.0.3",
     "findup-sync": "^2.0.0",
     "forwarded": "^0.1.2",
     "glob": "^7.1.2",
@@ -89,6 +90,7 @@
     "source-map-loader": "^1.1.1",
     "string": "^3.3.3",
     "terser": "^5.3.8",
+    "token-generator": "^1.0.0",
     "typescript-logging": "^1.0.0"
   }
 }

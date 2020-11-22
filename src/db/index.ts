@@ -20,6 +20,29 @@ export class DbClient {
         return `mongodb+srv://${descripted}/${DATABASE_NAME}`;
     }
 
+    public find(collectionName: string, name: string) {
+        return new Promise((resolve, reject) => {
+            const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
+            client.connect( (err, db) => {
+                if (err) {
+                    console.log(err);
+                    reject(err);
+                }
+                else {
+                    console.info('Database successfully connection!');
+                    const where = { "name": name };
+                    db.db().collection(collectionName).find(where).toArray((err2, result) => {
+                        if (err2) {
+                            reject(err2);
+                        }
+                        db.close();
+                        return resolve(result);
+                    });
+                }
+            });
+        });
+    }
+
     public getData(collectionName: string, limit: number= 20) {
         return new Promise((resolve, reject) => {
             const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
