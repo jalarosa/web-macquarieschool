@@ -30,7 +30,7 @@ export class DbClient {
                 }
                 else {
                     console.info('Database successfully connection!');
-                    const where = { "name": name };
+                    const where = { "email": name };
                     db.db().collection(collectionName).find(where).toArray((err2, result) => {
                         if (err2) {
                             reject(err2);

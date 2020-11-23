@@ -9,29 +9,24 @@ angular.module('Authentication')
 
         service.Login = function (email, password, callback) {
 
-            /* Dummy authentication for testing, uses $timeout to simulate api call
-             ----------------------------------------------
-            $timeout(function(){
-                var response = { success: email === 'test@email.com' && password === 'test' };
-                if(!response.success) {
-                    response.message = 'Email or password is incorrect';
-                }
-                callback(response);
-            }, 1000);
-*/
-
             /* Use this for real authentication
              ----------------------------------------------*/
             $http.post('/api/authenticate', { email: email, password: password })
                 .success(function (response) {
                     callback(response);
-                });
-
+                })
+                .catch((err) => {
+                    // simple logging, but you can do a lot more, see below
+                    console.error('An error occurred:', err.message);
+                    callback(err);
+                  });
         };
  
-        service.SetCredentials = function (email, password) {
+        service.SetCredentials = function (email, password, token) {
             var authdata = Base64.encode(email + ':' + password);
  
+            sessionStorage.token = token; 
+            sessionStorage.email = email; 
             $rootScope.globals = {
                 currentUser: {
                     email: email,

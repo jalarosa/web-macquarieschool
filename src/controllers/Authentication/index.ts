@@ -2,34 +2,60 @@ import { Request, Response } from 'express';
 import { decrypt, Hash } from '../../db/Crypto';
 import UserDao, { User } from '../../db/User';
 import { TokenGenerator } from '../Token';
+import * as fs from 'fs';
+import { ExpirationStrategy, MemoryStorage } from "node-ts-cache";
 
-const hash: Hash = {
-    iv: '45108a63ad989d891a100c3a39b4d310',
-    content: '9a6000371e584c1f7ca2bb4f09340c3ab4bf4d8d2979c1dfcd6d4894b7add98939c3562fc7da698b848c96055396d1327b6f3be39062'
-};
+const tokenCache = new ExpirationStrategy(new MemoryStorage());
+
+type AuthResponse = {
+    msg: string,
+    statusCode: number,
+    token?: string
+}
+
+const UnAuthorized = Promise.resolve({
+    success: false,
+    message: 'Email or password is incorrect',
+    statusCode: 403
+});
 
 export class AuthenticationController {
 
-
-    public authentication (request: Request, response: Response) {
-        const bodyContent = {
-            email: request.body.email,
-            password: request.body.password
-        };
-        console.log(`${bodyContent.email}` );
-        UserDao.fetchUser(bodyContent.email).then( (user: User) => {
-            const descripted = decrypt(hash, bodyContent.password);
-            const tkn = TokenGenerator.generate();
-            console.log(tkn);
-            const result = { success: bodyContent.email === user.email && descripted === user.hash , message: 'ok', token: tkn};
-            if(!result.success) {
-                result.message = 'Email or password is incorrect';
-            } else {
-                response.statusCode = 200;
-                response.send(result);
-            }
-        })
-
+    public validateToken(email: string, token: string) {
+        return true;
     }
 
+    public async authentication (request: Request, response: Response){
+        const email = request.body.email;
+        console.log(`${email}` );
+        const result = await UserDao.fetchUser(email).then( (user: User) => {
+            if (!user) {
+                return UnAuthorized;
+            }
+            const hash = {
+                iv: user.hash.split(":")[0],
+                content: user.hash.split(":")[1],
+            }
+            const text = fs.readFileSync('secrets.text');
+            const textByLine = text.toString().split("\n");
+            const descripted = decrypt(hash, textByLine[0]);
+            const tkn = TokenGenerator.generate();
+            tokenCache.setItem(email, tkn, {  ttl: 86400 });
+            if(email === user.email && request.body.password === descripted) {
+                return Promise.resolve({
+                    success: true,
+                    message: 'ok',
+                    statusCode: 200,
+                    token: tkn
+                });
+            } else {
+                return UnAuthorized;
+            }
+        }).catch((err) => {
+            console.log(err);
+            return UnAuthorized;
+        });
+        response.statusCode = result.statusCode;
+        response.send(result);
+    }
 }
