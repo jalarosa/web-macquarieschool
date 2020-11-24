@@ -65,4 +65,26 @@ export class DbClient {
             });
         });
     }
+
+    public insertData(collectionName: string, doc: any) {
+        return new Promise((resolve, reject) => {
+            const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
+            return client.connect( (err, db) => {
+                if (err) {
+                    console.log(err);
+                    reject(err);
+                }
+                else {
+                    console.info('Database successfully connection!');
+                    return db.db().collection(collectionName).insertOne(doc).then(result => {
+                        console.log(
+                            `${result.insertedCount} documents were inserted with the _id: ${result.insertedId}`,
+                          );
+                        db.close();
+                        return resolve(result);
+                    });
+                }
+            });
+        });
+    }
 }

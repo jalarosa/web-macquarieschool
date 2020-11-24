@@ -9,7 +9,7 @@ export type EventData = {
     date: string
 }
 
-class Event {
+export default class Event extends DbClient {
 
     public static async fetch() {
         const cacheEvents = await myCache.getItem<EventData>("events");
@@ -28,6 +28,30 @@ class Event {
             console.log("Unable to connect to db");
         }
     }
-}
 
-export default Event;
+    public static async fetchAll() {
+        try {
+            return new DbClient().getData("events", 100).then((events) => {
+                return new Promise((resolve, reject) => resolve(events));
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        } catch (error) {
+            console.log("Unable to connect to db");
+        }
+    }
+
+    public static async insert(eventData: EventData) {
+        try {
+            return new DbClient().insertData("events", eventData).then((events) => {
+                return new Promise((resolve, reject) => resolve(events));
+            })
+            .catch((err) => {
+                console.log(err);
+            });
+        } catch (error) {
+            console.log("Unable to connect to db");
+        }
+    }
+}

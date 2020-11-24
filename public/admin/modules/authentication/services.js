@@ -9,14 +9,11 @@ angular.module('Authentication')
 
         service.Login = function (email, password, callback) {
 
-            /* Use this for real authentication
-             ----------------------------------------------*/
             $http.post('/api/authenticate', { email: email, password: password })
                 .success(function (response) {
                     callback(response);
                 })
                 .catch((err) => {
-                    // simple logging, but you can do a lot more, see below
                     console.error('An error occurred:', err.message);
                     callback(err);
                   });
@@ -42,6 +39,8 @@ angular.module('Authentication')
             $rootScope.globals = {};
             $cookieStore.remove('globals');
             $http.defaults.headers.common.Authorization = 'Basic ';
+            sessionStorage.removeItem('token');
+            sessionStorage.removeItem('email');
         };
  
         return service;

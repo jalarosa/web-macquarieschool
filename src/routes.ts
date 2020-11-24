@@ -28,7 +28,10 @@ export class Routes {
 
     app.route('/courses').get(this.courses.getCourses);
 
-    app.route('/events').get(this.events.getEvents);
+    app.route('/events').get(this.events.getEvents)
+    .post(this.events.postEvents);
+    app.route('/events/all').get(this.events.getAllEvents);
+
 
     app.route('/virtualClasses').get(this.virtualClasses.getVirtualClasses);
 

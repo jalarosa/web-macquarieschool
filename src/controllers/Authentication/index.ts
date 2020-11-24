@@ -21,8 +21,12 @@ const UnAuthorized = Promise.resolve({
 
 export class AuthenticationController {
 
-    public validateToken(email: string, token: string) {
-        return true;
+    public async validateToken(email: string, token: string) {
+        const cacheUser = await tokenCache.getItem<string>(token);
+        if (cacheUser && cacheUser === email) {
+            return true;
+        }
+        return false;
     }
 
     public async authentication (request: Request, response: Response){
@@ -40,7 +44,7 @@ export class AuthenticationController {
             const textByLine = text.toString().split("\n");
             const descripted = decrypt(hash, textByLine[0]);
             const tkn = TokenGenerator.generate();
-            tokenCache.setItem(email, tkn, {  ttl: 86400 });
+            tokenCache.setItem(tkn, email, {  ttl: 86400 });
             if(email === user.email && request.body.password === descripted) {
                 return Promise.resolve({
                     success: true,
