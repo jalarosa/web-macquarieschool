@@ -17,7 +17,7 @@ export default class UserDao {
             return Promise.resolve(cacheUser);
         }
         try {
-            return new DbClient().find("users", name).then((users) => {
+            return new DbClient().find("users", name, "email").then((users) => {
                 if (users) {
                     const user: User = users[0];
                     myCache.setItem(key, user, {  ttl: 900 });

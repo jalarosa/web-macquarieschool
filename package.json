@@ -16,7 +16,7 @@
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "dev:start": "npm-run-all build start",
     "dev": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
-    "start": "nodemon dist/server.js",
+    "local": "nodemon dist/server.js",
     "test": "jest"
   },
   "repository": {

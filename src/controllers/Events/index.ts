@@ -26,15 +26,36 @@ export class EventsController {
         });
     }
 
-    public async postEvents (request: Request, response: Response) {
-        const event = request.body as EventData
-        Event.insert(event).then((events) => {
+    public async putEvents (request: Request, response: Response) {
+        const eventChanged = request.body as EventData
+        Event.save(eventChanged).then(() => {
             response.setHeader('Content-Type', 'application/json');
-            response.end({message: "ok"});
+            response.end(JSON.stringify({message: "ok"}));
         })
         .catch((err) => {
             console.log(err);
         });
     }
 
+    public async postEvents (request: Request, response: Response) {
+        const eventChanged = request.body as EventData
+        Event.insert(eventChanged).then(() => {
+            response.setHeader('Content-Type', 'application/json');
+            response.end(JSON.stringify({message: "ok"}));
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+    }
+
+    public async deleteEvents (request: Request, response: Response) {
+        const id = request.params.id;
+        Event.delete(id).then(() => {
+            response.setHeader('Content-Type', 'application/json');
+            response.end(JSON.stringify({message: "ok"}));
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+    }
 }

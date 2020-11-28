@@ -1,4 +1,4 @@
-import { MongoClient, Db } from "mongodb";
+import { MongoClient, Db, ObjectId } from "mongodb";
 import { Hash , decrypt } from "./Crypto";
 import * as fs from 'fs';
 
@@ -20,7 +20,7 @@ export class DbClient {
         return `mongodb+srv://${descripted}/${DATABASE_NAME}`;
     }
 
-    public find(collectionName: string, name: string) {
+    public findById(collectionName: string, id: string) {
         return new Promise((resolve, reject) => {
             const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
             client.connect( (err, db) => {
@@ -30,7 +30,29 @@ export class DbClient {
                 }
                 else {
                     console.info('Database successfully connection!');
-                    const where = { "email": name };
+                    db.db().collection(collectionName).find( { _id : new ObjectId(id)  }).toArray((err2, result) => {
+                        if (err2) {
+                            reject(err2);
+                        }
+                        db.close();
+                        return resolve(result);
+                    });
+                }
+            });
+        });
+    }
+
+    public find(collectionName: string, value: string, field: string) {
+        return new Promise((resolve, reject) => {
+            const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
+            client.connect( (err, db) => {
+                if (err) {
+                    console.log(err);
+                    reject(err);
+                }
+                else {
+                    console.info('Database successfully connection!');
+                    const where = { field: value };
                     db.db().collection(collectionName).find(where).toArray((err2, result) => {
                         if (err2) {
                             reject(err2);
@@ -82,6 +104,59 @@ export class DbClient {
                           );
                         db.close();
                         return resolve(result);
+                    }).catch((err2) => {
+                        console.log(err2);
+                        Promise.reject(err2);
+                    });
+                }
+            });
+        });
+    }
+
+    public deleteData(collectionName: string, id: string) {
+        return new Promise((resolve, reject) => {
+            const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
+            return client.connect( (err, db) => {
+                if (err) {
+                    console.log(err);
+                    reject(err);
+                }
+                else {
+                    console.info('Database successfully connection!');
+                    return db.db().collection(collectionName).deleteOne({ _id: new ObjectId(id)}).then(result => {
+                        console.log(
+                            `${result.deletedCount} documents was deleted with the _id: ${id}`,
+                          );
+                        db.close();
+                        return resolve(result);
+                    }).catch((err2) => {
+                        console.log(err2);
+                        Promise.reject(err2);
+                    });
+                }
+            });
+        });
+    }
+
+    public updateData(collectionName: string, id: string, set: object) {
+        return new Promise((resolve, reject) => {
+            const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
+            return client.connect( (err, db) => {
+                if (err) {
+                    console.log(err);
+                    reject(err);
+                }
+                else {
+                    console.info('Database successfully connection!');
+                    return db.db().collection(collectionName).updateOne({ _id: new ObjectId(id)}, set).then(result => {
+                        console.log(
+                            `${result.upsertedId} documents was updated with the _id`,
+                          );
+                        db.close();
+                        return resolve(result);
+                    }).catch((err2) => {
+                        console.log(err2);
+                        Promise.reject(err2);
                     });
                 }
             });
