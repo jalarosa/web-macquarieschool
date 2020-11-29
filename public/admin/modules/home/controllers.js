@@ -25,7 +25,8 @@ angular.module('Home')
 
     $scope.onloadFun = function() {
         var headers = {
-            'Authorization': `Bearer ${sessionStorage.token}`
+            'Authorization': `Bearer ${sessionStorage.token}`,
+            'Email' : sessionStorage.email
         }
         var promise = $http.get(`${$scope.getUrl()}/events/search`, {headers: headers }).success(onSuccess).error(onError);
         $scope.editMode = false;

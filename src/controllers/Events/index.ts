@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { getLanguaje, getData, getMenu } from '../../simpleStorage';
 import Event , { EventData } from '../../db/Event';
+import { AuthenticationController } from '../../controllers/Authentication';
 
 export class EventsController {
 
@@ -17,6 +18,7 @@ export class EventsController {
     }
 
     public async getAllEvents (request: Request, response: Response) {
+        AuthenticationController.checkAuthorization(request, response);
         Event.fetch().then((events) => {
             response.setHeader('Content-Type', 'application/json');
             response.end(JSON.stringify(events));
@@ -27,6 +29,7 @@ export class EventsController {
     }
 
     public async putEvents (request: Request, response: Response) {
+        AuthenticationController.checkAuthorization(request, response);
         const eventChanged = request.body as EventData
         Event.save(eventChanged).then(() => {
             response.setHeader('Content-Type', 'application/json');
@@ -38,6 +41,7 @@ export class EventsController {
     }
 
     public async postEvents (request: Request, response: Response) {
+        AuthenticationController.checkAuthorization(request, response);
         const eventChanged = request.body as EventData
         Event.insert(eventChanged).then(() => {
             response.setHeader('Content-Type', 'application/json');
@@ -49,6 +53,7 @@ export class EventsController {
     }
 
     public async deleteEvents (request: Request, response: Response) {
+        AuthenticationController.checkAuthorization(request, response);
         const id = request.params.id;
         Event.delete(id).then(() => {
             response.setHeader('Content-Type', 'application/json');

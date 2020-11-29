@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { decrypt, Hash } from '../../db/Crypto';
 import UserDao, { User } from '../../db/User';
-import { TokenGenerator } from '../Token';
+import * as TokenGenerator  from 'uuid-token-generator';
 import * as fs from 'fs';
 import { ExpirationStrategy, MemoryStorage } from "node-ts-cache";
 
@@ -21,8 +21,17 @@ const UnAuthorized = Promise.resolve({
 
 export class AuthenticationController {
 
-    public async validateToken(email: string, token: string) {
-        const cacheUser = await tokenCache.getItem<string>(token);
+    public static async checkAuthorization(request: Request, response: Response) {
+        const token = request.header("Authorization");
+        const email = request.header("Email");
+        if (token && email && await AuthenticationController.validateToken(email, token) === false) {
+            response.status(403);
+            response.render('error', { error: '403 Forbidden' });
+        }
+    }
+
+    private static async validateToken(email: string, token: string) {
+        const cacheUser = await tokenCache.getItem<string>(token.replace('Bearer ', ''));
         if (cacheUser && cacheUser === email) {
             return true;
         }
@@ -43,7 +52,7 @@ export class AuthenticationController {
             const text = fs.readFileSync('secrets.text');
             const textByLine = text.toString().split("\n");
             const descripted = decrypt(hash, textByLine[0]);
-            const tkn = TokenGenerator.generate();
+            const tkn = new TokenGenerator().generate();
             tokenCache.setItem(tkn, email, {  ttl: 86400 });
             if(email === user.email && request.body.password === descripted) {
                 return Promise.resolve({
