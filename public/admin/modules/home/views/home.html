@@ -1,6 +1,7 @@
-<h1>Admin Console</h1>
-<p><a href="#/admin/login">Logout</a></a></p>
 <div ng-controller="HomeController" data-ng-init="onloadFun()">
+    <div class="spinner" ng-show="loading"> 
+        <div class="loader"></div>
+    </div>
     <table>
         <tr ng-repeat="event in events">
             <td>{{event._id}}</td>

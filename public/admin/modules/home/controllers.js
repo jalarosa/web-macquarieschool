@@ -6,15 +6,18 @@ angular.module('Home')
       
     var onSuccess = function (data, status, headers, config) {
         $scope.events = data;
+        $scope.loading = false;
     };
 
     var onError = function (data, status, headers, config) {
         $scope.error = status;
+        $scope.loading = false;
     }
 
     $scope.onloadFun = function() {
         var promise = $http.get("http://localhost:3000/events/search").success(onSuccess).error(onError);
         $scope.editMode = false;
+        $scope.loading = true;
     }
 
     //Delete Row
