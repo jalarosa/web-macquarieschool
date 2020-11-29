@@ -24,7 +24,10 @@ angular.module('Home')
     }
 
     $scope.onloadFun = function() {
-        var promise = $http.get(`${$scope.getUrl()}/events/search`).success(onSuccess).error(onError);
+        var headers = {
+            'Authorization': `Bearer ${sessionStorage.token}`
+        }
+        var promise = $http.get(`${$scope.getUrl()}/events/search`, {headers: headers }).success(onSuccess).error(onError);
         $scope.editMode = false;
         $scope.loading = true;
     }

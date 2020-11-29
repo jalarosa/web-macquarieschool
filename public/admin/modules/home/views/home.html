@@ -10,8 +10,7 @@
                 <th scope="col">Title</th>
                 <th scope="col">Description</th>
                 <th scope="col">Date</th>
-                <th scope="col">#</th>
-                <th scope="col">#</th>
+                <th scope="col">Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -20,8 +19,14 @@
                     <td>{{event.title}}</td>
                     <td>{{event.description}}</td>
                     <td>{{event.date}}</td>
-                    <td><input type="button" value="Edit/Add" data-ng-click="edit(event)" /></td>
-                    <td><input type="button" value="Delete" data-ng-click="delete(event._id)" /></td>
+                    <td>
+                        <button type="button" class="btn btn-default btn-sm" data-ng-click="edit(event)">
+                            <span class="glyphicon glyphicon-edit"></span> Add/Edit
+                        </button>
+                        <button type="button" class="btn btn-default btn-sm" data-ng-click="delete(event._id)">
+                            <span class="glyphicon glyphicon-remove"></span> Remove 
+                        </button>
+                    </td>
                 </tr>
             </tbody>
         
