@@ -12,13 +12,8 @@ export type EventData = {
 export default class Event {
 
     public static async fetch() {
-        const cacheEvents = await myCache.getItem<EventData>("events");
-        if (cacheEvents) {
-            return cacheEvents;
-        }
         try {
             return new DbClient().getData("events", 10).then((events) => {
-                myCache.setItem("events", events, {  ttl: 86400 });
                 return new Promise((resolve, reject) => resolve(events));
             })
             .catch((err) => {

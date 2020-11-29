@@ -10,14 +10,15 @@ export type User = {
 
 export default class UserDao {
 
-    public static async fetchUser(name: string): Promise<User| void> {
-        const key = `user-${name}`;
+    public static async fetchUser(email: string): Promise<User| void> {
+        const key = `user-${email}`;
         const cacheUser = await myCache.getItem<User>(key);
         if (cacheUser) {
             return Promise.resolve(cacheUser);
         }
         try {
-            return new DbClient().find("users", name, "email").then((users) => {
+            const where = { email };
+            return new DbClient().find("users", where).then((users) => {
                 if (users) {
                     const user: User = users[0];
                     myCache.setItem(key, user, {  ttl: 900 });

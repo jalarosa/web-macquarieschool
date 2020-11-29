@@ -42,7 +42,7 @@ export class DbClient {
         });
     }
 
-    public find(collectionName: string, value: string, field: string) {
+    public find(collectionName: string, where: object) {
         return new Promise((resolve, reject) => {
             const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
             client.connect( (err, db) => {
@@ -52,7 +52,6 @@ export class DbClient {
                 }
                 else {
                     console.info('Database successfully connection!');
-                    const where = { field: value };
                     db.db().collection(collectionName).find(where).toArray((err2, result) => {
                         if (err2) {
                             reject(err2);

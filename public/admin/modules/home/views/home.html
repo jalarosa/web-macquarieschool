@@ -1,3 +1,22 @@
-<h1>Home</h1>
-<p>You're logged in!!</p>
+<h1>Admin Console</h1>
 <p><a href="#/admin/login">Logout</a></a></p>
+<div ng-controller="HomeController" data-ng-init="onloadFun()">
+    <table>
+        <tr ng-repeat="event in events">
+            <td>{{event._id}}</td>
+            <td>{{event.title}}</td>
+            <td>{{event.description}}</td>
+            <td>{{event.date}}</td>
+            <td><input type="button" value="Edit/Add" data-ng-click="edit(event)" /></td>
+            <td><input type="button" value="Delete" data-ng-click="delete(event._id)" /></td>
+        </tr>
+    </table>
+    <div ng-if="editMode == true">
+         <input type="text" name="input" ng-model="editEvent.title">   
+         <input type="text" name="input" ng-model="editEvent.description">
+         <input type="text" name="input" ng-model="editEvent.date">    
+         <td><input type="button" value="Update" data-ng-click="update()" /></td>
+         <td><input type="button" value="Insert" data-ng-click="insert()" /></td>
+    </div>
+    Error: {{error}}
+</div>
