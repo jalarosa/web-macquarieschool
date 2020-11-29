@@ -2,22 +2,65 @@
     <div class="spinner" ng-show="loading"> 
         <div class="loader"></div>
     </div>
-    <table>
-        <tr ng-repeat="event in events">
-            <td>{{event._id}}</td>
-            <td>{{event.title}}</td>
-            <td>{{event.description}}</td>
-            <td>{{event.date}}</td>
-            <td><input type="button" value="Edit/Add" data-ng-click="edit(event)" /></td>
-            <td><input type="button" value="Delete" data-ng-click="delete(event._id)" /></td>
-        </tr>
-    </table>
-    <div ng-if="editMode == true">
-         <input type="text" name="input" ng-model="editEvent.title">   
-         <input type="text" name="input" ng-model="editEvent.description">
-         <input type="text" name="input" ng-model="editEvent.date">    
-         <td><input type="button" value="Update" data-ng-click="update()" /></td>
-         <td><input type="button" value="Insert" data-ng-click="insert()" /></td>
+    <div ng-hide="loading">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Date</th>
+                <th scope="col">#</th>
+                <th scope="col">#</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="event in events">
+                    <td>{{event._id}}</td>
+                    <td>{{event.title}}</td>
+                    <td>{{event.description}}</td>
+                    <td>{{event.date}}</td>
+                    <td><input type="button" value="Edit/Add" data-ng-click="edit(event)" /></td>
+                    <td><input type="button" value="Delete" data-ng-click="delete(event._id)" /></td>
+                </tr>
+            </tbody>
+        
+        </table>
     </div>
-    Error: {{error}}
+    
+    <div ng-if="editMode == true">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-4 col-sm-2 ml-md-auto">
+                    <label class="input-group-text" for="labelForTitle">Title</label>
+                </div>
+                <div class="col-4 col-sm-4 ml-md-auto">
+                    <input type="text" name="input" ng-model="editEvent.title" class="form-control" id="labelForTitle">   
+                </div>
+            </div>
+            <div class="row justify-content-start">
+                <div class="col-4 col-sm-2 ml-md-auto">
+                    <label class="input-group-text" for="labelForDescription">Description</label>
+                </div>
+                <div class="col-4 col-sm-4 ml-md-auto">
+                    <input type="text" name="input" ng-model="editEvent.description" class="form-control" id="labelForDescription">   
+                </div>
+            </div>
+           <div class="row justify-content-start">
+                <div class="col-4 col-sm-2 ml-md-auto">
+                    <label class="input-group-text" for="labelForDate">Date</label>
+                </div>
+                <div class="col-4 col-sm-4 ml-md-auto">
+                    <input type="text" name="input" ng-model="editEvent.date" class="form-control" id="labelForDate">   
+                </div>
+                <div class="col-8 col-sm-4 ml-md-auto">
+                    <button type="button" class="btn btn-primary" data-ng-click="update()">Update</button>
+                    <button type="button" class="btn btn-primary" data-ng-click="insert()">Insert</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-danger" role="alert" ng-show="showError">
+        {{error}}
+    </div>
 </div>

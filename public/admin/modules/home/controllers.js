@@ -2,27 +2,35 @@
  
 angular.module('Home')
  
-.controller('HomeController',['$scope', '$http',function ($scope, $http) {
+.controller('HomeController',['$scope', '$http', '$location', function ($scope, $http, $location) {
       
     var onSuccess = function (data, status, headers, config) {
         $scope.events = data;
         $scope.loading = false;
+        $scope.showError = false;
     };
 
     var onError = function (data, status, headers, config) {
         $scope.error = status;
         $scope.loading = false;
+        $scope.showError = true;
+    }
+
+    $scope.getUrl = function() {
+        var host = $location.host();
+        var protocol = $location.protocol();
+        var port = $location.port() ? `:${$location.port()}` : '';
+        return `${protocol}://${host}${port}`;
     }
 
     $scope.onloadFun = function() {
-        var promise = $http.get("http://localhost:3000/events/search").success(onSuccess).error(onError);
+        var promise = $http.get(`${$scope.getUrl()}/events/search`).success(onSuccess).error(onError);
         $scope.editMode = false;
         $scope.loading = true;
     }
 
-    //Delete Row
     $scope.delete = function(index) {
-        $http.delete(`http://localhost:3000/events/${index}`)
+        $http.delete(`${$scope.getUrl()}/events/${index}`)
            .then(function (response) {
                $scope.onloadFun();
                $scope.editMode = false;
@@ -31,10 +39,9 @@ angular.module('Home')
            });
     }
 
-    //Update Row
     $scope.update = function() {
         var event = JSON.stringify($scope.editEvent);
-        $http.put("http://localhost:3000/events", event, {headers: {'Content-Type': 'application/json'} })
+        $http.put(`${$scope.getUrl()}/events`, event, {headers: {'Content-Type': 'application/json'} })
            .then(function (response) {
                $scope.onloadFun();
                $scope.editMode = false;
@@ -53,7 +60,7 @@ angular.module('Home')
             description: $scope.editEvent.description,
             date: $scope.editEvent.date
         }
-        $http.post("http://localhost:3000/events", JSON.stringify(event), {headers: {'Content-Type': 'application/json'} })
+        $http.post(`${$scope.getUrl()}/events`, JSON.stringify(event), {headers: {'Content-Type': 'application/json'} })
            .then(function (response) {
                $scope.onloadFun();
                $scope.editMode = false;
