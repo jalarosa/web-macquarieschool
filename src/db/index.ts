@@ -1,6 +1,9 @@
 import { MongoClient, Db, ObjectId } from "mongodb";
 import { Hash , decrypt } from "./Crypto";
 import * as fs from 'fs';
+import { ExpirationStrategy, MemoryStorage } from "node-ts-cache";
+import { ENAMETOOLONG } from 'constants';
+import { EventData } from '../db/Event';
 
 const DATABASE_NAME = "macquarieschool";
 
@@ -9,7 +12,7 @@ const hash: Hash = {
     content: '9a6000371e584c1f7ca2bb4f09340c3ab4bf4d8d2979c1dfcd6d4894b7add98939c3562fc7da698b848c96055396d1327b6f3be39062'
 };
 
-
+const eventsCache = new ExpirationStrategy(new MemoryStorage());
 
 export class DbClient {
 
@@ -64,26 +67,37 @@ export class DbClient {
         });
     }
 
-    public getData(collectionName: string, limit: number= 20) {
+    public fetchEvents(collectionName: string, languaje?: string, limit: number= 20) {
+        const cacheKey = `${collectionName}-${languaje}`;
         return new Promise((resolve, reject) => {
-            const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
-            client.connect( (err, db) => {
-                if (err) {
-                    console.log(err);
-                    reject(err);
+            return eventsCache.getItem<EventData[]>(cacheKey).then(cacheResult => {
+                if (languaje && cacheResult) {
+                    return resolve(cacheResult);
                 }
-                else {
-                    console.info('Database successfully connection!');
-                    const where = { "date": { "$gte" :new Date().toISOString().slice(0, 24) + "" } };
-                    db.db().collection(collectionName).find(where).sort('date', 1).limit(limit).toArray((err2, result) => {
-                        if (err2) {
-                            reject(err2);
+                const client = new MongoClient(this.conectionUrl(), { useUnifiedTopology: true });
+                client.connect( (err, db) => {
+                    if (err) {
+                        console.log(err);
+                        reject(err);
+                    }
+                    else {
+                        console.info('Database successfully connection!');
+                        const where = { dueDate: { "$gt" : new Date().toISOString().slice(0, 24) + "" }};
+                        if (languaje) {
+                            Object.assign(where, {languaje});
                         }
-                        db.close();
-                        return resolve(result);
-                    });
-                }
-            });
+                        db.db().collection(collectionName).find(where).sort('dueDate', 1).limit(limit).toArray((err2, result) => {
+                            if (err2) {
+                                reject(err2);
+                            }
+                            db.close();
+                            if (languaje !== undefined) eventsCache.setItem(cacheKey, result, {  ttl: 86400 });
+                            return resolve(result);
+                        });
+                    }
+                });
+            })
+
         });
     }
 

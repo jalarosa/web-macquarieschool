@@ -62,7 +62,8 @@ angular.module('Home')
         var event = {
             title: $scope.editEvent.title,
             description: $scope.editEvent.description,
-            date: $scope.editEvent.date
+            dueDate: $scope.editEvent.dueDate,
+            languaje: $scope.editEvent.languaje
         }
         $http.post(`${$scope.getUrl()}/events`, JSON.stringify(event), {headers: {'Content-Type': 'application/json'} })
            .then(function (response) {

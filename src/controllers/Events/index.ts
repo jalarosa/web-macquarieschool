@@ -9,7 +9,7 @@ export class EventsController {
     public async getEvents (request: Request, response: Response) {
         const languaje = request.query.lang as string || getLanguaje();
         const data = getData(languaje);
-        Event.fetch().then((events) => {
+        Event.fetch(languaje.toUpperCase()).then((events) => {
             response.render('events', {"page_title": "Events", data, "events": events});
         })
         .catch((err) => {
@@ -19,7 +19,7 @@ export class EventsController {
 
     public async getAllEvents (request: Request, response: Response) {
         AuthenticationController.checkAuthorization(request, response);
-        Event.fetch().then((events) => {
+        Event.fetchAll().then((events) => {
             response.setHeader('Content-Type', 'application/json');
             response.end(JSON.stringify(events));
         })

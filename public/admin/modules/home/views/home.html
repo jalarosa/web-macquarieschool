@@ -9,7 +9,8 @@
                 <th scope="col">Id</th>
                 <th scope="col">Title</th>
                 <th scope="col">Description</th>
-                <th scope="col">Date</th>
+                <th scope="col">Due Date</th>
+                <th scope="col">Languaje</th>
                 <th scope="col">Actions</th>
                 </tr>
             </thead>
@@ -18,7 +19,8 @@
                     <td>{{event._id}}</td>
                     <td>{{event.title}}</td>
                     <td>{{event.description}}</td>
-                    <td>{{event.date}}</td>
+                    <td>{{event.dueDate}}</td>
+                    <td>{{event.languaje}}</td>
                     <td>
                         <button type="button" class="btn btn-default btn-sm" data-ng-click="edit(event)">
                             <span class="glyphicon glyphicon-edit"></span> Add/Edit
@@ -53,10 +55,18 @@
             </div>
            <div class="row justify-content-start">
                 <div class="col-4 col-sm-2 ml-md-auto">
-                    <label class="input-group-text" for="labelForDate">Date</label>
+                    <label class="input-group-text" for="labelForDate">Due Date</label>
                 </div>
                 <div class="col-4 col-sm-4 ml-md-auto">
-                    <input type="text" name="input" ng-model="editEvent.date" class="form-control" id="labelForDate">   
+                    <input type="text" name="input" ng-model="editEvent.dueDate" class="form-control" id="labelForDate">   
+                </div>
+            </div>
+            <div class="row justify-content-start">
+                <div class="col-4 col-sm-2 ml-md-auto">
+                    <label class="input-group-text" for="labelForLanguaje">Languaje</label>
+                </div>
+                <div class="col-4 col-sm-4 ml-md-auto">
+                    <input type="text" name="input" ng-model="editEvent.languaje" class="form-control" id="labelForLanguaje">   
                 </div>
                 <div class="col-8 col-sm-4 ml-md-auto">
                     <button type="button" class="btn btn-primary" data-ng-click="update()">Update</button>

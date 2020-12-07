@@ -1,19 +1,23 @@
 import { DbClient } from '../index';
-import { ExpirationStrategy, MemoryStorage } from "node-ts-cache";
-const myCache = new ExpirationStrategy(new MemoryStorage());
+
+export enum Languaje  {
+    EN,
+    ES
+}
 
 export type EventData = {
     _id: string,
     title: string,
     description: string,
-    date: string
+    dueDate: string,
+    languaje: Languaje
 }
 
 export default class Event {
 
-    public static async fetch() {
+    public static async fetch(lang?: string) {
         try {
-            return new DbClient().getData("events", 10).then((events) => {
+            return new DbClient().fetchEvents("events", lang , 10).then((events) => {
                 return new Promise((resolve, reject) => resolve(events));
             })
             .catch((err) => {
@@ -26,7 +30,7 @@ export default class Event {
 
     public static async fetchAll() {
         try {
-            return new DbClient().getData("events", 100).then((events) => {
+            return new DbClient().fetchEvents("events", undefined, 100).then((events) => {
                 return new Promise((resolve, reject) => resolve(events));
             })
             .catch((err) => {
@@ -65,7 +69,7 @@ export default class Event {
 
     public static async save(event: EventData) {
         try {
-            const set = {$set:{title: event.title, description: event.description, date: event.date}};
+            const set = {$set:{title: event.title, description: event.description, dueDate: event.dueDate}};
             return new DbClient().updateData("events", event._id, set).then(() => {
                 return Promise.resolve();
             })
