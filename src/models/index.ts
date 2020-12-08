@@ -1,7 +1,8 @@
 export type Menu = {
     name: string,
     action: string;
-    className?: string,
+    className: string|undefined,
+    isModal: boolean
 };
 
 export interface SchoolName {

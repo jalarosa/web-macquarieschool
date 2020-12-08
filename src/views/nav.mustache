@@ -1,10 +1,19 @@
 <nav>
     <ul class="sf-menu">
         {{#menu}}
-            <li 
-            {{#className}}
-                class="{{className}}"
-            {{/className}} id="{{name}}"><a onclick="renderPage('{{action}}','{{name}}');">{{name}}</a></li>
+            {{#isModal}}
+                <li  id="{{name}}">
+                    <a  data-toggle="modal"
+                        data-target="#eventsModal">{{name}}</a>
+                </li>
+            {{/isModal}}
+            {{^isModal}}
+                <li 
+                {{#className}}
+                    class="{{className}}"
+                {{/className}} id="{{name}}"><a onclick="renderPage('{{action}}','{{name}}');">{{name}}</a>
+                </li>
+            {{/isModal}}
         {{/menu}}
     </ul>
     <div class="clearfix"></div>

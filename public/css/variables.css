@@ -136,3 +136,8 @@ section .section-title {
 .card-text-size {
     height: 120px !important;
 }
+
+.card-body {
+    width: 370px;
+    height: 100px;
+}

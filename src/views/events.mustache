@@ -1,22 +1,23 @@
-{{> courses_head}}
-<section id="team" class="events">
-    <div class="container">
-        <div class="wrapper1">
-            <div class="row">
-                <div class="card-columns">
-                    {{#events}}
-                        <div class="card bg-light">
-                            <div class="card" style="width:400px">
+<div class="modal fade" id="eventsModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-events-content">
+            <div class="modal-header">
+                <h4 class="modal-title map">{{data.Event.value}}</h4>    
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="card-columns">
+                        {{#events}}
+                            <div class="card" style="width: 18rem;">
                                 <div class="card-body">
                                     <h2 class="card-title">{{title}}</h2>
                                     <p class="card-text">{{description}}</p>
                                 </div>
                             </div>
-                        </div>
-                    {{/events}}
-                </div>
+                        {{/events}}
+                    </div>
+                </div> 
             </div>
         </div>
-        
     </div>
-</section>
+</div>
