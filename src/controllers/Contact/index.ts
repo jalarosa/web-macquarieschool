@@ -20,12 +20,12 @@ export class ContactController {
         console.log(`${emailContent.name}` );
         if (!emailContent.name || !emailContent.email) {
             // res.send("Error: Email & Subject should not be Blank");
-            response.redirect("/contact?status=fail");
+            response.redirect("/?status=fail");
         }
-        this.sendMail(emailContent,response);
+        ContactController.sendMail(emailContent,response);
     }
 
-    async sendMail(emailContent,res) {
+    static async sendMail(emailContent,res) {
 
         // create reusable transporter object using the default SMTP transport
         const transporter = nodemailer.createTransport({
@@ -60,7 +60,7 @@ export class ContactController {
               msg: 'fail'
             })
           } else {
-            res.redirect("/contact?status=success");
+            res.redirect("/?status=success");
           }
         });
     }

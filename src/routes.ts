@@ -19,12 +19,11 @@ export class Routes {
 
   public routes(app): void {
 
-    app.route('/').get(this.index.root);
+    app.route('/').get(this.index.root).post(this.contact.postContact);
     app.route('/home').get(this.index.getHome);
 
     app.route('/contact')
-    .get(this.contact.getContact)
-    .post(this.contact.postContact);
+    .get(this.contact.getContact);
 
     app.route('/courses').get(this.courses.getCourses);
 
