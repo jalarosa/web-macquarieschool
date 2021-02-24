@@ -3,31 +3,13 @@ module.exports = function (grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    encoding: {
-      options: {
-        encoding: 'ISO-8859-1'
-      },
-      files: {
-        src: ['www/**/*', 'resources/messages/**/*']
-      }
-    },
-    uglify: {
-      build: {
-        files: [{
-          expand: true,
-          cwd: 'www/js',
-          src: '**/*.js',
-          dest: 'public/js'
-        }]
-      }
-    },
     cssmin: {
       target: {
         files: [{
           expand: true,
-          cwd: 'www/css',
+          cwd: 'public/css',
           src: ['*.css', '*/*.css', '!*.min.css'],
-          dest: 'public/css',
+          dest: 'dist/assets/css',
           ext: '.css'
         }]
       }
@@ -37,54 +19,44 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            cwd: 'www/images/',
-            src: ['**/*.{png,jpg,svg,gif,ico}'],
-            dest: 'public/images/'
-          },
-          {
-            expand: true,
-            cwd: 'www/bat/',
-            src: ['**/*.php'],
-            dest: 'public/bat/'
+            cwd: 'public/images/',
+            src: ['**/*.{png,jpg,svg,gif,ico,webp}'],
+            dest: 'dist/assets/images/'
           }
         ]
       }
     },
-    i18n_template: {
-      build: {
-        options: {
-          defaultLocale: 'ar',
-          locales: ['es', 'en'],
-          messagesPath: 'resources/messages',
-          basePath: 'www',
-          forceRefresh: true
-        },
-        files: {
-          'public/lang': ['www/*.html']
-        }
-      }
-    },
     watch: {
       css: {
-        files: ['www/css/*.scss'],
+        files: ['public/css/*.scss'],
         tasks: ['sass:dev']
       },
       js: {
-        files: ['www/js/*.js'],
+        files: ['public/js/*.js'],
         tasks: ['uglify:dev']
+      }
+    },
+    json_minification: {
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'public/data',
+          src: ['*.json', '!*.min.json'],
+          dest: 'dist/assets/data',
+          ext: '.min.json'
+        }]
       }
     }
   });
 
   // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-i18n-template');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-encoding');
+  grunt.loadNpmTasks('grunt-json-minification');
   // Default task(s).
-  grunt.registerTask('default', ['encoding', 'i18n_template', 'copy', 'uglify', 'cssmin']);
+  grunt.registerTask('default', ['copy', 'cssmin', 'json_minification']);
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-html');
 

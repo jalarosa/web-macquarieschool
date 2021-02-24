@@ -1,0 +1,43 @@
+<footer id="footer">
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="grid_3 footer-font">
+                    <h2>{{data.contact_us.value}}</h2>
+                    <address class="footer-font-2">
+                        <span class="width1">{{data.telephone_Fax.value}}</span>{{data.telephone_number.value}}<br>
+                        <span class="width1">{{data.whatsapp.value}}</span>{{data.whatsapp_number.value}}<br>
+                        {{data.Email.value}}: <a href="#"><!--email_off-->{{data.email.value}}<!--/email_off--></a>
+                    </address>
+                </div>
+                <div class="grid_3 footer-font">
+                    <h2>{{data.Locations.value}}</h2>
+                    <p class="footer-font-2">
+                        {{data.complete_address.value}}<br>{{data.city_address.value}}
+                    </p>
+                </div>
+                <div class="grid_3 map">
+                    <button type="button"
+                            class="btn btn-info btn-lg img-map"
+                            data-toggle="modal"
+                            data-target="#mapModal"
+                            >
+                    </button>
+                </div>
+                <div class="social-media-footer">
+                    <div>
+                        <a href="https://twitter.com/MacquarieSchool" class="fa fa-twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/macquarieschool/" class="fa fa-instagram" target="_blank"></a>
+                        <a href="https://www.linkedin.com/company/macquarie-school-of-english/" class="fa fa-linkedin" target="_blank"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/macquarieschool/" class="fa fa-facebook" target="_blank"></a>
+                        <a class="whatsapp-web"  href="https://wa.me/{{data.whatsapp_href_number.value}}" target="_blank">
+                            <img class="whatsapp-style" src="images/WhatsApp_Logo_2.png" title="{{data.whatsapp.value}} - {{data.whatsapp_number.value}}"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

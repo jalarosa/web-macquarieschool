@@ -1,1 +1,41 @@
-!function(i){i.fn.UItoTop=function(o){var n=i.extend({text:"",min:500,scrollSpeed:800,containerID:"toTop",containerClass:"fa fa-arrow-circle-up",easingType:"linear"},o),e="#"+n.containerID;n.containerHoverID;i("body").append('<a href="#" id="'+n.containerID+'" class="'+n.containerClass+'" >'+n.text+"</a>"),i(e).hide().click(function(){return i("html, body").stop().animate({scrollTop:0},n.scrollSpeed,n.easingType),i("#"+n.containerHoverID,this).stop().animate({opacity:0},n.inDelay,n.easingType),!1}),i(window).scroll(function(){var o=i(window).scrollTop();void 0===document.body.style.maxHeight&&i(e).css({position:"absolute",top:i(window).scrollTop()+i(window).height()-50}),o>n.min?i(e).stop(!0,!0).fadeIn(600):i(e).fadeOut(800)})}}(jQuery);
+(function($){
+	$.fn.UItoTop = function(options) {
+
+ 		var defaults = {
+			text: '',
+			min: 500,			
+			scrollSpeed: 800,
+  			containerID: 'toTop',
+  			containerClass: 'fa fa-arrow-circle-up',
+			easingType: 'linear'
+					
+ 		};
+
+ 		var settings = $.extend(defaults, options);
+		var containerIDhash = '#' + settings.containerID;
+		var containerHoverIDHash = '#'+settings.containerHoverID;
+			
+		$('body').append('<a href="#" id="'+settings.containerID+'" class="'+settings.containerClass+'" >'+settings.text+'</a>');		
+		
+		$(containerIDhash).hide().click(function(){			
+			$('html, body').stop().animate({scrollTop:0}, settings.scrollSpeed, settings.easingType);
+			$('#'+settings.containerHoverID, this).stop().animate({'opacity': 0 }, settings.inDelay, settings.easingType);
+			return false;
+		})
+		
+								
+		$(window).scroll(function() {
+			var sd = $(window).scrollTop();
+			if(typeof document.body.style.maxHeight === "undefined") {
+				$(containerIDhash).css({
+					'position': 'absolute',
+					'top': $(window).scrollTop() + $(window).height() - 50
+				});
+			}
+			if ( sd > settings.min ) 
+				$(containerIDhash).stop(true,true).fadeIn(600);
+			else 
+				$(containerIDhash).fadeOut(800);
+		});
+};
+})(jQuery);

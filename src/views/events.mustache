@@ -1,0 +1,23 @@
+<div class="modal fade" id="eventsModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-events-content">
+            <div class="modal-header">
+                <h4 class="modal-title map">{{data.Event.value}}</h4>    
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="card-columns">
+                        {{#events}}
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h2 class="card-title">{{title}}</h2>
+                                    <p class="card-text">{{description}}</p>
+                                </div>
+                            </div>
+                        {{/events}}
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>

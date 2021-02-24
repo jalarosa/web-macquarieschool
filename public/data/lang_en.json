@@ -1,0 +1,323 @@
+{
+    "school_name": {
+       "value": "Macquarie School"
+    },
+    "logo_description": {
+       "value": "HERE LEARNING NEVER ENDS"
+    },
+    "contact_info": {
+       "value": "Contact Information"
+    },
+    "address": {
+       "value": "Address"
+    },
+    "complete_address": {
+       "value": "Las Madreselvas 640"
+    },
+    "city_address": {
+       "value": "Pilar, 1635"
+    },
+    "telephone_Fax": {
+       "value": "Tel/Fax:"
+    },
+    "telephone_number": {
+       "value": "+54 230 4474 224"
+    },
+    "email": {
+       "value": "info@macquarieschool.com.ar"
+    },
+    "contact_form": {
+       "value": "contact form"
+    },
+    "this_field_is_required": {
+       "value": "*This field is required."
+    },
+    "this_is_not_a_valid_email": {
+       "value": "*This is not a valid email."
+    },
+    "this_is_not_a_valid_phone": {
+       "value": "*This is not a valid phone."
+    },
+    "the_message_is_too_short": {
+       "value": "*The message is too short."
+    },
+    "send": {
+       "value": "Send"
+    },
+    "Name": {
+       "value": "Name"
+    },
+    "Email": {
+       "value": "Email"
+    },
+    "Phone:": {
+       "value": "Phone"
+    },
+    "Message": {
+       "value": "Message"
+    },
+    "About": {
+       "value": "About"
+    },
+    "Courses": {
+       "value": "Courses"
+    },
+    "Services": {
+       "value": "Services"
+    },
+    "Travels": {
+       "value": "Travels"
+    },
+    "Contact": {
+       "value": "Contact"
+    },
+    "Event": {
+      "value": "Schedule"
+    },
+    "Home": {
+       "value": "Home"
+    },
+    "privacy_policy": {
+       "value": "Privacy Policy"
+    },
+    "contact_us": {
+       "value": "Contact Us"
+    },
+    "Locations": {
+       "value": "Locations"
+    },
+    "title_pic1": {
+       "value": "An essential tool for the future."
+    },
+    "description_pic1": {
+       "value": "Today. English has become essential to broaden horizons, including not only the working but also the academic arena, and it's a passport to the world as well."
+    },
+    "title_pic2": {
+       "value": "A great place to learn"
+    },
+    "description_pic2": {
+       "value": "There is a sense of purpose and the students are focused and happy to be a part of our learning community."
+    },
+    "title_pic3": {
+       "value": "Creativity and originality "
+    },
+    "description_pic3": {
+       "value": "There is a structure, but within that structure we have creativity and originality that sets our school apart from other schools."
+    },
+    "title_how_incorporate": {
+       "value": "How to join in"
+    },
+    "description_how_incorporate": {
+       "value": "Come with us and ask us for an appointment. You can make a level test.This way we tell you what is the best group and type of learning according for your needed."
+    },
+    "welcome_title": {
+       "value": "Welcome"
+    },
+    "welcome_subtitle": {
+       "value": "About inscription"
+    },
+    "welcome_subtitle_2": {
+       "value": "The regular class become at march.Anyway you can add with us a long of current year, always we have new group and new possibilities to learn."
+    },
+    "read more": {
+       "value": ""
+    },
+    "Principal_notes_title": {
+       "value": "Mission"
+    },
+    "Principal_notes_subtitle": {
+       "value": "Our institution was created with the purpose of improving the teaching and learning of English."
+    },
+    "principal_notes_description": {
+       "value": "Our mission is to teach the language within a pleasant and enjoyable atmosphere, focusing on a high comunicative level, practical and accesible, developing a globalizing approach, fostering interest in the Anglo saxon culture.\n                               To do so, we make use of innovative methodologies implementing up-to-date teaching tools such as ICT resources and designing new materials for different leverls and ages; supporting and encouraging continuous aducaction programmes and activities leading for international certification; designing and developing different projects and organizing inmersion programmes for students."
+    },
+    "PROGRAMS_FOR_EDUCATORS_title": {
+       "value": "Methodology"
+    },
+    "PROGRAMS_FOR_EDUCATORS_subtitle": {
+       "value": "Some of the strategies used in class:"
+    },
+    "PROGRAMS_FOR_EDUCATORS_description": {
+       "value": "Student-centred teaching promoting their involvement. At the same time this promotes mutual cooperation from students and teachers.\nFlexible and facilitating teaching keeping in mind the different learning styles."
+    },
+    "DYNAMIC_CLASSROOMS_title": {
+       "value": "Visit Us"
+    },
+    "DYNAMIC_CLASSROOMS_subtitle": {
+       "value": "We are located in an ideal, enjoyable and easy to reach place for a better learning. We are near km 50 Acceso Norte. Las Madreserlva 640."
+    },
+    "DYNAMIC_CLASSROOMS_description": {
+       "value": "How to get dear: By Acceso Norte: 510 by Ruta 8: x. For information info@macquarieschool.com.ar oe complete our contact form . Phone 0230 4474 224 "
+    },
+    "main_title_home": {
+       "value": "Staff"
+    },
+    "button_home": {
+       "value": "Graciela Montesano"
+    },
+    "subtitle2_home": {
+       "value": "Director"
+    },
+    "button2_home": {
+       "value": "Natalia Durand"
+    },
+    "subtitle3_home": {
+       "value": "Teacher"
+    },
+    "button3_home": {
+       "value": "Daniela Durand"
+    },
+    "subtitle4_home": {
+       "value": "Teacher"
+    },
+    "button5_home": {
+       "value": "Olga Fernandez"
+    },
+    "subtitle5_home": {
+       "value": "Secretary"
+    },
+    "modal_title_home": {
+       "value": ""
+    },
+    "modal_description_home": {
+       "value": ""
+    },
+    "title_policy": {
+       "value": ""
+    },
+    "main_title_policy": {
+       "value": ""
+    },
+    "subtitle_policy": {
+       "value": ""
+    },
+    "description_policy": {
+       "value": ""
+    },
+    "subtitle2_policy": {
+       "value": ""
+    },
+    "description2_policy": {
+       "value": ""
+    },
+    "subtitle3_policy": {
+       "value": ""
+    },
+    "description3_policy": {
+       "value": ""
+    },
+    "subtitle4_policy": {
+       "value": ""
+    },
+    "description4_policy": {
+       "value": ""
+    },
+    "subtitle5_policy": {
+       "value": ""
+    },
+    "description5_policy": {
+       "value": ""
+    },
+    "modal_title": {
+       "value": ""
+    },
+    "modal_message_body": {
+       "value": ""
+    },
+    "MINI_JUNIORS_SCHOOL_TITLE": {
+       "value": "Mini & Junior School"
+    },
+    "MINI_JUNIORS_SCHOOL_DESCRIPTION": {
+       "value": "Especially designed to complement the national English curricula at schools combining language with aspects of the Anglo-Saxon culture.  Offered  three times a week starting at the early age of 5 and integrating activities such as drama techniques"
+    },
+    "ADULTS_TITLE": {
+       "value": "Adults"
+    },
+    "ADULTS_DESCRIPTION": {
+       "value": "Regular and/or intensive, one to one or in groups courses, suited to all levels and organizaed based on students requirements.Courses can be designed for internacional exam preparation per request.(Note: Courses will not exceed 8 attendees)"
+    },
+    "ESP_TITLE": {
+       "value": "ESP"
+    },
+    "ESP_SUBTITLE": {
+       "value": "(English for Specific Purposes)"
+    },
+    "ESP_DESCRIPTION": {
+       "value": "Courses designed to cater for specific objectives: work,academic."
+    },
+    "COACHING_TITLE": {
+       "value": "Coaching"
+    },
+    "COACHING_DESCRIPTION": {
+       "value": "Following and leveling the students classes at school ,giving them the necessary tools for development, in all subjects."
+    },
+    "KINDER_TITLE": {
+       "value": "Kinder"
+    },
+    "KINDER_DESCRIPTION": {
+       "value": "According to last researches, the earlier children start learning a second language the easiest it is for them.Not only is learning more accesible, but it also cooperates in the cognitive developmet of the child; the younger the child, the more intelectual flexibility they tend to have and this is show in the way they solve problems and their creativity. So the younger the better!"
+    },
+    "KINDER_SUBTITLE": {
+       "value": "ESL for young learners"
+    },
+    "EXAMS_TITLE": {
+       "value": "International Exams"
+    },
+    "EXAMS_DESCRIPTION": {
+       "value": "Training for different exams which offer international certification, in general English or ESP (FCE, IELTS, TOEFL, etc)."
+    },
+    "EXAMS_MODAL_TITLE": {
+       "value": "International Exams"
+    },
+    "EXAMS_BUTTON_READMORE": {
+       "value": "Read more"
+    },
+    "EXAMS_MODAL_DESC1": {
+       "value": "University of Cambridge ESOL Examinations (Cambridge ESOL) offers the world's most valuable range of English qualifications. Cambridge ESOL is part of Cambridge Assessment, a not-for-profit department of the University of Cambridge and Europe's largest educational assessment organisation."
+    },
+    "EXAMS_MODAL_DESC2": {
+       "value": "Each year more than 3 millon candidates sit for Cambridge ESOL in 130 countries. These exams cover different levels of English knowdledge and are designed for the differents ages o the examinees."
+    },
+    "EXAMS_MODAL_DESC3": {
+       "value": "Our missions is to facilitate the students with the neccessary contents and the specific practice to be prepared for the required exam."
+    },
+    "EXAMS_MODAL_DESC4": {
+       "value": "LCCI, London Chamber of Commerce and Industry, is a leader in providing English certificates within the different business fields such as commerce, tourism, finance, etc."
+    },
+    "EXAMS_MODAL_DESC5": {
+       "value": "With over 100 experience and 5000 centres in 100 countries LCCI examines a great number candidates each year. The certificates are internationally recognized by professional bodies, universities and employers."
+    },
+    "EXAMS_MODAL_DESC6": {
+       "value": "LCCI International Qualifications are awarded by EDI, a leading international educational services company and an accredited Awarding Body providing vocational and professional qualifications around the world."
+    },
+    "MAP_TITLE": {
+       "value": "Location"
+    },
+    "whatsapp": {
+       "value": "Whatsapp"
+    },
+    "whatsapp_number": {
+       "value": "011 6211 9988"
+    },
+    "whatsapp_href_number": {
+      "value": "5491162119988"
+    },
+    "virtual_classes_description": {
+       "value": "With virtual classes many of the limitations which have been present when attending traditional courses, will disappear.  You will be making use of applications in educational technology like video conference, presentations, webinars, messaging boards, chats, forums etc. and you may contact your tutor or classmates synchronically (online) or asynchronously (outside class time)"
+    },
+    "virtual_classes_title": {
+       "value": "Virtual Classes"
+    },
+    "virtual_classes_title_02": {
+      "value": "Benefit of virtual learning"
+   },
+   "virtual_classes_description_02": {
+     "value": "No geographical boundaries. Less time commuting.  Recorded sessions that can be repeated. Flexible attendance and continuous feedback. Learning autonomy and responsibility."
+  },
+  "virtual_classes_get_in_touch": {
+   "value": " Get in touch for more information."
+  },
+  "VirtualClasses": {
+   "value": "Virtual Classes"
+  }
+ }

@@ -1,0 +1,28 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/mustache@latest"></script>
+<script src="js/render.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#camera_wrap').camera({
+            loader: true,
+            pagination: true,
+            thumbnails: false,
+            height: '38.43434343434343%',
+            caption: true,
+            navigation: false,
+            fx: 'scrollTop',
+            autoAdvance: true
+        });
+        $('.gallery .gall_item').touchTouch();
+    });
+</script>
+<script src="js/TMForm.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/handlerError.js"></script>
