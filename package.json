@@ -19,6 +19,9 @@
     "local": "nodemon dist/server.js",
     "test": "jest"
   },
+  "engines": {
+    "node": ">= 10.14.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jalarosa/web-macquarieschool.git"
