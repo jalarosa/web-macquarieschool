@@ -3,3 +3,7 @@ node_modules/
 npm-debug.log
 dist/
 secrets.text
+
+nginx/cert/
+nginx/ssl/
+mongodb_server_data/

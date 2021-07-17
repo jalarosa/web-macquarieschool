@@ -13,10 +13,12 @@
     "tsc": "tsc",
     "minify": "grunt --force",
     "build": "npm-run-all clean lint tsc copy-assets minify",
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "prebuild": "tslint --project tsconfig.json",
     "dev:start": "npm-run-all build start",
     "dev": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
     "local": "nodemon dist/server.js",
+    "script": "run-script build",
+    "pack": "npm run-script build && npm pack",
     "test": "jest"
   },
   "engines": {
