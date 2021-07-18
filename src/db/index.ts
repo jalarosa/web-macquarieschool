@@ -1,26 +1,13 @@
-import { MongoClient, Db, ObjectId } from "mongodb";
-import { Hash , decrypt } from "./Crypto";
-import * as fs from 'fs';
+import { MongoClient, ObjectId } from "mongodb";
 import { ExpirationStrategy, MemoryStorage } from "node-ts-cache";
-import { ENAMETOOLONG } from 'constants';
 import { EventData } from '../db/Event';
-
-const DATABASE_NAME = "macquarieschool";
-
-const hash: Hash = {
-    iv: '45108a63ad989d891a100c3a39b4d310',
-    content: '9a6000371e584c1f7ca2bb4f09340c3ab4bf4d8d2979c1dfcd6d4894b7add98939c3562fc7da698b848c96055396d1327b6f3be39062'
-};
 
 const eventsCache = new ExpirationStrategy(new MemoryStorage());
 
 export class DbClient {
 
     private conectionUrl() {
-        const text = fs.readFileSync('secrets.text');
-        const textByLine = text.toString().split("\n");
-        const descripted = decrypt(hash, textByLine[0]);
-        return `mongodb+srv://${descripted}/${DATABASE_NAME}`;
+        return `mongodb://mongomacquarie:27017/macquarieschool?retryWrites=true&connect=direct`;
     }
 
     public findById(collectionName: string, id: string) {

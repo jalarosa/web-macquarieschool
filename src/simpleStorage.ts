@@ -22,8 +22,7 @@ export function getMenu(index: number, lang: string): Menu[] {
   const menu = [{name: data.Home.value, action: 'home' + langParam, className: undefined, isModal: false},
               {name: data.Courses.value, action: 'courses' + langParam, className: undefined, isModal: false},
               {name: data.VirtualClasses.value, action: 'virtualClasses' + langParam, className: undefined, isModal: false},
-              {name: data.Contact.value, action: 'contact' + langParam, className: undefined, isModal: false},
-              {name: data.Event.value, action: 'events' + langParam, className: undefined, isModal: true}];
+              {name: data.Contact.value, action: 'contact' + langParam, className: undefined, isModal: false}];
   menu[index].className = 'current';
   return menu;
 }
