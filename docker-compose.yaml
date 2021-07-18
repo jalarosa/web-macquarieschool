@@ -15,7 +15,7 @@ services:
             - web
     webmacquarie:
         build: .
-        command: npm run local
+        command: [sh, -c, "npm run build && npm run local"]
         depends_on:
             - mongomacquarie
         volumes:
