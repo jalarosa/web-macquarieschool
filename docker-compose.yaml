@@ -16,30 +16,30 @@ services:
     webmacquarie:
         build: .
         command: [sh, -c, "npm run build && npm run local"]
-        depends_on:
-            - mongomacquarie
+    #    depends_on:
+    #        - mongomacquarie
         volumes:
             - .:/usr/app/
             - /usr/app/node_modules
         networks:
             - web
-            - backend
+    #        - backend
         ports:
             - "3000:3000"
-    mongomacquarie:
-        container_name: mongomacquarie
-        image: mongo # use latest official mongo version
-        environment:
-            - MONGO_INITDB_DATABASE=macquarieschool
-        ports:
-            - '27017:27017'
-        volumes:
-            - ./mongodb_server_data:/data/db
-            - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
-        networks:
-            - backend
+    #mongomacquarie:
+    #    container_name: mongomacquarie
+    #    image: mongo # use latest official mongo version
+    #    environment:
+    #        - MONGO_INITDB_DATABASE=macquarieschool
+    #    ports:
+    #        - '27017:27017'
+    #    volumes:
+    #        - ./mongodb_server_data:/data/db
+    #        - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+    #    networks:
+    #        - backend
 networks:
     web:
-    backend:
-volumes:
-    mongodb_server_data:
+#    backend:
+#volumes:
+#    mongodb_server_data:
