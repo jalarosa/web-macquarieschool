@@ -1,45 +1,14 @@
 version: "3.3"
 services:
-    nginx:
-        image: nginx
-        restart: always
-        ports:
-            - 80:80
-            - 443:443
-        volumes:
-            - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./certs:/etc/nginx/certs
-        depends_on:
-            - webmacquarie
-        networks:
-            - web
     webmacquarie:
         build: .
         command: [sh, -c, "npm run build && npm run local"]
-    #    depends_on:
-    #        - mongomacquarie
         volumes:
             - .:/usr/app/
             - /usr/app/node_modules
         networks:
             - web
-    #        - backend
         ports:
             - "3000:3000"
-    #mongomacquarie:
-    #    container_name: mongomacquarie
-    #    image: mongo # use latest official mongo version
-    #    environment:
-    #        - MONGO_INITDB_DATABASE=macquarieschool
-    #    ports:
-    #        - '27017:27017'
-    #    volumes:
-    #        - ./mongodb_server_data:/data/db
-    #        - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
-    #    networks:
-    #        - backend
-networks:
+   networks:
     web:
-#    backend:
-#volumes:
-#    mongodb_server_data:
