@@ -71,7 +71,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "cross-fetch": "^3.0.6",
+    "cross-fetch": "^3.1.5",
     "crypto": "^1.0.1",
     "express": "^4.17.1",
     "express-request-language": "^1.1.15",
