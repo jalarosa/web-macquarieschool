@@ -90,7 +90,7 @@
     "simple-storage": "^4.0.2",
     "source-map-loader": "^1.1.1",
     "string": "^3.3.3",
-    "terser": "^5.3.8",
+    "terser": "^5.14.2",
     "typescript-logging": "^1.0.0",
     "uuid-token-generator": "^1.0.0"
   }
